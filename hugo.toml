@@ -6,8 +6,8 @@ theme = 'cyberscape'
 
 # Add any links to things in /content/ here
 [[menu.main]]
-name = "posts"
-url = "/posts/"
+name = "Strategies"
+url = "/strategies/"
 weight = 1
 
 [[menu.main]]
