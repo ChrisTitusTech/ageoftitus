@@ -1,7 +1,7 @@
 +++
 title = 'Silver Strats'
 date = 2024-10-03T15:43:24-05:00
-draft = true
+draft = false
 +++
 
 # Silver Strategies
