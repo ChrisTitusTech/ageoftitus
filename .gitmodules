@@ -1,0 +1,3 @@
+[submodule "themes/cyberscape"]
+	path = themes/cyberscape
+	url = https://github.com/isaksolheim/cyberscape

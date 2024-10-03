@@ -1,3 +1,20 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://ageoftitus.com/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Age of Titus - Where Noobs play'
+
+theme = 'cyberscape'
+
+# Add any links to things in /content/ here
+[[menu.main]]
+name = "markdown"
+url = "/markdown/"
+weight = 1
+
+[[menu.main]]
+name = "resources"
+url = "/resources/"
+weight = 2
+
+# Enable this for Tailwind in markdown files
+[markup.goldmark.renderer]
+unsafe=true
