@@ -5,9 +5,12 @@ url: /{{ .Name }}/
 description: ""
 tags: [strategy, beginner]
 featured_image: "/images/{{ .Name }}.webp"
-images: [""]
 categories: Strategy
 comment: true
 draft: true
 ---
 <!--more-->
+
+## YouTube Video
+
+{{< youtube 1LM9oUADjTI >}}

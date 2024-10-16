@@ -21,10 +21,7 @@ theme = 'diary'
 [params]
 subtitle = "Titus Tech Gaming"
 enableGiscus = true
-
-# Twitter Card and Open Graph settings
 enableOpenGraph = true
-enableTwitterCards = true
 title = "Age of Titus" # will set 'og:site_name'
 description = "Titus Tech Gaming"  # will set 'og:description'
 
@@ -49,14 +46,10 @@ description = "Titus Tech Gaming"  # will set 'og:description'
 
 
 [[menu.main]]
-url = "/categories/strategy/"
+url = "/"
 name = "Strategies"
-weight = 1
-[[menu.main]]
-url = "/categories/streams/"
-name = "Streams"
 weight = 2
 [[menu.main]]
-url = "/index.xml"
-name = "RSS Feed"
-weight = 4
+url = "/games/"
+name = "Games"
+weight = 1
