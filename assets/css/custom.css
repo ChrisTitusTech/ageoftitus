@@ -38,3 +38,11 @@ body.night #streamContainer > div > div {
 .toc-wrapper ul {
   margin-left: 0px;
 }
+
+.red-row {
+  color: red;
+}
+
+.green-row {
+  color: green;
+}

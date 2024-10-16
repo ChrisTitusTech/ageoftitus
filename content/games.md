@@ -1,0 +1,68 @@
+---
+title: "Games"
+date: 2024-10-16
+url: /games/
+description: ""
+tags: [streams, twitch, youtube]
+featured_image: "/images/games.webp"
+categories: Streams
+comment: true
+draft: true
+---
+Live Streams from Twitch and YouTube
+<!--more-->
+
+
+| Date and Time | Result | Matchup | Rating Change | MMR Difference |
+|---------------|--------|---------|---------------|----------------|
+| 2024-10-16 04:04 | Win | Order Of The Dragon vs Abbasid Dynasty | +25 | 97 |
+| 2024-10-16 03:31 | Win | Order Of The Dragon vs Zhu Xis Legacy | +27 | -83 |
+| 2024-10-16 02:40 | Loss | Japanese vs Byzantines | -16 | 34 |
+| 2024-10-16 01:39 | Loss | Japanese vs English | -24 | -150 |
+| 2024-10-16 01:00 | Loss | Japanese vs Japanese | -26 | -214 |
+| 2024-10-16 00:30 | Win | Japanese vs French | +21 | -34 |
+| 2024-10-15 06:51 | Win | Japanese vs Japanese | +32 | 100 |
+| 2024-10-15 06:20 | Loss | Japanese vs Abbasid Dynasty | -23 | N/A |
+| 2024-10-15 06:09 | Win | Japanese vs Abbasid Dynasty | N/A | N/A |
+| 2024-10-15 05:46 | Loss | Japanese vs English | N/A | N/A |
+| 2024-10-15 04:53 | Loss | Order Of The Dragon vs Holy Roman Empire | -21 | -26 |
+| 2024-10-15 04:27 | Loss | Order Of The Dragon vs Japanese | -16 | 58 |
+| 2024-10-14 06:26 | Loss | Order Of The Dragon vs Rus | -21 | N/A |
+| 2024-10-14 06:01 | Loss | Order Of The Dragon vs French | -11 | 172 |
+| 2024-10-14 05:28 | Win | Order Of The Dragon vs Abbasid Dynasty | +27 | 18 |
+| 2024-10-14 05:01 | Loss | Order Of The Dragon vs Rus | -17 | 62 |
+| 2024-10-14 03:56 | Loss | Abbasid Dynasty vs Japanese | -20 | -26 |
+| 2024-10-14 03:21 | Win | Abbasid Dynasty vs English | +32 | N/A |
+| 2024-10-14 02:54 | Loss | Abbasid Dynasty vs Abbasid Dynasty | -15 | 105 |
+| 2024-10-14 02:23 | Loss | Abbasid Dynasty vs Zhu Xis Legacy | N/A | N/A |
+| 2024-10-14 01:45 | Loss | Abbasid Dynasty vs Holy Roman Empire | -23 | 44 |
+| 2024-10-12 06:37 | Loss | Japanese vs French | -25 | -116 |
+| 2024-10-12 05:59 | Win | Japanese vs Chinese | +20 | -76 |
+| 2024-10-12 04:46 | Win | Japanese vs Abbasid Dynasty | +29 | 70 |
+| 2024-10-12 04:16 | Loss | Japanese vs Holy Roman Empire | -19 | -20 |
+| 2024-10-11 20:24 | Loss | Japanese vs English | -24 | 66 |
+| 2024-10-11 19:41 | Loss | Japanese vs English | -24 | 19 |
+| 2024-10-11 19:18 | Win | Japanese vs Japanese | +23 | N/A |
+| 2024-10-10 06:20 | Win | Order Of The Dragon vs Rus | +27 | N/A |
+| 2024-10-10 05:53 | Win | Order Of The Dragon vs French | +29 | 56 |
+| 2024-10-10 05:32 | Win | Order Of The Dragon vs English | +30 | N/A |
+| 2024-10-10 04:50 | Loss | Order Of The Dragon vs Rus | -23 | -55 |
+| 2024-10-10 04:21 | Loss | Order Of The Dragon vs Ottomans | -16 | 67 |
+| 2024-10-08 04:47 | Win | Order Of The Dragon vs Rus | +25 | -254 |
+| 2024-10-08 03:55 | Win | Order Of The Dragon vs Ottomans | +27 | -22 |
+| 2024-10-08 03:03 | Win | Order Of The Dragon vs Jeanne Darc | +30 | 79 |
+| 2024-10-08 02:36 | Win | Order Of The Dragon vs Zhu Xis Legacy | +26 | 25 |
+| 2024-10-07 05:52 | Win | Order Of The Dragon vs Japanese | +32 | -45 |
+| 2024-10-07 05:23 | Loss | Order Of The Dragon vs Chinese | -10 | 188 |
+| 2024-10-07 04:50 | Loss | Order Of The Dragon vs Mongols | -12 | 145 |
+| 2024-10-07 04:20 | Win | Order Of The Dragon vs Delhi Sultanate | N/A | N/A |
+| 2024-10-05 15:11 | Win | Japanese vs Mongols | +34 | 145 |
+| 2024-10-05 14:46 | Win | Japanese vs Holy Roman Empire | +30 | 138 |
+| 2024-10-05 01:46 | Loss | Ayyubids vs Delhi Sultanate | -14 | 186 |
+| 2024-10-05 01:13 | Loss | Ayyubids vs Order Of The Dragon | -16 | 80 |
+| 2024-10-05 00:47 | Win | Ayyubids vs English | +36 | 160 |
+| 2024-10-05 00:44 | Loss | Ayyubids vs Chinese | -6 | 287 |
+| 2024-10-03 06:11 | Win | Ayyubids vs Mongols | +37 | 235 |
+| 2024-10-03 05:46 | Win | Ayyubids vs Japanese | +34 | 163 |
+| 2024-10-03 05:08 | Loss | Ayyubids vs Mongols | -12 | N/A |
+| 2024-10-03 05:08 | Loss | Ayyubids vs Mongols | -12 | N/A |

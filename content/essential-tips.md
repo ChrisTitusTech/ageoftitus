@@ -11,7 +11,7 @@ draft: false
 ---
 This is a list of essential tips and action priority for Age of Empires IV.<!--more-->
 
-### Top Priority
+## Top Priority
 
 - Always be building Villagers
   - 100+ Total Villagers before stopping
@@ -25,7 +25,7 @@ This is a list of essential tips and action priority for Age of Empires IV.<!--m
     - Below 20 Minutes - Less than 2000 Total Resources
 - Scout to build counters of opposition and check if your enemy is trading
 
-### High Priority
+## High Priority
 
 These should be followed after you master the top priority list. If you aren't getting the top priority list down, don't worry about these, until you are consistently doing that.
 
