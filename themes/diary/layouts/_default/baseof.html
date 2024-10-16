@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    {{- partial "head.html" . -}}
+    <body>
+    	<div id="app">
+            {{- partial "mobile-header.html" . -}}
+            <!-- mobile header -->
+            <div id="content">
+                <div id="streamContainer" class="stream-container">
+                    {{- block "main" . }}{{- end }}
+                </div>
+            </div>
+
+            {{- partial "sidebar.html" . -}}
+            {{- partial "extrabar.html" . -}}
+
+            {{- partial "mobile-footer.html" . -}}
+            <!-- mobile footer -->
+            </div>
+    {{ partial "journal.html" .}}
+    <!-- For compatibility. View https://github.com/AmazingRise/hugo-theme-diary/pull/135 for details.-->
+    {{- $hugoVersion := split (replaceRE ".*([0-9]+)\\.([0-9]+)\\.([0-9]+).*" "$1 $2 $3" hugo.Version) " " -}}
+    {{- if and (eq (int (index $hugoVersion 0)) 0) (ge (int (index $hugoVersion 1)) 101) -}}
+        {{- /* no leading slash */ -}}
+        <script src="{{"js/journal.js" | relURL}}"></script>
+    {{- else -}}
+        {{- /* with leading slash */ -}}
+        <script src="{{"/js/journal.js" | relURL}}"></script>
+    {{- end -}}
+    
+    </body>
+</html>
