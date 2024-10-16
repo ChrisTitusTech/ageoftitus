@@ -4,8 +4,8 @@ date: 2024-10-16
 url: /essential-tips/
 description: "This is a list of essential tips and action priority for Age of Empires IV."
 tags: [strategy, beginner]
-featured_image: "/images/essential-tips.png"
-images: []
+featured_image: "/images/essential-tips.webp"
+images: [""]
 categories: Strategy
 comment: true
 draft: false
