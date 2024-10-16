@@ -1,0 +1,15 @@
+<nav
+  class="border-4 bg-white border-pink-400 p-4 w-full lg:w-auto lg:max-w-xs max-h-full"
+>
+  <ul>
+    {{ $title := lower .Title }} {{ $section := lower .Section }}
+    <li>
+      <a href="{{ .Site.BaseURL }}">~/home</a>
+    </li>
+    {{ range .Site.Menus.main }} {{ $name := lower .Name }}
+    <li>
+      <a href="{{ .URL }}">~/{{ lower .Name }}</a>
+    </li>
+    {{end}}
+  </ul>
+</nav>
