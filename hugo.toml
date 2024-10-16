@@ -1,20 +1,65 @@
 baseURL = 'https://ageoftitus.com/'
 languageCode = 'en-us'
-title = 'Age of Titus - Where Noobs play'
+title = 'Age of Titus'
+copyright = "2024 Titus Tech Gaming"
+theme = 'diary'
 
-theme = 'cyberscape'
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "perldoc"
+    tabWidth = 4
+  [markup.goldmark.renderer]
+    unsafe = true
 
-# Add any links to things in /content/ here
+[params]
+subtitle = "Titus Tech Gaming"
+enableGiscus = true
+
+# Microsoft Clarity (https://clarity.microsoft.com/) is a free user behavior recording and analytics tool
+clarity = "ojlkmrxr85"
+
+# Twitter Card and Open Graph settings
+enableOpenGraph = true
+enableTwitterCards = true
+title = "Age of Titus" # will set 'og:site_name'
+description = "Titus Tech Gaming"  # will set 'og:description'
+
+[taxonomies]
+   tag = "tags"
+   category = "categories"
+
+# Please visit https://giscus.app/ to generate settings.
+[params.giscus]
+    data-repo="christitustech/ageoftitus"
+    data-repo-id="R_kgDOM7Hpmg"
+    data-category="Announcements"
+    data-category-id="DIC_kwDOM7Hpms4Cjaql"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="bottom"
+    data-theme="dark"
+    data-lang="en"
+    crossorigin="anonymous"
+
+
 [[menu.main]]
+url = "/categories/strategy/"
 name = "Strategies"
-url = "/strategies/"
 weight = 1
-
 [[menu.main]]
-name = "resources"
-url = "/resources/"
+url = "/categories/streams/"
+name = "Streams"
 weight = 2
-
-# Enable this for Tailwind in markdown files
-[markup.goldmark.renderer]
-unsafe=true
+[[menu.main]]
+url = "/index.xml"
+name = "RSS Feed"
+weight = 4
