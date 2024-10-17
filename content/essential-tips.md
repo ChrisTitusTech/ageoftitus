@@ -47,4 +47,4 @@ These should be followed after you master the top priority list. If you aren't g
 
 ## YouTube Video
 
-{{< youtube 1LM9oUADjTI >}}
+{{< youtube "1LM9oUADjTI" >}}
