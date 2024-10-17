@@ -18,7 +18,7 @@ def update_games_file(games):
     with open(GAMES_FILE, 'r', encoding='utf-8') as f:
         content = f.readlines()
 
-    table_start = content.index("| Date and Time | Result | Matchup | Rating Change | MMR Difference |\n")
+    table_start = content.index("| Date and Time | Result | Matchup | Opponent Rating | MMR Difference |\n")
     
     table_end = next((i for i, line in enumerate(content[table_start+2:], start=table_start+2) if line.strip() and not line.startswith('|')), len(content))
 
@@ -59,16 +59,16 @@ def update_best_wins_and_worst_losses(best_wins, worst_losses):
     with open(GAMES_FILE, 'r', encoding='utf-8') as f:
         content = f.read()
 
-    best_wins_header = "### Best Wins (MMR Difference > 100)"
-    worst_losses_header = "### Worst Losses (MMR Difference <= -100)"
+    best_wins_header = "### Best Wins"
+    worst_losses_header = "### Worst Losses"
 
     if best_wins_header not in content:
         # Add Best Wins section if it doesn't exist
-        content += f"\n\n{best_wins_header}\n\n| Date and Time | Result | Matchup | Rating Change | MMR Difference |\n|---------------|--------|---------|---------------|----------------|\n"
+        content += f"\n\n{best_wins_header}\n\n| Date and Time | Result | Matchup | Opponent Rating | MMR Difference |\n|---------------|--------|---------|-----------------|----------------|\n"
 
     if worst_losses_header not in content:
         # Add Worst Losses section if it doesn't exist
-        content += f"\n\n{worst_losses_header}\n\n| Date and Time | Result | Matchup | Rating Change | MMR Difference |\n|---------------|--------|---------|---------------|----------------|\n"
+        content += f"\n\n{worst_losses_header}\n\n| Date and Time | Result | Matchup | Opponent Rating | MMR Difference |\n|---------------|--------|---------|-----------------|----------------|\n"
 
     best_wins_start = content.index(best_wins_header)
     worst_losses_start = content.index(worst_losses_header)
@@ -93,13 +93,13 @@ def update_best_wins_and_worst_losses(best_wins, worst_losses):
 
     # Prepare new content
     best_wins_content = (f"{best_wins_header}\n\n"
-                         "| Date and Time | Result | Matchup | Rating Change | MMR Difference |\n"
-                         "|---------------|--------|---------|---------------|----------------|\n" + 
+                         "| Date and Time | Result | Matchup | Opponent Rating | MMR Difference |\n"
+                         "|---------------|--------|---------|-----------------|----------------|\n" + 
                          "\n".join(updated_best_wins))
     
     worst_losses_content = (f"{worst_losses_header}\n\n"
-                            "| Date and Time | Result | Matchup | Rating Change | MMR Difference |\n"
-                            "|---------------|--------|---------|---------------|----------------|\n" + 
+                            "| Date and Time | Result | Matchup | Opponent Rating | MMR Difference |\n"
+                            "|---------------|--------|---------|-----------------|----------------|\n" + 
                             "\n".join(updated_worst_losses))
 
     # Replace the old sections with new content or append if they don't exist
@@ -134,10 +134,11 @@ def main():
         opponent = next(p for team in game['teams'] for p in team if p['player']['profile_id'] != TITUS_PROFILE_ID)
 
         result = "Win" if player['player']['result'] == "win" else "Loss"
-        opponent_name = opponent['player']['name']  # Assuming 'name' is the key for the opponent's name
+        opponent_name = opponent['player']['name']
         matchup = f"{player['player']['civilization'].replace('_', ' ').title()} vs {opponent['player']['civilization'].replace('_', ' ').title()} ({opponent_name})"
-        rating_diff = player['player']['rating_diff']
-        rating_change = f"+{rating_diff}" if rating_diff and rating_diff > 0 else str(rating_diff) if rating_diff else "N/A"
+        
+        # Get opponent rating
+        opponent_rating = opponent['player'].get('rating', 'N/A')
         
         # Calculate MMR difference
         titus_mmr = player['player'].get('rating')
@@ -145,7 +146,7 @@ def main():
         mmr_diff = opponent_mmr - titus_mmr if titus_mmr is not None and opponent_mmr is not None else None
         mmr_diff_str = str(mmr_diff) if mmr_diff is not None else 'N/A'
 
-        new_game_entry = f"| {formatted_date} | {result} | {matchup} | {rating_change} | {mmr_diff_str} |"
+        new_game_entry = f"| {formatted_date} | {result} | {matchup} | {opponent_rating} | {mmr_diff_str} |"
 
         # Use a unique key combining date and opponent name to avoid duplicates
         unique_key = f"{formatted_date}_{opponent_name}"
