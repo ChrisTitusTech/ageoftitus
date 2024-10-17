@@ -14,6 +14,11 @@
         {{ end }}
     </a>
 
+    <div class="social-links">
+        {{ partial "socials.html" . }}
+    </div>
+    
+
     <div class="nav-link-list">
         {{ $current := .RelPermalink | absLangURL }}
         {{ range .Site.Menus.main }}
@@ -39,8 +44,6 @@
             {{ end }}
         {{ end }}
     </div>
-
-    
 
     <div class="nav-footer">
         {{partial "copyright.html" .}}

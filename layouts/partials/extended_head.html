@@ -4,3 +4,4 @@ Do not put anything in this file - it's only here so that hugo won't throw an er
 -->
 {{ $custom := resources.Get "css/custom.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $custom.RelPermalink }}" integrity="{{ $custom.Data.Integrity }}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">

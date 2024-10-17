@@ -25,6 +25,10 @@ enableOpenGraph = true
 title = "Age of Titus" # will set 'og:site_name'
 description = "Titus Tech Gaming"  # will set 'og:description'
 
+[params.social]
+youtube = "https://www.youtube.com/titustechgaming"
+twitch = "https://www.twitch.tv/titustechgaming"
+
 [taxonomies]
    tag = "tags"
    category = "categories"

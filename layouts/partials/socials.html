@@ -1,0 +1,13 @@
+
+  {{ with site.Params.social }}
+    {{ if .twitch }}
+      <a href="{{ .twitch }}" target="_blank" rel="noopener noreferrer" class="social-link">
+        <i class="fab fa-twitch"></i>
+      </a>
+    {{ end }}
+    {{ if .youtube }}
+      <a href="{{ .youtube }}" target="_blank" rel="noopener noreferrer" class="social-link">
+        <i class="fab fa-youtube"></i>
+      </a>
+    {{ end }}
+  {{ end }}

@@ -9,3 +9,4 @@ package.json
 .env
 *.sh
 .DS_Store
+.github/scripts/YT_timestamps.py

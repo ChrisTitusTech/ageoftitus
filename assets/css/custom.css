@@ -46,3 +46,25 @@ body.night #streamContainer > div > div {
 .green-row {
   color: green;
 }
+
+.social-link {
+  display: inline-block;
+  margin-left: 15px;
+  vertical-align: middle;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  padding: 5px 28px;
+}
+
+.side-container .nav-head {
+  padding: 30px 28px 5px 20px;
+}
+
