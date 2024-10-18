@@ -10,3 +10,4 @@ package.json
 *.sh
 .DS_Store
 .github/scripts/YT_timestamps.py
+themes/diary/static/js/cloudflareworker.js
