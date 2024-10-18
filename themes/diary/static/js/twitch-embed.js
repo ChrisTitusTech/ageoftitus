@@ -20,17 +20,19 @@ async function checkLiveStatus() {
     console.log('Response from worker:', data);
 
     if (data.isLive) {
-      console.log('Channel is live, updating embed');
+      console.log(`Channel ${data.channelName} is live, updating embed`);
+      const embedSrc = `https://player.twitch.tv/?channel=${data.channelName}&parent=${window.location.hostname}`;
+      console.log('Embed source:', embedSrc);
       twitchEmbedElement.innerHTML = `
         <iframe
-          src="https://player.twitch.tv/?channel=${data.channelName}&parent=${window.location.hostname}"
+          src="${embedSrc}"
           height="480"
           width="100%"
           allowfullscreen>
         </iframe>
       `;
     } else {
-      console.log('Channel is offline, clearing embed');
+      console.log(`Channel ${data.channelName} is offline, clearing embed`);
       twitchEmbedElement.innerHTML = '';
     }
   } catch (error) {

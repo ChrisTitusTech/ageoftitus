@@ -78,27 +78,29 @@ async function checkChannelStatus(token, env) {
   const clientId = env.CLIENT_ID;
   const channelName = env.CHANNEL_NAME;
 
-  console.log("Checking channel status for:", channelName)
+  console.log("Checking channel status for:", channelName);
 
   const response = await fetch(`https://api.twitch.tv/helix/streams?user_login=${channelName}`, {
     headers: {
       'Client-ID': clientId,
       'Authorization': `Bearer ${token}`,
     },
-  })
+  });
 
   if (!response.ok) {
-    console.error("Error checking channel status. Status:", response.status)
-    const text = await response.text()
-    console.error("Response:", text)
-    throw new Error(`Failed to check channel status: ${response.status} ${text}`)
+    console.error("Error checking channel status. Status:", response.status);
+    const text = await response.text();
+    console.error("Response:", text);
+    throw new Error(`Failed to check channel status: ${response.status} ${text}`);
   }
 
-  const data = await response.json()
+  const data = await response.json();
   return {
     isLive: data.data.length > 0,
     viewerCount: data.data.length > 0 ? data.data[0].viewer_count : 0,
-  }
+    channelName: channelName,
+    streamData: data.data.length > 0 ? data.data[0] : null,
+  };
 }
 
 export default {
