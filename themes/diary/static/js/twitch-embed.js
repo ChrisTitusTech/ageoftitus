@@ -39,8 +39,20 @@ async function checkLiveStatus() {
       console.log(`Channel ${data.channelName} is offline, clearing embed`);
       twitchEmbedElement.innerHTML = '';
       twitchEmbedElement.style.display = 'none';
-      const lastOnline = data.lastOnline ? new Date(data.lastOnline).toLocaleString() : 'Unknown';
-      statusBannerElement.innerHTML = `<h2>⚫ Offline on Twitch</h2><p>Last online: ${lastOnline}</p>`;
+      
+      // Fetch the most recent video
+      const lastVideoResponse = await fetch(`https://ageoftitus.com/api/get-last-video?channel=${data.channelName}`, {
+        credentials: 'same-origin'
+      });
+      const lastVideoData = await lastVideoResponse.json();
+      
+      let lastOnlineText = 'Unknown';
+      if (lastVideoData && lastVideoData.created_at) {
+        const lastOnlineDate = new Date(lastVideoData.created_at);
+        lastOnlineText = lastOnlineDate.toLocaleString();
+      }
+      
+      statusBannerElement.innerHTML = `<h2>⚫ Offline on Twitch</h2><p>Last online: ${lastOnlineText}</p>`;
     }
     
     // Always show the container and status banner
