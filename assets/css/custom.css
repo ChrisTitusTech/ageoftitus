@@ -68,3 +68,7 @@ body.night #streamContainer > div > div {
   padding: 30px 28px 5px 20px;
 }
 
+.twitch-embed {
+  text-align: center;
+  padding: 15px 0px 0px 0px;
+}

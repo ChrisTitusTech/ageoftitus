@@ -1,0 +1,60 @@
+name: Renew Twitch Bearer Token
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Run daily at midnight UTC
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  renew-token:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      - name: Install dependencies
+        run: npm install axios
+
+      - name: Renew Twitch Bearer Token
+        env:
+          TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
+          TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
+        run: |
+          node -e "
+          const axios = require('axios');
+
+          async function renewToken() {
+            try {
+              const response = await axios.post('https://id.twitch.tv/oauth2/token', null, {
+                params: {
+                  client_id: process.env.TWITCH_CLIENT_ID,
+                  client_secret: process.env.TWITCH_CLIENT_SECRET,
+                  grant_type: 'client_credentials'
+                }
+              });
+
+              const newToken = response.data.access_token;
+              console.log('Bearer token renewed successfully');
+              return newToken;
+            } catch (error) {
+              console.error('Error renewing bearer token:', error.message);
+              process.exit(1);
+            }
+          }
+
+          renewToken().then(token => {
+            console.log('TWITCH_BEARER_TOKEN=' + token);
+          });
+          " >> $GITHUB_OUTPUT
+
+      - name: Update TWITCH_BEARER_TOKEN secret
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          NEW_TOKEN=$(grep TWITCH_BEARER_TOKEN $GITHUB_OUTPUT | cut -d '=' -f2)
+          gh secret set TWITCH_BEARER_TOKEN -b"$NEW_TOKEN" -R ${{ github.repository }}
