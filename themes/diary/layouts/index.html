@@ -1,6 +1,8 @@
-
 {{ define "main" }}
-    <div id="twitch-embed"></div>
+    <div id="twitch-container">
+        <div id="twitch-embed"></div>
+        <div id="twitch-status-banner"></div>
+    </div>
     <div class="post-list-container post-list-container-no-background">
         {{ $paginator := .Paginate (where .Site.RegularPages "Params.hidden" "!=" true) }}
         {{range $paginator.Pages }}

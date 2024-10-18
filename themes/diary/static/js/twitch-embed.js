@@ -1,8 +1,10 @@
 async function checkLiveStatus() {
+  const twitchContainerElement = document.getElementById('twitch-container');
   const twitchEmbedElement = document.getElementById('twitch-embed');
+  const statusBannerElement = document.getElementById('twitch-status-banner');
   
-  if (!twitchEmbedElement) {
-    console.error('Twitch embed element not found');
+  if (!twitchContainerElement || !twitchEmbedElement || !statusBannerElement) {
+    console.error('Twitch elements not found');
     return;
   }
 
@@ -31,12 +33,24 @@ async function checkLiveStatus() {
           allowfullscreen>
         </iframe>
       `;
+      statusBannerElement.innerHTML = `<h2>🔴 Live on Twitch</h2>`;
+      twitchEmbedElement.style.display = 'block';
     } else {
       console.log(`Channel ${data.channelName} is offline, clearing embed`);
       twitchEmbedElement.innerHTML = '';
+      twitchEmbedElement.style.display = 'none';
+      const lastOnline = data.lastOnline ? new Date(data.lastOnline).toLocaleString() : 'Unknown';
+      statusBannerElement.innerHTML = `<h2>⚫ Offline on Twitch</h2><p>Last online: ${lastOnline}</p>`;
     }
+    
+    // Always show the container and status banner
+    twitchContainerElement.style.display = 'block';
+    statusBannerElement.style.display = 'block';
   } catch (error) {
     console.error('Error checking Twitch live status:', error);
+    statusBannerElement.innerHTML = `<h2>⚠️ Unable to check stream status</h2>`;
+    twitchContainerElement.style.display = 'block';
+    statusBannerElement.style.display = 'block';
   }
 }
 

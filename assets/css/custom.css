@@ -72,3 +72,30 @@ body.night #streamContainer > div > div {
   text-align: center;
   padding: 15px 0px 0px 0px;
 }
+
+#twitch-container {
+  display: none;
+  margin-bottom: 0px;
+}
+
+#twitch-embed {
+  width: 100%;
+}
+
+#twitch-status-banner {
+  text-align: center;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-radius: 0 0 5px 5px;
+}
+
+#twitch-status-banner h2 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+#twitch-status-banner p {
+  margin: 5px 0 0;
+  font-size: 0.9em;
+  color: #6c757d;
+}
