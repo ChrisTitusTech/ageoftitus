@@ -5,6 +5,10 @@ on:
     - cron: '0 */6 * * *'  # Run every 6 hours
   workflow_dispatch:  # Allow manual triggering
 
+# Add this permissions block
+permissions:
+  contents: write
+
 jobs:
   update-games:
     runs-on: ubuntu-latest
@@ -28,8 +32,6 @@ jobs:
           python .github/scripts/update_games.py
 
       - name: Commit and push if changed
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.email "github-actions@github.com"
           git config --global user.name "GitHub Actions"
