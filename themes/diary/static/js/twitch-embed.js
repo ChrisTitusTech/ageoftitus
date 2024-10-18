@@ -8,7 +8,9 @@ async function checkLiveStatus() {
 
   console.log('Checking live status...');
   try {
-    const response = await fetch('https://twitch-token-renewer.dfm-titus.workers.dev/check-status');
+    const response = await fetch('https://ageoftitus.com/api/check-status', {
+      credentials: 'same-origin'
+    });
     
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
