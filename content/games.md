@@ -65,22 +65,22 @@ Live Streams from Twitch and YouTube
 | 2024-10-05 01:13 | Loss | Ayyubids vs Order Of The Dragon (Random) | 769 | 80 |
 | 2024-10-05 00:47 | Win | Ayyubids vs English (IGOR) | 813 | 160 |
 | 2024-10-05 00:44 | Loss | Ayyubids vs Chinese (aguicjm) | 946 | 287 |
+### Worst Losses
 
-
-
+| Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
+|---------------|--------|---------|-----------------|----------------|
+| 2024-10-16 01:00 | Loss | Japanese vs Japanese (JAM) | 606 | -214 |
+| 2024-10-16 01:39 | Loss | Japanese vs English (JAM) | 644 | -150 |
+| 2024-10-05 01:13 | Loss | Ayyubids vs Order Of The Dragon (Random) | 769 | 80 |
+| 2024-10-10 04:50 | Loss | Order Of The Dragon vs Rus (SamuelitoAB2446) | 770 | -55 |
+| 2024-10-12 06:37 | Loss | Japanese vs French (gg behavior) | 777 | -116 |
 
 ### Best Wins
 
 | Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
 |---------------|--------|---------|-----------------|----------------|
-| 2024-10-05 00:47 | Win | Ayyubids vs English (IGOR) | 813 | 160 |
-| 2024-10-05 15:11 | Win | Japanese vs Mongols (romain.oison) | 834 | 145 |
-| 2024-10-05 14:46 | Win | Japanese vs Holy Roman Empire (BostonPzza1) | 797 | 138 |
-
-### Worst Losses
-
-| Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
-|---------------|--------|---------|-----------------|----------------|
-| 2024-10-12 06:37 | Loss | Japanese vs French (gg behavior) | 777 | -116 |
-| 2024-10-16 01:39 | Loss | Japanese vs English (JAM) | 644 | -150 |
-| 2024-10-16 01:00 | Loss | Japanese vs Japanese (JAM) | 606 | -214 |
+| 2024-10-12 04:46 | Win | Japanese vs Abbasid Dynasty (Kinich) | 914 | 70 |
+| 2024-10-10 05:53 | Win | Order Of The Dragon vs French (PuDiM) | 888 | 56 |
+| 2024-10-16 04:04 | Win | Order Of The Dragon vs Abbasid Dynasty (Raothorn) | 878 | 97 |
+| 2024-10-15 06:51 | Win | Japanese vs Japanese ({KT} Don Pimpo) | 867 | 100 |
+| 2024-10-14 05:28 | Win | Order Of The Dragon vs Abbasid Dynasty (boonips) | 843 | 18 |

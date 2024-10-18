@@ -55,66 +55,67 @@ def get_worst_losses(games):
                     continue  # Skip this game if MMR difference can't be converted to int
     return worst_losses
 
-def update_best_wins_and_worst_losses(best_wins, worst_losses):
+def update_best_wins_and_worst_losses(games):
+    best_wins = []
+    worst_losses = []
+    
+    seen_games = set()  # To track unique games
+
+    for game in games.values():
+        fields = game.split('|')
+        if len(fields) >= 5:
+            result = fields[2].strip()
+            opponent_rating = fields[4].strip()
+            game_key = (fields[1].strip(), fields[3].strip())  # Use date and matchup as unique key
+            if opponent_rating != 'N/A' and game_key not in seen_games:
+                try:
+                    rating = int(opponent_rating)
+                    if "Win" in result:
+                        best_wins.append((rating, game))
+                    elif "Loss" in result:
+                        worst_losses.append((rating, game))
+                    seen_games.add(game_key)
+                except ValueError:
+                    continue  # Skip this game if opponent rating can't be converted to int
+
+    # Sort and get top 5 unique wins and bottom 5 unique losses
+    best_wins = sorted(best_wins, key=lambda x: x[0], reverse=True)[:5]
+    worst_losses = sorted(worst_losses, key=lambda x: x[0])[:5]  # Lowest rating first
+
     with open(GAMES_FILE, 'r', encoding='utf-8') as f:
         content = f.read()
 
     best_wins_header = "### Best Wins"
     worst_losses_header = "### Worst Losses"
 
-    if best_wins_header not in content:
-        # Add Best Wins section if it doesn't exist
-        content += f"\n\n{best_wins_header}\n\n| Date and Time | Result | Matchup | Opponent Rating | MMR Difference |\n|---------------|--------|---------|-----------------|----------------|\n"
-
-    if worst_losses_header not in content:
-        # Add Worst Losses section if it doesn't exist
-        content += f"\n\n{worst_losses_header}\n\n| Date and Time | Result | Matchup | Opponent Rating | MMR Difference |\n|---------------|--------|---------|-----------------|----------------|\n"
-
-    best_wins_start = content.index(best_wins_header)
-    worst_losses_start = content.index(worst_losses_header)
-
-    # Find the end of the existing tables
-    best_wins_end = content.find("\n\n", best_wins_start)
-    worst_losses_end = content.find("\n\n", worst_losses_start)
-    if worst_losses_end == -1:  # If it's the last section
-        worst_losses_end = len(content)
-
-    # Extract existing entries
-    existing_best_wins = set(line.strip() for line in content[best_wins_start:best_wins_end].split('\n')[3:] if line.strip() and line.startswith('|'))
-    existing_worst_losses = set(line.strip() for line in content[worst_losses_start:worst_losses_end].split('\n')[3:] if line.strip() and line.startswith('|'))
-
-    def sort_key(entry):
-        mmr_diff = entry.split('|')[-2].strip()
-        return int(mmr_diff) if mmr_diff != 'N/A' else -float('inf')
-
-    # Combine and sort entries
-    updated_best_wins = sorted(existing_best_wins.union(best_wins), key=sort_key, reverse=True)
-    updated_worst_losses = sorted(existing_worst_losses.union(worst_losses), key=sort_key, reverse=True)
-
-    # Prepare new content
     best_wins_content = (f"{best_wins_header}\n\n"
                          "| Date and Time | Result | Matchup | Opponent Rating | MMR Difference |\n"
                          "|---------------|--------|---------|-----------------|----------------|\n" + 
-                         "\n".join(updated_best_wins))
+                         "\n".join(game for _, game in best_wins))
     
     worst_losses_content = (f"{worst_losses_header}\n\n"
                             "| Date and Time | Result | Matchup | Opponent Rating | MMR Difference |\n"
                             "|---------------|--------|---------|-----------------|----------------|\n" + 
-                            "\n".join(updated_worst_losses))
+                            "\n".join(game for _, game in worst_losses))  # Already in ascending order
 
-    # Replace the old sections with new content or append if they don't exist
-    if best_wins_start < worst_losses_start:
-        new_content = (
-            content[:best_wins_start] + 
-            best_wins_content + "\n\n" +
-            worst_losses_content
-        )
+    # Replace or append the sections
+    if best_wins_header in content and worst_losses_header in content:
+        best_wins_start = content.index(best_wins_header)
+        worst_losses_start = content.index(worst_losses_header)
+        if best_wins_start < worst_losses_start:
+            new_content = (
+                content[:best_wins_start] + 
+                best_wins_content + "\n\n" +
+                worst_losses_content
+            )
+        else:
+            new_content = (
+                content[:worst_losses_start] + 
+                worst_losses_content + "\n\n" +
+                best_wins_content
+            )
     else:
-        new_content = (
-            content[:worst_losses_start] + 
-            worst_losses_content + "\n\n" +
-            best_wins_content
-        )
+        new_content = content + "\n\n" + best_wins_content + "\n\n" + worst_losses_content
 
     with open(GAMES_FILE, 'w', encoding='utf-8') as f:
         f.write(new_content)
@@ -171,12 +172,8 @@ def main():
         with open(GAMES_FILE, 'a', encoding='utf-8') as f:
             f.write('\n')
 
-        # Get best wins and worst losses
-        best_wins = get_best_wins(sorted_games)
-        worst_losses = get_worst_losses(sorted_games)
-
         # Update best wins and worst losses in the markdown file
-        update_best_wins_and_worst_losses(best_wins, worst_losses)
+        update_best_wins_and_worst_losses(sorted_games)
     else:
         print("No updates needed.")
 
