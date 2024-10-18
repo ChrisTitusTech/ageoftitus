@@ -8,6 +8,7 @@ on:
 jobs:
   renew-token:
     runs-on: ubuntu-latest
+    environment: TWITCH
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -57,4 +58,4 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           NEW_TOKEN=$(grep TWITCH_BEARER_TOKEN $GITHUB_OUTPUT | cut -d '=' -f2)
-          gh secret set TWITCH_BEARER_TOKEN -b"$NEW_TOKEN" -R ${{ github.repository }}
+          gh secret set TWITCH_BEARER_TOKEN -b"$NEW_TOKEN" -e TWITCH -R ${{ github.repository }}
