@@ -125,7 +125,7 @@ def main():
     api_games = response.json()['games']
 
     existing_games = get_existing_games()
-    updated_games = {}
+    new_games = {}
 
     for game in api_games:
         date_time = datetime.fromisoformat(game['started_at'].replace('Z', '+00:00'))
@@ -152,19 +152,11 @@ def main():
         # Use a unique key combining date and opponent name to avoid duplicates
         unique_key = f"{formatted_date}_{opponent_name}"
 
-        if unique_key in existing_games:
-            existing_entry = existing_games[unique_key]
-            existing_fields = existing_entry.split('|')
-            new_fields = new_game_entry.split('|')
-            
-            # Check if any field has changed
-            if any(existing_fields[i].strip() != new_fields[i].strip() for i in range(1, 6)):
-                updated_games[unique_key] = new_game_entry
-        else:
-            updated_games[unique_key] = new_game_entry
+        if unique_key not in existing_games:
+            new_games[unique_key] = new_game_entry
 
-    if updated_games:
-        all_games = {**existing_games, **updated_games}
+    if new_games:
+        all_games = {**existing_games, **new_games}
         sorted_games = dict(sorted(all_games.items(), reverse=True))
         update_games_file(sorted_games)
 
@@ -175,7 +167,7 @@ def main():
         # Update best wins and worst losses in the markdown file
         update_best_wins_and_worst_losses(sorted_games)
     else:
-        print("No updates needed.")
+        print("No new games to add.")
 
 if __name__ == "__main__":
     main()
