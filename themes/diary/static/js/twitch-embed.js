@@ -13,7 +13,11 @@ async function checkLiveStatus() {
   }
 
   try {
-    const response = await fetch('/.netlify/functions/get-twitch-status');
+    const response = await fetch('https://twitch-token-renewer.dfm-titus.workers.dev', {
+      headers: {
+        'Client-ID': clientId
+      }
+    });
     const data = await response.json();
 
     if (data.isLive) {
