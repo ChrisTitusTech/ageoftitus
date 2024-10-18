@@ -15,6 +15,10 @@ Live Streams from Twitch and YouTube
 
 | Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
 |---------------|--------|---------|-----------------|----------------|
+| 2024-10-18 06:05 | Loss | Order Of The Dragon vs English (DonniePhantm) | None | N/A |
+| 2024-10-18 04:58 | Loss | Order Of The Dragon vs Abbasid Dynasty (ShortCircuit150) | None | N/A |
+| 2024-10-18 04:30 | Win | Japanese vs French (adrianomuller1991) | None | N/A |
+| 2024-10-18 04:00 | Win | Order Of The Dragon vs French (adrianomuller1991) | None | N/A |
 | 2024-10-17 05:51 | Win | Order Of The Dragon vs Jeanne Darc (augusto.garcia.myt) | 800 | -9 |
 | 2024-10-17 05:18 | Loss | Order Of The Dragon vs French (Brat Package) | 941 | 111 |
 | 2024-10-17 04:12 | Win | Order Of The Dragon vs Mongols (SgtTbaggins91) | 842 | 36 |
@@ -61,19 +65,15 @@ Live Streams from Twitch and YouTube
 | 2024-10-07 04:20 | Win | Order Of The Dragon vs Delhi Sultanate (咚巴拉) | None | N/A |
 | 2024-10-05 15:11 | Win | Japanese vs Mongols (romain.oison) | 834 | 145 |
 | 2024-10-05 14:46 | Win | Japanese vs Holy Roman Empire (BostonPzza1) | 797 | 138 |
-| 2024-10-05 01:46 | Loss | Ayyubids vs Delhi Sultanate (Chico75) | 859 | 186 |
-| 2024-10-05 01:13 | Loss | Ayyubids vs Order Of The Dragon (Random) | 769 | 80 |
-| 2024-10-05 00:47 | Win | Ayyubids vs English (IGOR) | 813 | 160 |
-| 2024-10-05 00:44 | Loss | Ayyubids vs Chinese (aguicjm) | 946 | 287 |
 ### Worst Losses
 
 | Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
 |---------------|--------|---------|-----------------|----------------|
 | 2024-10-16 01:00 | Loss | Japanese vs Japanese (JAM) | 606 | -214 |
 | 2024-10-16 01:39 | Loss | Japanese vs English (JAM) | 644 | -150 |
-| 2024-10-05 01:13 | Loss | Ayyubids vs Order Of The Dragon (Random) | 769 | 80 |
 | 2024-10-10 04:50 | Loss | Order Of The Dragon vs Rus (SamuelitoAB2446) | 770 | -55 |
 | 2024-10-12 06:37 | Loss | Japanese vs French (gg behavior) | 777 | -116 |
+| 2024-10-15 04:53 | Loss | Order Of The Dragon vs Holy Roman Empire (austin) | 778 | -26 |
 
 ### Best Wins
 
