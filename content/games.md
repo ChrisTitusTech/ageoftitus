@@ -15,8 +15,10 @@ Live Streams from Twitch and YouTube
 
 | Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
 |---------------|--------|---------|-----------------|----------------|
-| 2024-10-18 06:05 | Loss | Order Of The Dragon vs English (DonniePhantm) | None | N/A |
-| 2024-10-18 04:58 | Loss | Order Of The Dragon vs Abbasid Dynasty (ShortCircuit150) | None | N/A |
+| 2024-10-18 06:49 | Loss | Order Of The Dragon vs Mongols (Locminotaure) | 753 | -131 |
+| 2024-10-18 06:33 | Win | Order Of The Dragon vs English (melon) | None | N/A |
+| 2024-10-18 06:05 | Win | Order Of The Dragon vs English (DonniePhantm) | None | N/A |
+| 2024-10-18 04:58 | Loss | Order Of The Dragon vs Abbasid Dynasty (ShortCircuit150) | 804 | -67 |
 | 2024-10-18 04:30 | Win | Japanese vs French (adrianomuller1991) | None | N/A |
 | 2024-10-18 04:00 | Win | Order Of The Dragon vs French (adrianomuller1991) | None | N/A |
 | 2024-10-17 05:51 | Win | Order Of The Dragon vs Jeanne Darc (augusto.garcia.myt) | 800 | -9 |
@@ -63,17 +65,15 @@ Live Streams from Twitch and YouTube
 | 2024-10-07 05:23 | Loss | Order Of The Dragon vs Chinese (Genghis Swan) | 899 | 188 |
 | 2024-10-07 04:50 | Loss | Order Of The Dragon vs Mongols (550977522) | 868 | 145 |
 | 2024-10-07 04:20 | Win | Order Of The Dragon vs Delhi Sultanate (咚巴拉) | None | N/A |
-| 2024-10-05 15:11 | Win | Japanese vs Mongols (romain.oison) | 834 | 145 |
-| 2024-10-05 14:46 | Win | Japanese vs Holy Roman Empire (BostonPzza1) | 797 | 138 |
 ### Worst Losses
 
 | Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
 |---------------|--------|---------|-----------------|----------------|
 | 2024-10-16 01:00 | Loss | Japanese vs Japanese (JAM) | 606 | -214 |
 | 2024-10-16 01:39 | Loss | Japanese vs English (JAM) | 644 | -150 |
+| 2024-10-18 06:49 | Loss | Order Of The Dragon vs Mongols (Locminotaure) | 753 | -131 |
 | 2024-10-10 04:50 | Loss | Order Of The Dragon vs Rus (SamuelitoAB2446) | 770 | -55 |
 | 2024-10-12 06:37 | Loss | Japanese vs French (gg behavior) | 777 | -116 |
-| 2024-10-15 04:53 | Loss | Order Of The Dragon vs Holy Roman Empire (austin) | 778 | -26 |
 
 ### Best Wins
 
