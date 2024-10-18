@@ -65,9 +65,13 @@ Live Streams from Twitch and YouTube
 | 2024-10-05 01:13 | Loss | Ayyubids vs Order Of The Dragon (Random) | 769 | 80 |
 | 2024-10-05 00:47 | Win | Ayyubids vs English (IGOR) | 813 | 160 |
 | 2024-10-05 00:44 | Loss | Ayyubids vs Chinese (aguicjm) | 946 | 287 |
+### Worst Losses
 
-
-
+| Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
+|---------------|--------|---------|-----------------|----------------|
+| 2024-10-12 06:37 | Loss | Japanese vs French (gg behavior) | 777 | -116 |
+| 2024-10-16 01:39 | Loss | Japanese vs English (JAM) | 644 | -150 |
+| 2024-10-16 01:00 | Loss | Japanese vs Japanese (JAM) | 606 | -214 |
 
 ### Best Wins
 
@@ -76,11 +80,3 @@ Live Streams from Twitch and YouTube
 | 2024-10-05 00:47 | Win | Ayyubids vs English (IGOR) | 813 | 160 |
 | 2024-10-05 15:11 | Win | Japanese vs Mongols (romain.oison) | 834 | 145 |
 | 2024-10-05 14:46 | Win | Japanese vs Holy Roman Empire (BostonPzza1) | 797 | 138 |
-
-### Worst Losses
-
-| Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
-|---------------|--------|---------|-----------------|----------------|
-| 2024-10-12 06:37 | Loss | Japanese vs French (gg behavior) | 777 | -116 |
-| 2024-10-16 01:39 | Loss | Japanese vs English (JAM) | 644 | -150 |
-| 2024-10-16 01:00 | Loss | Japanese vs Japanese (JAM) | 606 | -214 |
