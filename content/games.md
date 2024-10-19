@@ -15,6 +15,10 @@ Live Streams from Twitch and YouTube
 
 | Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
 |---------------|--------|---------|-----------------|----------------|
+| 2024-10-19 07:15 | Loss | English vs French (Only_Pro_1101) | None | N/A |
+| 2024-10-19 06:59 | Win | English vs Order Of The Dragon (Crylforce) | None | N/A |
+| 2024-10-19 06:40 | Win | English vs Ottomans (Jame_hub) | None | N/A |
+| 2024-10-19 06:11 | Win | English vs Malians (Only_Pro_1101) | None | N/A |
 | 2024-10-19 05:33 | Loss | Order Of The Dragon vs Malians (Only_Pro_1101) | None | N/A |
 | 2024-10-19 04:29 | Loss | Order Of The Dragon vs French (Aleksy) | 884 | 51 |
 | 2024-10-19 03:41 | Loss | Order Of The Dragon vs Abbasid Dynasty (BigSyke4628) | None | N/A |
@@ -61,10 +65,6 @@ Live Streams from Twitch and YouTube
 | 2024-10-10 04:50 | Loss | Order Of The Dragon vs Rus (SamuelitoAB2446) | 770 | -55 |
 | 2024-10-10 04:21 | Loss | Order Of The Dragon vs Ottomans (WoolenMean72412) | 908 | 67 |
 | 2024-10-08 04:47 | Win | Order Of The Dragon vs Rus (G KIDS XBOX 2) | 562 | -254 |
-| 2024-10-08 03:55 | Win | Order Of The Dragon vs Ottomans (傑可可不要) | 767 | -22 |
-| 2024-10-08 03:03 | Win | Order Of The Dragon vs Jeanne Darc (ErnesfoMagnus) | 838 | 79 |
-| 2024-10-08 02:36 | Win | Order Of The Dragon vs Zhu Xis Legacy (asaj100) | 758 | 25 |
-| 2024-10-07 05:52 | Win | Order Of The Dragon vs Japanese (DDoS95) | 656 | -45 |
 ### Worst Losses
 
 | Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
