@@ -128,6 +128,10 @@ def main():
     new_games = {}
 
     for game in api_games:
+        # Check if it's a 1v1 game
+        if sum(len(team) for team in game['teams']) != 2:
+            continue  # Skip this game if it's not a 1v1
+
         date_time = datetime.fromisoformat(game['started_at'].replace('Z', '+00:00'))
         formatted_date = date_time.strftime("%Y-%m-%d %H:%M")
 

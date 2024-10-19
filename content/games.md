@@ -15,6 +15,8 @@ Live Streams from Twitch and YouTube
 
 | Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
 |---------------|--------|---------|-----------------|----------------|
+| 2024-10-19 04:29 | Loss | Order Of The Dragon vs French (Aleksy) | 884 | 51 |
+| 2024-10-19 03:41 | Loss | Order Of The Dragon vs Abbasid Dynasty (BigSyke4628) | None | N/A |
 | 2024-10-18 06:49 | Loss | Order Of The Dragon vs Mongols (Locminotaure) | 753 | -131 |
 | 2024-10-18 06:33 | Win | Order Of The Dragon vs English (melon) | None | N/A |
 | 2024-10-18 06:05 | Win | Order Of The Dragon vs English (DonniePhantm) | None | N/A |
@@ -58,13 +60,6 @@ Live Streams from Twitch and YouTube
 | 2024-10-10 04:50 | Loss | Order Of The Dragon vs Rus (SamuelitoAB2446) | 770 | -55 |
 | 2024-10-10 04:21 | Loss | Order Of The Dragon vs Ottomans (WoolenMean72412) | 908 | 67 |
 | 2024-10-08 04:47 | Win | Order Of The Dragon vs Rus (G KIDS XBOX 2) | 562 | -254 |
-| 2024-10-08 03:55 | Win | Order Of The Dragon vs Ottomans (傑可可不要) | 767 | -22 |
-| 2024-10-08 03:03 | Win | Order Of The Dragon vs Jeanne Darc (ErnesfoMagnus) | 838 | 79 |
-| 2024-10-08 02:36 | Win | Order Of The Dragon vs Zhu Xis Legacy (asaj100) | 758 | 25 |
-| 2024-10-07 05:52 | Win | Order Of The Dragon vs Japanese (DDoS95) | 656 | -45 |
-| 2024-10-07 05:23 | Loss | Order Of The Dragon vs Chinese (Genghis Swan) | 899 | 188 |
-| 2024-10-07 04:50 | Loss | Order Of The Dragon vs Mongols (550977522) | 868 | 145 |
-| 2024-10-07 04:20 | Win | Order Of The Dragon vs Delhi Sultanate (咚巴拉) | None | N/A |
 ### Worst Losses
 
 | Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
