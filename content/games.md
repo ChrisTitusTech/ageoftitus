@@ -15,6 +15,14 @@ Live Streams from Twitch and YouTube
 
 | Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
 |---------------|--------|---------|-----------------|----------------|
+<<<<<<< HEAD
+=======
+| 2024-10-19 07:15 | Loss | English vs French (Only_Pro_1101) | None | N/A |
+| 2024-10-19 06:59 | Win | English vs Order Of The Dragon (Crylforce) | None | N/A |
+| 2024-10-19 06:40 | Win | English vs Ottomans (Jame_hub) | None | N/A |
+| 2024-10-19 06:11 | Win | English vs Malians (Only_Pro_1101) | None | N/A |
+| 2024-10-19 05:33 | Loss | Order Of The Dragon vs Malians (Only_Pro_1101) | None | N/A |
+>>>>>>> 3a3cee24d81ae0885f46ac499124896afdd1ea3f
 | 2024-10-19 04:29 | Loss | Order Of The Dragon vs French (Aleksy) | 884 | 51 |
 | 2024-10-19 03:41 | Loss | Order Of The Dragon vs Abbasid Dynasty (BigSyke4628) | None | N/A |
 | 2024-10-18 06:49 | Loss | Order Of The Dragon vs Mongols (Locminotaure) | 753 | -131 |
