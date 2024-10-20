@@ -15,6 +15,10 @@ Live Streams from Twitch and YouTube
 
 | Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
 |---------------|--------|---------|-----------------|----------------|
+| 2024-10-20 05:34 | Win | Ayyubids vs French (Sylliex2o) | None | N/A |
+| 2024-10-20 04:53 | Loss | Ayyubids vs Japanese (Abcense) | 809 | 0 |
+| 2024-10-20 04:09 | Loss | Ayyubids vs English (BlankET) | 891 | 58 |
+| 2024-10-20 03:41 | Win | Ayyubids vs English (xup) | 807 | -3 |
 | 2024-10-19 04:29 | Loss | Order Of The Dragon vs French (Aleksy) | 884 | 51 |
 | 2024-10-19 03:41 | Loss | Order Of The Dragon vs Abbasid Dynasty (BigSyke4628) | None | N/A |
 | 2024-10-18 06:49 | Loss | Order Of The Dragon vs Mongols (Locminotaure) | 753 | -131 |
@@ -56,10 +60,6 @@ Live Streams from Twitch and YouTube
 | 2024-10-11 19:18 | Win | Japanese vs Japanese (FISH FILLETS) | None | N/A |
 | 2024-10-10 06:20 | Win | Order Of The Dragon vs Rus (chacha) | None | N/A |
 | 2024-10-10 05:53 | Win | Order Of The Dragon vs French (PuDiM) | 888 | 56 |
-| 2024-10-10 05:32 | Win | Order Of The Dragon vs English (sishen) | None | N/A |
-| 2024-10-10 04:50 | Loss | Order Of The Dragon vs Rus (SamuelitoAB2446) | 770 | -55 |
-| 2024-10-10 04:21 | Loss | Order Of The Dragon vs Ottomans (WoolenMean72412) | 908 | 67 |
-| 2024-10-08 04:47 | Win | Order Of The Dragon vs Rus (G KIDS XBOX 2) | 562 | -254 |
 ### Worst Losses
 
 | Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
@@ -67,8 +67,8 @@ Live Streams from Twitch and YouTube
 | 2024-10-16 01:00 | Loss | Japanese vs Japanese (JAM) | 606 | -214 |
 | 2024-10-16 01:39 | Loss | Japanese vs English (JAM) | 644 | -150 |
 | 2024-10-18 06:49 | Loss | Order Of The Dragon vs Mongols (Locminotaure) | 753 | -131 |
-| 2024-10-10 04:50 | Loss | Order Of The Dragon vs Rus (SamuelitoAB2446) | 770 | -55 |
 | 2024-10-12 06:37 | Loss | Japanese vs French (gg behavior) | 777 | -116 |
+| 2024-10-15 04:53 | Loss | Order Of The Dragon vs Holy Roman Empire (austin) | 778 | -26 |
 
 ### Best Wins
 
