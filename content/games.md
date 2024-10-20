@@ -15,7 +15,7 @@ Live Streams from Twitch and YouTube
 
 | Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
 |---------------|--------|---------|-----------------|----------------|
-| 2024-10-20 05:34 | Win | Ayyubids vs French (Sylliex2o) | None | N/A |
+| 2024-10-20 05:34 | Win | Ayyubids vs French (Sylliex2o) | 755 | -30 |
 | 2024-10-20 04:53 | Loss | Ayyubids vs Japanese (Abcense) | 809 | 0 |
 | 2024-10-20 04:09 | Loss | Ayyubids vs English (BlankET) | 891 | 58 |
 | 2024-10-20 03:41 | Win | Ayyubids vs English (xup) | 807 | -3 |
