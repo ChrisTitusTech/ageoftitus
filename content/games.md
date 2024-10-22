@@ -15,6 +15,9 @@ Live Streams from Twitch and YouTube
 
 | Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
 |---------------|--------|---------|-----------------|----------------|
+| 2024-10-22 05:02 | Win | Ayyubids vs French (DANGERTRAINPAIN) | 896 | N/A |
+| 2024-10-22 04:44 | Loss | Ayyubids vs Chinese (Genghis Swan) | 934 | N/A |
+| 2024-10-22 04:23 | Loss | Ayyubids vs Order Of The Dragon (Smarfaloon) | 1072 | N/A |
 | 2024-10-20 05:34 | Win | Ayyubids vs French (Sylliex2o) | 755 | -30 |
 | 2024-10-20 04:53 | Loss | Ayyubids vs Japanese (Abcense) | 809 | 0 |
 | 2024-10-20 04:09 | Loss | Ayyubids vs English (BlankET) | 891 | 58 |
@@ -57,9 +60,6 @@ Live Streams from Twitch and YouTube
 | 2024-10-12 04:16 | Loss | Japanese vs Holy Roman Empire (Slartibarfast) | 843 | -20 |
 | 2024-10-11 20:24 | Loss | Japanese vs English (HERA) | 953 | 66 |
 | 2024-10-11 19:41 | Loss | Japanese vs English (POCHEQUINO) | 930 | 19 |
-| 2024-10-11 19:18 | Win | Japanese vs Japanese (FISH FILLETS) | None | N/A |
-| 2024-10-10 06:20 | Win | Order Of The Dragon vs Rus (chacha) | None | N/A |
-| 2024-10-10 05:53 | Win | Order Of The Dragon vs French (PuDiM) | 888 | 56 |
 ### Worst Losses
 
 | Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
@@ -75,7 +75,7 @@ Live Streams from Twitch and YouTube
 | Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
 |---------------|--------|---------|-----------------|----------------|
 | 2024-10-12 04:46 | Win | Japanese vs Abbasid Dynasty (Kinich) | 914 | 70 |
-| 2024-10-10 05:53 | Win | Order Of The Dragon vs French (PuDiM) | 888 | 56 |
+| 2024-10-22 05:02 | Win | Ayyubids vs French (DANGERTRAINPAIN) | 896 | N/A |
 | 2024-10-16 04:04 | Win | Order Of The Dragon vs Abbasid Dynasty (Raothorn) | 878 | 97 |
 | 2024-10-15 06:51 | Win | Japanese vs Japanese ({KT} Don Pimpo) | 867 | 100 |
 | 2024-10-14 05:28 | Win | Order Of The Dragon vs Abbasid Dynasty (boonips) | 843 | 18 |
