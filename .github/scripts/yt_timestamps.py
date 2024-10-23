@@ -3,61 +3,11 @@ import re
 from datetime import datetime, timedelta
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
-from fuzzywuzzy import fuzz
 import codecs
-import time
 
 # Get the API key from environment variable
 API_KEY = os.environ.get('API_KEY')
 PLAYLIST_ID = 'PLfp2TqQlNb-Za6nzGCdcDtSDYneKtFtit'
-
-# YouTube API setup
-youtube = build('youtube', 'v3', developerKey=API_KEY)
-
-
-
-def get_playlist_videos(playlist_id):
-    videos = []
-    next_page_token = None
-
-    while True:
-        try:
-            pl_request = youtube.playlistItems().list(
-                part='snippet',
-                playlistId=playlist_id,
-                maxResults=50,
-                pageToken=next_page_token
-            )
-            pl_response = pl_request.execute()
-
-            video_ids = [item['snippet']['resourceId']['videoId'] for item in pl_response['items']]
-            
-            # Get video details including publishedAt
-            video_request = youtube.videos().list(
-                part='snippet',
-                id=','.join(video_ids)
-            )
-            video_response = video_request.execute()
-
-            for item in video_response['items']:
-                video_id = item['id']
-                video_title = item['snippet']['title']
-                video_link = f'https://www.youtube.com/watch?v={video_id}'
-                video_description = item['snippet']['description']
-                published_at = item['snippet']['publishedAt']
-                video_date = datetime.strptime(published_at, '%Y-%m-%dT%H:%M:%SZ')
-                videos.append((video_title, video_link, video_description, video_date))
-
-            next_page_token = pl_response.get('nextPageToken')
-            if not next_page_token:
-                break
-
-        except HttpError as e:
-            print(f'An error occurred: {e}')
-            break
-
-    print(f"Found {len(videos)} videos in the playlist.")
-    return videos
 
 def parse_games_md(file_path):
     games = []
@@ -95,39 +45,27 @@ def parse_games_md(file_path):
                     except ValueError:
                         print(f"Skipping invalid date format: {date_time_str}")
     
+    # Sort games by date, newest first
+    games.sort(key=lambda x: x[0], reverse=True)
+    
     print(f"Parsed {len(games)} unlinked games from the markdown file.")
     return games
-
-def extract_civs_and_names(matchup):
-    # List of all civilizations in the game
-    civs = ['Ayyubids', 'Japanese', 'Order Of The Dragon', 'OOTD', 'English', 'Chinese', 'Mongols', 
-            'Delhi Sultanate', 'Zhu Xi\'s Legacy', 'French', 'Rus', 'Abbasid Dynasty', 
-            'Holy Roman Empire', 'Ottomans', 'Byzantines']
-    
-    # Extract civilizations and potential player names
-    found_civs = []
-    potential_names = []
-    
-    for word in re.findall(r'\b\w+\b', matchup):
-        if word in civs or word.lower() in [civ.lower() for civ in civs]:
-            found_civs.append(word)
-        else:
-            potential_names.append(word)
-    
-    return found_civs, potential_names
 
 def match_games_to_videos(games, videos):
     matched_games = []
     for video_title, video_link, video_description, video_date in videos:
         print(f"Processing video: {video_title}")
         print(f"  Video date: {video_date.date()}")
-        
-        # Updated regex pattern to match the new format
-        game_infos = re.findall(r'(\d{2}:\d{2}:\d{2})\s+(Win|Loss)\s+(.*?)\s+vs\s+(.*?)\s+\((.*?)\)', video_description or '', re.IGNORECASE)
+
+        game_infos = re.findall(r'(\d{2}:\d{2}:\d{2})\s+(Win|Loss)\s+(.*)', video_description or '', re.IGNORECASE)
         print(f"  Found {len(game_infos)} games in video description")
         
-        for time_str, result, my_civ, opp_civ, opp_name in game_infos:
-            print(f"    Processing game: {time_str} {result} {my_civ} vs {opp_civ} ({opp_name})")
+        for time_str, result, match_info in game_infos:
+            print(f"    Processing game: {time_str} {result} {match_info}")
+            
+            # Normalize video matchup
+            match_info_normalized = ''.join(match_info.lower().split())
+            result = result.strip().upper()
             
             game_time = datetime.strptime(time_str, '%H:%M:%S').time()
             game_datetime = datetime.combine(video_date.date(), game_time)
@@ -135,23 +73,25 @@ def match_games_to_videos(games, videos):
             if game_time.hour < 5:
                 game_datetime += timedelta(days=1)
             
-            result = result.upper()
-            
-            for game in games:
-                game_date, game_result, game_matchup = game
-                game_civs, game_names = extract_civs_and_names(game_matchup)
+            for game_date, game_result, game_matchup in games:
+                date_match = abs((game_date.date() - game_datetime.date()).days) <= 2
+                result_match = game_result.strip().upper() == result
+                # Normalize game matchup
+                game_matchup_normalized = ''.join(game_matchup.lower().split())
+                matchup_match = match_info_normalized in game_matchup_normalized
                 
-                date_match = abs((game_date.date() - game_datetime.date()).days) <= 1
-                result_match = game_result.upper() == result
-                opp_civ_match = opp_civ in game_civs
-                opp_name_match = any(name.lower() in opp_name.lower() for name in game_names)
+                if matchup_match:
+                    print(f"    Partial match found:")
+                    print(f"      Date match: {date_match} (Video: {game_datetime.date()}, Game: {game_date.date()})")
+                    print(f"      Result match: {result_match} (Video: {result}, Game: {game_result.strip().upper()})")
+                    print(f"      Matchup match: {matchup_match}")
+                    print(f"      Video matchup (normalized): {match_info_normalized}")
+                    print(f"      Game matchup (normalized): {game_matchup_normalized}")
                 
-                if date_match and result_match and opp_civ_match and opp_name_match:
-                    timestamp = f"{video_link}&t={int(game_time.hour*3600 + game_time.minute*60 + game_time.second)}"
-                    matched_games.append((game_date.strftime('%Y-%m-%d %H:%M'), timestamp))
-                    print(f"    Matched: {game_date} {game_result} {game_matchup}")
-                    print(f"    Video: {my_civ} vs {opp_civ} ({opp_name})")
-                    print(f"    Date match: {date_match}, Result match: {result_match}, Opp civ match: {opp_civ_match}, Opp name match: {opp_name_match}")
+                if date_match and result_match and matchup_match:
+                    matched_game = (game_date.strftime('%Y-%m-%d %H:%M'), f"{video_link}&t={int(game_time.hour*3600 + game_time.minute*60 + game_time.second)}")
+                    matched_games.append(matched_game)
+                    print(f"    Full match found: {matched_game[0]}")
                     break
             else:
                 print(f"    No match found for this game")
