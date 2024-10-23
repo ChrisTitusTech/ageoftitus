@@ -6,12 +6,23 @@ API_URL = "https://aoe4world.com/api/v0/games?profile_ids=17272020"
 GAMES_FILE = "content/games.md"
 TITUS_PROFILE_ID = 17272020
 
+def parse_date(date_string):
+    return datetime.strptime(date_string.strip(), "%Y-%m-%d %H:%M")
+
 def get_existing_games():
     with open(GAMES_FILE, 'r', encoding='utf-8') as f:
         content = f.read()
     table_match = re.search(r'\|.*?\|(.*?)\n\|[-\s|]+\n(.*)', content, re.DOTALL)
     if table_match:
-        return {game.split('|')[0].strip(): game.strip() for game in table_match.group(2).strip().split('\n')}
+        games = {}
+        for game in table_match.group(2).strip().split('\n'):
+            fields = game.split('|')
+            if len(fields) >= 5:
+                date = fields[1].strip()
+                matchup = fields[3].strip()
+                key = f"{date}_{matchup}"
+                games[key] = game.strip()
+        return games
     return {}
 
 def update_games_file(new_games):
@@ -24,18 +35,17 @@ def update_games_file(new_games):
     # Extract existing games
     existing_games = [line.strip() for line in content[table_start+2:table_end] if line.strip()]
     
-    # Combine existing games with new games
-    all_games = existing_games + list(new_games.values())
+    # Add new games to the beginning of the list
+    all_games = list(new_games.values()) + existing_games
     
     # Remove duplicates while preserving order
     unique_games = []
     seen = set()
-    for game in reversed(all_games):
+    for game in all_games:
         key = game.split('|')[1].strip()  # Use date as the unique key
         if key not in seen:
             unique_games.append(game)
             seen.add(key)
-    unique_games.reverse()
 
     # Update the file content
     new_table = content[:table_start + 2] + [f"{game}\n" for game in unique_games] + content[table_end:]
@@ -68,23 +78,34 @@ def update_best_wins_and_worst_losses(games):
     for game in games.values():
         fields = game.split('|')
         if len(fields) >= 5:
+            date = fields[1].strip()
             result = fields[2].strip()
+            matchup = fields[3].strip()
             opponent_rating = fields[4].strip()
-            game_key = (fields[1].strip(), fields[3].strip())
+            game_key = (date, matchup)
             if opponent_rating != 'N/A' and game_key not in seen_games:
                 try:
                     rating = int(opponent_rating)
                     if "Win" in result:
-                        best_wins.append((rating, game))
+                        best_wins.append((rating, parse_date(date), game))
                     elif "Loss" in result:
-                        worst_losses.append((rating, game))
+                        worst_losses.append((rating, parse_date(date), game))
                     seen_games.add(game_key)
                 except ValueError:
+                    print(f"Debug: ValueError for game - {game}")  # Debug print
                     continue
 
     # Sort and get top 5 unique wins and bottom 5 unique losses
-    best_wins = sorted(best_wins, key=lambda x: x[0], reverse=True)[:5]
-    worst_losses = sorted(worst_losses, key=lambda x: x[0])[:5]
+    best_wins = sorted(best_wins, key=lambda x: (x[0], x[1]), reverse=True)[:5]
+    worst_losses = sorted(worst_losses, key=lambda x: (x[0], x[1]))[:5]
+
+    print("Debug: Top 5 best wins:")  # Debug print
+    for rating, date, game in best_wins:
+        print(f"Rating: {rating}, Date: {date}, Game: {game}")
+
+    print("\nDebug: Top 5 worst losses:")  # Debug print
+    for rating, date, game in worst_losses:
+        print(f"Rating: {rating}, Date: {date}, Game: {game}")
 
     with open(GAMES_FILE, 'r', encoding='utf-8') as f:
         content = f.read()
@@ -95,12 +116,12 @@ def update_best_wins_and_worst_losses(games):
     best_wins_content = (f"{best_wins_header}\n\n"
                          "| Date and Time | Result | Matchup | Opponent Rating | MMR Difference |\n"
                          "|---------------|--------|---------|-----------------|----------------|\n" + 
-                         "\n".join(game for _, game in best_wins))
+                         "\n".join(game for _, _, game in best_wins))
     
     worst_losses_content = (f"{worst_losses_header}\n\n"
                             "| Date and Time | Result | Matchup | Opponent Rating | MMR Difference |\n"
                             "|---------------|--------|---------|-----------------|----------------|\n" + 
-                            "\n".join(game for _, game in worst_losses))
+                            "\n".join(game for _, _, game in worst_losses))
 
     # Replace or append the sections
     if best_wins_header in content and worst_losses_header in content:
@@ -156,7 +177,7 @@ def main():
         mmr_diff_str = str(mmr_diff) if mmr_diff is not None else 'N/A'
 
         new_game_entry = f"| {formatted_date} | {result} | {matchup} | {opponent_rating} | {mmr_diff_str} |"
-        unique_key = formatted_date
+        unique_key = f"{formatted_date}_{opponent_name}"
 
         if unique_key not in existing_games:
             new_games[unique_key] = new_game_entry
@@ -173,6 +194,8 @@ def main():
         update_best_wins_and_worst_losses(all_games)
     else:
         print("No new games to add.")
+        # Even if no new games, update best wins and worst losses
+        update_best_wins_and_worst_losses(existing_games)
 
 if __name__ == "__main__":
     main()
