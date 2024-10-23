@@ -42,12 +42,12 @@ Live Streams from Twitch and YouTube
 | [2024-10-16 01:39](https://www.youtube.com/watch?v=64I0fgmeCLE&t=4453) | Loss | Japanese vs English (JAM) | 644 | -150 |  |  |
 | [2024-10-16 01:00](https://www.youtube.com/watch?v=64I0fgmeCLE&t=2087) | Loss | Japanese vs Japanese (JAM) | 606 | -214 |  |
 | [2024-10-16 00:30](https://www.youtube.com/watch?v=64I0fgmeCLE&t=305) | Win | Japanese vs French (SgtTbaggins91) | 765 | -34 |  |
-| 2024-10-15 06:51 | Win | Japanese vs Japanese ({KT} Don Pimpo) | 867 | 100 |
-| 2024-10-15 06:20 | Loss | Japanese vs Abbasid Dynasty (Random) | None | N/A |
-| 2024-10-15 06:09 | Win | Japanese vs Abbasid Dynasty (Random) | None | N/A |
-| 2024-10-15 05:46 | Loss | Japanese vs English (Sir Ignazzio) | 802 | N/A |
-| 2024-10-15 04:53 | Loss | Order Of The Dragon vs Holy Roman Empire (austin) | 778 | -26 |
-| 2024-10-15 04:27 | Loss | Order Of The Dragon vs Japanese (Rodrick) | 878 | 58 |
+| [2024-10-15 06:51](https://www.youtube.com/watch?v=hG_qHXFu5c8&t=9058) | Win | Japanese vs Japanese ({KT} Don Pimpo) | 867 | 100 |  |
+| [2024-10-15 06:20](https://www.youtube.com/watch?v=hG_qHXFu5c8&t=7195) | Loss | Japanese vs Abbasid Dynasty (Random) | None | N/A |  |
+| [2024-10-15 06:09](https://www.youtube.com/watch?v=hG_qHXFu5c8&t=6570) | Win | Japanese vs Abbasid Dynasty (Random) | None | N/A |  |
+| [2024-10-15 05:46](https://www.youtube.com/watch?v=hG_qHXFu5c8&t=5172) | Loss | Japanese vs English (Sir Ignazzio) | 802 | N/A |  |
+| [2024-10-15 04:53](https://www.youtube.com/watch?v=hG_qHXFu5c8&t=2005) | Loss | Order Of The Dragon vs Holy Roman Empire (austin) | 778 | -26 |  |
+| [2024-10-15 04:27](https://www.youtube.com/watch?v=hG_qHXFu5c8&t=411) | Loss | Order Of The Dragon vs Japanese (Rodrick) | 878 | 58 |  |
 | [2024-10-14 06:26](https://www.youtube.com/watch?v=5fh0b5-aexY&t=17033) | Loss | Order Of The Dragon vs Rus (Calamity Jane) | None | N/A |  |
 | [2024-10-14 06:01](https://www.youtube.com/watch?v=5fh0b5-aexY&t=15504) | Loss | Order Of The Dragon vs French (大明战神朱祁镇) | 1024 | 172 |  |
 | [2024-10-14 05:28](https://www.youtube.com/watch?v=5fh0b5-aexY&t=13540) | Win | Order Of The Dragon vs Abbasid Dynasty (boonips) | 843 | 18 |  |
@@ -87,18 +87,18 @@ Live Streams from Twitch and YouTube
 
 | Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
 |---------------|--------|---------|-----------------|----------------|
-| [2024-10-16 01:00](https://www.youtube.com/watch?v=64I0fgmeCLE&t=2087) | Loss | Japanese vs Japanese (JAM) | 606 | -214 |  |
-| [2024-10-16 01:39](https://www.youtube.com/watch?v=64I0fgmeCLE&t=2087) | Loss | Japanese vs English (JAM) | 644 | -150 |  |
-| [2024-10-18 06:49](https://www.youtube.com/watch?v=J-uCd6H6k3Q&t=10400) | Loss | Order Of The Dragon vs Mongols (Locminotaure) | 753 | -131 |  |
-| [2024-10-12 06:37](https://www.youtube.com/watch?v=ul-iZOzm_TQ&t=8659) | Loss | Japanese vs French (gg behavior) | 777 | -116 |  |
-| 2024-10-15 04:53 | Loss | Order Of The Dragon vs Holy Roman Empire (austin) | 778 | -26 |
+| 2024-10-16 01:00 | Loss | Japanese vs Japanese (JAM) | 606 | -214 |
+| 2024-10-16 01:39 | Loss | Japanese vs English (JAM) | 644 | -150 |
+| 2024-10-18 06:49 | Loss | Order Of The Dragon vs Mongols (Locminotaure) | 753 | -131 |
+| 2024-10-12 06:37 | Loss | Japanese vs French (gg behavior) | 777 | -116 |
+| [2024-10-15 04:53](https://www.youtube.com/watch?v=hG_qHXFu5c8&t=2005) | Loss | Order Of The Dragon vs Holy Roman Empire (austin) | 778 | -26 |  |
 
 ### Best Wins
 
 | Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
 |---------------|--------|---------|-----------------|----------------|
-| [2024-10-12 04:46](https://www.youtube.com/watch?v=ul-iZOzm_TQ&t=1996) | Win | Japanese vs Abbasid Dynasty (Kinich) | 914 | 70 |  |
-| [2024-10-22 05:02](https://www.youtube.com/watch?v=0P3l5nEciTs&t=2895) | Win | Ayyubids vs French (DANGERTRAINPAIN) | 896 | N/A |  |
-| [2024-10-16 04:04](https://www.youtube.com/watch?v=64I0fgmeCLE&t=13154) | Win | Order Of The Dragon vs Abbasid Dynasty (Raothorn) | 878 | 97 |  |
-| 2024-10-15 06:51 | Win | Japanese vs Japanese ({KT} Don Pimpo) | 867 | 100 |
-| [2024-10-14 05:28](https://www.youtube.com/watch?v=5fh0b5-aexY&t=13540) | Win | Order Of The Dragon vs Abbasid Dynasty (boonips) | 843 | 18 |  |
+| 2024-10-12 04:46 | Win | Japanese vs Abbasid Dynasty (Kinich) | 914 | 70 |
+| 2024-10-22 05:02 | Win | Ayyubids vs French (DANGERTRAINPAIN) | 896 | N/A |
+| 2024-10-16 04:04 | Win | Order Of The Dragon vs Abbasid Dynasty (Raothorn) | 878 | 97 |
+| [2024-10-15 06:51](https://www.youtube.com/watch?v=hG_qHXFu5c8&t=9058) | Win | Japanese vs Japanese ({KT} Don Pimpo) | 867 | 100 |  |
+| 2024-10-14 05:28 | Win | Order Of The Dragon vs Abbasid Dynasty (boonips) | 843 | 18 |
