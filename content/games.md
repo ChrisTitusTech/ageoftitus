@@ -39,7 +39,7 @@ Live Streams from Twitch and YouTube
 | 2024-10-16 04:04 | Win | Order Of The Dragon vs Abbasid Dynasty (Raothorn) | 878 | 97 |
 | 2024-10-16 03:31 | Win | Order Of The Dragon vs Zhu Xis Legacy ([RR] NickMistick) | 671 | -83 |
 | [2024-10-16 02:40](https://www.youtube.com/watch?v=64I0fgmeCLE&t=8115) | Loss | Japanese vs Byzantines (atmartin) | 804 | 34 |  |
-| [2024-10-16 01:39](https://www.youtube.com/watch?v=64I0fgmeCLE&t=2087) | Loss | Japanese vs English (JAM) | 644 | -150 |  |
+| 2024-10-16 01:39 | Loss | Japanese vs English (JAM) | 644 | -150 |  |
 | 2024-10-16 01:00 | Loss | Japanese vs Japanese (JAM) | 606 | -214 |
 | [2024-10-16 00:30](https://www.youtube.com/watch?v=64I0fgmeCLE&t=305) | Win | Japanese vs French (SgtTbaggins91) | 765 | -34 |  |
 | 2024-10-15 06:51 | Win | Japanese vs Japanese ({KT} Don Pimpo) | 867 | 100 |
