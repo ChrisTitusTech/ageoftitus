@@ -60,6 +60,29 @@ Live Streams from Twitch and YouTube
 | 2024-10-12 06:37 | Loss | Japanese vs French (gg behavior) | 777 | -116 |
 | 2024-10-12 05:59 | Win | Japanese vs Chinese (soymylkboy) | 797 | -76 |
 | 2024-10-12 04:46 | Win | Japanese vs Abbasid Dynasty (Kinich) | 914 | 70 |
+| 2024-10-12 04:16 | Loss | Japanese vs Holy Roman Empire (Slartibarfast) | 843 | -20 |
+| 2024-10-11 20:24 | Loss | Japanese vs English (HERA) | 953 | 66 |
+| 2024-10-11 19:41 | Loss | Japanese vs English (POCHEQUINO) | 930 | 19 |
+| 2024-10-11 19:18 | Win | Japanese vs Japanese (FISH FILLETS) | None | N/A |
+| 2024-10-10 06:20 | Win | Order Of The Dragon vs Rus (chacha) | None | N/A |
+| 2024-10-10 05:53 | Win | Order Of The Dragon vs French (PuDiM) | 888 | 56 |
+| 2024-10-10 05:32 | Win | Order Of The Dragon vs English (sishen) | None | N/A |
+| 2024-10-10 04:50 | Loss | Order Of The Dragon vs Rus (SamuelitoAB2446) | 770 | -55 |
+| 2024-10-10 04:21 | Loss | Order Of The Dragon vs Ottomans (WoolenMean72412) | 908 | 67 |
+| 2024-10-08 04:47 | Win | Order Of The Dragon vs Rus (G KIDS XBOX 2) | 562 | -254 |
+| 2024-10-08 03:55 | Win | Order Of The Dragon vs Ottomans (傑可可不要) | 767 | -22 |
+| 2024-10-08 03:03 | Win | Order Of The Dragon vs Jeanne Darc (ErnesfoMagnus) | 838 | 79 |
+| 2024-10-08 02:36 | Win | Order Of The Dragon vs Zhu Xis Legacy (asaj100) | 758 | 25 |
+| 2024-10-07 05:52 | Win | Order Of The Dragon vs Japanese (DDoS95) | 656 | -45 |
+| 2024-10-07 05:23 | Loss | Order Of The Dragon vs Chinese (Genghis Swan) | 899 | 188 |
+| 2024-10-07 04:50 | Loss | Order Of The Dragon vs Mongols (550977522) | 868 | 145 |
+| 2024-10-07 04:20 | Win | Order Of The Dragon vs Delhi Sultanate (咚巴拉) | None | N/A |
+| 2024-10-05 15:11 | Win | Japanese vs Mongols (romain.oison) | 834 | 145 |
+| 2024-10-05 14:46 | Win | Japanese vs Holy Roman Empire (BostonPzza1) | 797 | 138 |
+| 2024-10-05 01:46 | Loss | Ayyubids vs Delhi Sultanate (Chico75) | 859 | 186 |
+| 2024-10-05 01:13 | Loss | Ayyubids vs Order Of The Dragon (Random) | 769 | 80 |
+| 2024-10-05 00:47 | Win | Ayyubids vs English (IGOR) | 813 | 160 |
+| 2024-10-05 00:44 | Loss | Ayyubids vs Chinese (aguicjm) | 946 | 287 |
 ### Worst Losses
 
 | Date and Time | Result | Matchup | Opponent Rating | MMR Difference |

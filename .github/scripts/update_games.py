@@ -14,15 +14,31 @@ def get_existing_games():
         return {game.split('|')[0].strip(): game.strip() for game in table_match.group(2).strip().split('\n')}
     return {}
 
-def update_games_file(games):
+def update_games_file(new_games):
     with open(GAMES_FILE, 'r', encoding='utf-8') as f:
         content = f.readlines()
 
     table_start = content.index("| Date and Time | Result | Matchup | Opponent Rating | MMR Difference |\n")
-    
     table_end = next((i for i, line in enumerate(content[table_start+2:], start=table_start+2) if line.strip() and not line.startswith('|')), len(content))
 
-    new_table = content[:table_start + 2] + [f"{game}\n" for game in games.values()] + content[table_end:]
+    # Extract existing games
+    existing_games = [line.strip() for line in content[table_start+2:table_end] if line.strip()]
+    
+    # Combine existing games with new games
+    all_games = existing_games + list(new_games.values())
+    
+    # Remove duplicates while preserving order
+    unique_games = []
+    seen = set()
+    for game in reversed(all_games):
+        key = game.split('|')[1].strip()  # Use date as the unique key
+        if key not in seen:
+            unique_games.append(game)
+            seen.add(key)
+    unique_games.reverse()
+
+    # Update the file content
+    new_table = content[:table_start + 2] + [f"{game}\n" for game in unique_games] + content[table_end:]
 
     with open(GAMES_FILE, 'w', encoding='utf-8') as f:
         f.writelines(new_table)
@@ -32,13 +48,7 @@ def get_best_wins(games):
     for game in games.values():
         fields = game.split('|')
         if len(fields) >= 5 and "Win" in game:
-            mmr_diff = fields[-2].strip()
-            if mmr_diff != 'N/A':
-                try:
-                    if int(mmr_diff) > 100:
-                        best_wins.append(game)
-                except ValueError:
-                    continue  # Skip this game if MMR difference can't be converted to int
+            best_wins.append(game)
     return best_wins
 
 def get_worst_losses(games):
@@ -46,27 +56,21 @@ def get_worst_losses(games):
     for game in games.values():
         fields = game.split('|')
         if len(fields) >= 5 and "Loss" in game:
-            mmr_diff = fields[-2].strip()
-            if mmr_diff != 'N/A':
-                try:
-                    if int(mmr_diff) <= -100:
-                        worst_losses.append(game)
-                except ValueError:
-                    continue  # Skip this game if MMR difference can't be converted to int
+            worst_losses.append(game)
     return worst_losses
 
 def update_best_wins_and_worst_losses(games):
     best_wins = []
     worst_losses = []
     
-    seen_games = set()  # To track unique games
+    seen_games = set()
 
     for game in games.values():
         fields = game.split('|')
         if len(fields) >= 5:
             result = fields[2].strip()
             opponent_rating = fields[4].strip()
-            game_key = (fields[1].strip(), fields[3].strip())  # Use date and matchup as unique key
+            game_key = (fields[1].strip(), fields[3].strip())
             if opponent_rating != 'N/A' and game_key not in seen_games:
                 try:
                     rating = int(opponent_rating)
@@ -76,11 +80,11 @@ def update_best_wins_and_worst_losses(games):
                         worst_losses.append((rating, game))
                     seen_games.add(game_key)
                 except ValueError:
-                    continue  # Skip this game if opponent rating can't be converted to int
+                    continue
 
     # Sort and get top 5 unique wins and bottom 5 unique losses
     best_wins = sorted(best_wins, key=lambda x: x[0], reverse=True)[:5]
-    worst_losses = sorted(worst_losses, key=lambda x: x[0])[:5]  # Lowest rating first
+    worst_losses = sorted(worst_losses, key=lambda x: x[0])[:5]
 
     with open(GAMES_FILE, 'r', encoding='utf-8') as f:
         content = f.read()
@@ -96,7 +100,7 @@ def update_best_wins_and_worst_losses(games):
     worst_losses_content = (f"{worst_losses_header}\n\n"
                             "| Date and Time | Result | Matchup | Opponent Rating | MMR Difference |\n"
                             "|---------------|--------|---------|-----------------|----------------|\n" + 
-                            "\n".join(game for _, game in worst_losses))  # Already in ascending order
+                            "\n".join(game for _, game in worst_losses))
 
     # Replace or append the sections
     if best_wins_header in content and worst_losses_header in content:
@@ -152,24 +156,21 @@ def main():
         mmr_diff_str = str(mmr_diff) if mmr_diff is not None else 'N/A'
 
         new_game_entry = f"| {formatted_date} | {result} | {matchup} | {opponent_rating} | {mmr_diff_str} |"
-
-        # Use a unique key combining date and opponent name to avoid duplicates
-        unique_key = f"{formatted_date}_{opponent_name}"
+        unique_key = formatted_date
 
         if unique_key not in existing_games:
             new_games[unique_key] = new_game_entry
 
     if new_games:
-        all_games = {**existing_games, **new_games}
-        sorted_games = dict(sorted(all_games.items(), reverse=True))
-        update_games_file(sorted_games)
+        update_games_file(new_games)
 
         # Add a line break after updating the main games table
         with open(GAMES_FILE, 'a', encoding='utf-8') as f:
             f.write('\n')
 
         # Update best wins and worst losses in the markdown file
-        update_best_wins_and_worst_losses(sorted_games)
+        all_games = {**existing_games, **new_games}
+        update_best_wins_and_worst_losses(all_games)
     else:
         print("No new games to add.")
 
