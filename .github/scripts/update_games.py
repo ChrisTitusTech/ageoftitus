@@ -1,6 +1,7 @@
 import requests
 import re
 from datetime import datetime
+from bs4 import BeautifulSoup
 
 API_URL = "https://aoe4world.com/api/v0/games?profile_ids=17272020"
 GAMES_FILE = "content/games.md"
@@ -9,19 +10,28 @@ TITUS_PROFILE_ID = 17272020
 def parse_date(date_string):
     return datetime.strptime(date_string.strip(), "%Y-%m-%d %H:%M")
 
+def remove_markdown_links(text):
+    return re.sub(r'\[([^\]]+)\]\([^\)]+\)', r'\1', text)
+
 def get_existing_games():
     with open(GAMES_FILE, 'r', encoding='utf-8') as f:
         content = f.read()
-    table_match = re.search(r'\|.*?\|(.*?)\n\|[-\s|]+\n(.*)', content, re.DOTALL)
+    
+    # Remove markdown links from the content
+    content_without_links = remove_markdown_links(content)
+    
+    table_match = re.search(r'\|.*?\|(.*?)\n\|[-\s|]+\n(.*)', content_without_links, re.DOTALL)
     if table_match:
         games = {}
-        for game in table_match.group(2).strip().split('\n'):
-            fields = game.split('|')
-            if len(fields) >= 5:
-                date = fields[1].strip()
-                matchup = fields[3].strip()
-                key = f"{date}_{matchup}"
-                games[key] = game.strip()
+        soup = BeautifulSoup(table_match.group(2), 'html.parser')
+        for row in soup.find_all('tr'):
+            cells = row.find_all('td')
+            if len(cells) >= 5:
+                date = cells[0].get_text(strip=True)
+                matchup = cells[2].get_text(strip=True)
+                opponent_name = matchup.split('(')[-1].strip(')')  # Extract opponent name from matchup
+                key = f"{date}_{opponent_name}"
+                games[key] = '|' + '|'.join(cell.get_text(strip=True) for cell in cells) + '|'
         return games
     return {}
 
@@ -35,20 +45,25 @@ def update_games_file(new_games):
     # Extract existing games
     existing_games = [line.strip() for line in content[table_start+2:table_end] if line.strip()]
     
-    # Add new games to the beginning of the list
-    all_games = list(new_games.values()) + existing_games
+    # Create a set of existing game dates to check for duplicates
+    existing_game_dates = set()
+    for game in existing_games:
+        date = game.split('|')[1].strip()
+        # Handle both linked and unlinked dates
+        if date.startswith('['):
+            date = date.split(']')[0][1:]  # Extract date from [date](link)
+        existing_game_dates.add(date)
     
-    # Remove duplicates while preserving order
-    unique_games = []
-    seen = set()
-    for game in all_games:
-        key = game.split('|')[1].strip()  # Use date as the unique key
-        if key not in seen:
-            unique_games.append(game)
-            seen.add(key)
-
+    # Add new games to the beginning of the list, avoiding duplicates
+    all_games = existing_games.copy()  # Start with existing games
+    for game in new_games.values():
+        date = game.split('|')[1].strip()
+        if date not in existing_game_dates:
+            all_games.insert(0, game)  # Insert new games at the beginning
+            existing_game_dates.add(date)
+    
     # Update the file content
-    new_table = content[:table_start + 2] + [f"{game}\n" for game in unique_games] + content[table_end:]
+    new_table = content[:table_start + 2] + [f"{game}\n" for game in all_games] + content[table_end:]
 
     with open(GAMES_FILE, 'w', encoding='utf-8') as f:
         f.writelines(new_table)
@@ -152,6 +167,9 @@ def main():
     existing_games = get_existing_games()
     new_games = {}
 
+    print(f"Debug: Found {len(api_games)} games from API")
+    print(f"Debug: Found {len(existing_games)} existing games")
+
     for game in api_games:
         # Check if it's a 1v1 game
         if sum(len(team) for team in game['teams']) != 2:
@@ -167,10 +185,8 @@ def main():
         opponent_name = opponent['player']['name']
         matchup = f"{player['player']['civilization'].replace('_', ' ').title()} vs {opponent['player']['civilization'].replace('_', ' ').title()} ({opponent_name})"
         
-        # Get opponent rating
         opponent_rating = opponent['player'].get('rating', 'N/A')
         
-        # Calculate MMR difference
         titus_mmr = player['player'].get('rating')
         opponent_mmr = opponent['player'].get('rating')
         mmr_diff = opponent_mmr - titus_mmr if titus_mmr is not None and opponent_mmr is not None else None
@@ -182,7 +198,10 @@ def main():
         if unique_key not in existing_games:
             new_games[unique_key] = new_game_entry
 
+    print(f"Debug: Found {len(new_games)} new games to add")
+
     if new_games:
+        print("Debug: Updating games file")
         update_games_file(new_games)
 
         # Add a line break after updating the main games table

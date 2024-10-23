@@ -12,6 +12,7 @@ permissions:
 jobs:
   update-games:
     runs-on: ubuntu-latest
+    environment: YT
     steps:
       - uses: actions/checkout@v3
         with:
@@ -25,11 +26,16 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests
+          pip install requests google-api-python-client fuzzywuzzy python-Levenshtein beautifulsoup4
 
       - name: Update games
         run: |
           python .github/scripts/update_games.py
+
+      - name: Run YouTube script
+        env:
+          API_KEY: ${{ secrets.API_KEY }}
+        run: python .github/scripts/yt_timestamps.py
 
       - name: Commit and push if changed
         run: |
