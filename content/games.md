@@ -15,7 +15,10 @@ Live Streams from Twitch and YouTube
 
 | Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
 |---------------|--------|---------|-----------------|----------------|
-| 2024-10-25 17:40 | Win | Japanese vs English (crazypsycho) | None | N/A |
+| [2024-10-25 18:32](https://www.youtube.com/watch?v=AdgPfLgwHxg&t=3397) | Win | Japanese vs Order Of The Dragon (Shishaw) | 637 | 19 |  |
+| [2024-10-25 19:08](https://www.youtube.com/watch?v=AdgPfLgwHxg&t=5592) | Win | Japanese vs Holy Roman Empire (Commander Bob) | 488 | -167 |  |
+| [2024-10-25 19:39](https://www.youtube.com/watch?v=AdgPfLgwHxg&t=7451) | Win | Japanese vs Zhu Xis Legacy (Hani) | 788 | 102 |  |
+| [2024-10-25 17:40](https://www.youtube.com/watch?v=AdgPfLgwHxg&t=265) | Win | Japanese vs English (crazypsycho) | None | N/A |  |
 | 2024-10-25 18:03 | Loss | Japanese vs Holy Roman Empire (franck.touze) | None | N/A |
 | [2024-10-23 04:29](https://www.youtube.com/watch?v=DDxfHH8JF9M&t=4068) | Loss | Ayyubids vs Order Of The Dragon (xxxMUSSOLINIxxx) | None | N/A |  |
 | [2024-10-23 03:59](https://www.youtube.com/watch?v=DDxfHH8JF9M&t=2268) | Loss | Ayyubids vs English (Cdog269-paranoid.gg) | None | N/A |  |
@@ -92,8 +95,8 @@ Live Streams from Twitch and YouTube
 | 2024-10-16 01:00 | Loss | Japanese vs Japanese (JAM) | 606 | -214 |
 | 2024-10-16 01:39 | Loss | Japanese vs English (JAM) | 644 | -150 |
 | 2024-10-18 06:49 | Loss | Order Of The Dragon vs Mongols (Locminotaure) | 753 | -131 |
-| 2024-10-12 06:37 | Loss | Japanese vs French (gg behavior) | 777 | -116 |
 | 2024-10-15 04:53 | Loss | Order Of The Dragon vs Holy Roman Empire (austin) | 778 | -26 |
+| 2024-10-15 05:46 | Loss | Japanese vs English (Sir Ignazzio) | 802 | N/A |
 
 ### Best Wins
 
