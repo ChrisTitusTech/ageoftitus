@@ -15,6 +15,11 @@ Live Streams from Twitch and YouTube
 
 | Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
 |---------------|--------|---------|-----------------|----------------|
+| [2024-10-26 02:01](https://www.youtube.com/watch?v=SRsDMn2_uUg&t=283) | Win | Japanese vs English (Armenian Glory) | 848 | 129 |  |
+| [2024-10-26 02:32](https://www.youtube.com/watch?v=SRsDMn2_uUg&t=2171) | Loss | Japanese vs Holy Roman Empire (austin) | None | N/A |  |
+| [2024-10-26 03:09](https://www.youtube.com/watch?v=SRsDMn2_uUg&t=4385) | Win | Japanese vs Holy Roman Empire (PyNate) | 788 | 54 |  |
+| [2024-10-26 03:42](https://www.youtube.com/watch?v=SRsDMn2_uUg&t=6373) | Win | Japanese vs English (timg4567) | 846 | 82 |  |
+| [2024-10-26 04:24](https://www.youtube.com/watch?v=SRsDMn2_uUg&t=8892) | Loss | Japanese vs Byzantines (Starosta) | None | N/A |  |
 | [2024-10-25 18:32](https://www.youtube.com/watch?v=AdgPfLgwHxg&t=3397) | Win | Japanese vs Order Of The Dragon (Shishaw) | 637 | 19 |  |
 | [2024-10-25 19:08](https://www.youtube.com/watch?v=AdgPfLgwHxg&t=5592) | Win | Japanese vs Holy Roman Empire (Commander Bob) | 488 | -167 |  |
 | [2024-10-25 19:39](https://www.youtube.com/watch?v=AdgPfLgwHxg&t=7451) | Win | Japanese vs Zhu Xis Legacy (Hani) | 788 | 102 |  |
@@ -105,5 +110,5 @@ Live Streams from Twitch and YouTube
 | 2024-10-22 05:02 | Win | Ayyubids vs French (DANGERTRAINPAIN) | 896 | N/A |
 | 2024-10-16 04:04 | Win | Order Of The Dragon vs Abbasid Dynasty (Raothorn) | 878 | 97 |
 | 2024-10-15 06:51 | Win | Japanese vs Japanese ({KT} Don Pimpo) | 867 | 100 |
-| 2024-10-14 05:28 | Win | Order Of The Dragon vs Abbasid Dynasty (boonips) | 843 | 18 |
-| 2024-10-17 04:12 | Win | Order Of The Dragon vs Mongols (SgtTbaggins91) | 842 | 36 |
+| [2024-10-26 02:01](https://www.youtube.com/watch?v=SRsDMn2_uUg&t=283) | Win | Japanese vs English (Armenian Glory) | 848 | 129 |  |
+| [2024-10-26 03:42](https://www.youtube.com/watch?v=SRsDMn2_uUg&t=6373) | Win | Japanese vs English (timg4567) | 846 | 82 |  |
