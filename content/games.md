@@ -104,11 +104,11 @@ Live Streams from Twitch and YouTube
 
 | Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
 |---------------|--------|---------|-----------------|----------------|
-| [2024-10-26 19:27](https://www.youtube.com/watch?v=LaqPNN4Xnyo&t=4123) | Loss | Japanese vs Order Of The Dragon (M3) | 584 | -211 |  |
+| 2024-10-26 19:27 | Loss | Japanese vs Order Of The Dragon (M3) | 584 | -211 |
 | 2024-10-16 01:00 | Loss | Japanese vs Japanese (JAM) | 606 | -214 |
 | 2024-10-16 01:39 | Loss | Japanese vs English (JAM) | 644 | -150 |
 | 2024-10-18 06:49 | Loss | Order Of The Dragon vs Mongols (Locminotaure) | 753 | -131 |
-| [2024-10-26 18:55](https://www.youtube.com/watch?v=Uxw5mzoUEbs&t=2201) | Loss | Japanese vs French (svmlhsyn) | 772 | -40 |  |
+| 2024-10-26 18:55 | Loss | Japanese vs French (svmlhsyn) | 772 | -40 |
 
 ### Best Wins
 
