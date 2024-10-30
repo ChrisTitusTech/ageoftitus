@@ -110,9 +110,9 @@ Live Streams from Twitch and YouTube
 | Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
 |---------------|--------|---------|-----------------|----------------|
 | 2024-10-26 19:27 | Loss | Japanese vs Order Of The Dragon (M3) | 584 | -211 |
-| [2024-10-29 07:07](https://www.youtube.com/watch?v=LnyE5EOOOFc&t=8034) | Loss | Japanese vs Ottomans (Eatmypc [BE]) | 647 | -105 |  |
+| 2024-10-29 07:07 | Loss | Japanese vs Ottomans (Eatmypc [BE]) | 647 | -105 |
 | 2024-10-18 06:49 | Loss | Order Of The Dragon vs Mongols (Locminotaure) | 753 | -131 |
-| [2024-10-29 05:00](https://www.youtube.com/watch?v=LnyE5EOOOFc&t=3752) | Loss | Japanese vs Mongols (Boofero) | 767 | -36 |  |
+| 2024-10-29 05:00 | Loss | Japanese vs Mongols (Boofero) | 767 | -36 |
 | 2024-10-26 18:55 | Loss | Japanese vs French (svmlhsyn) | 772 | -40 |
 
 ### Best Wins
