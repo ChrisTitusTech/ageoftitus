@@ -15,6 +15,27 @@ Live Streams from Twitch and YouTube
 
 | Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
 |---------------|--------|---------|-----------------|----------------|
+| [2024-10-31 04:58](https://www.youtube.com/watch?v=byiI4UDlEnU&t=186) | Loss | Order Of The Dragon vs English (Anasdr21) | None | N/A |  |
+| [2024-10-31 05:35](https://www.youtube.com/watch?v=byiI4UDlEnU&t=2394) | Loss | Order Of The Dragon vs Byzantines (Shot Cuzzy9394) | 779 | 32 |  |
+| [2024-10-31 06:21](https://www.youtube.com/watch?v=byiI4UDlEnU&t=5181) | Win | Japanese vs Japanese (EZ) | 642 | -88 |  |
+| [2024-10-31 06:45](https://www.youtube.com/watch?v=byiI4UDlEnU&t=6640) | Win | Japanese vs Byzantines (K-11) | 749 | -6 |  |
+| [2024-10-29 05:00](https://www.youtube.com/watch?v=LnyE5EOOOFc&t=3752) | Loss | Japanese vs Mongols (Boofero) | 767 | -36 |  |
+| [2024-10-29 05:55](https://www.youtube.com/watch?v=LnyE5EOOOFc&t=4726) | Loss | Japanese vs English (Feelish) | None | N/A |  |
+| [2024-10-29 06:12](https://www.youtube.com/watch?v=LnyE5EOOOFc&t=6375) | Loss | Japanese vs Ottomans (LATE 30S) | 848 | 79 |  |
+| [2024-10-29 07:07](https://www.youtube.com/watch?v=LnyE5EOOOFc&t=8034) | Loss | Japanese vs Ottomans (Eatmypc [BE]) | 647 | -105 |  |
+| [2024-10-29 07:28](https://www.youtube.com/watch?v=LnyE5EOOOFc&t=9328) | Win | Japanese vs English (AlHei201947898) | 563 | -170 |  |
+| 2024-10-26 18:23 | Loss | Japanese vs Mongols (neverbeat7572) | None | N/A |
+| [2024-10-26 18:55](https://www.youtube.com/watch?v=Uxw5mzoUEbs&t=2201) | Loss | Japanese vs French (svmlhsyn) | 772 | -40 |  |
+| [2024-10-26 19:27](https://www.youtube.com/watch?v=LaqPNN4Xnyo&t=4123) | Loss | Japanese vs Order Of The Dragon (M3) | 584 | -211 |  |
+| [2024-10-27 02:38](https://www.youtube.com/watch?v=LaqPNN4Xnyo&t=189) | Win | Japanese vs Abbasid Dynasty (Rvperto) | None | N/A |  |
+| [2024-10-27 05:04](https://www.youtube.com/watch?v=LaqPNN4Xnyo&t=8978) | Loss | Japanese vs French (Night terror949) | 838 | 29 |  |
+| [2024-10-27 05:39](https://www.youtube.com/watch?v=LaqPNN4Xnyo&t=11085) | Loss | Japanese vs Abbasid Dynasty (KUMQUAT) | None | N/A |  |
+| [2024-10-27 06:10](https://www.youtube.com/watch?v=LaqPNN4Xnyo&t=12930) | Win | Order Of The Dragon vs Chinese (danielvaida17) | None | N/A |  |
+| [2024-10-26 02:01](https://www.youtube.com/watch?v=SRsDMn2_uUg&t=283) | Win | Japanese vs English (Armenian Glory) | 848 | 129 |  |
+| [2024-10-26 02:32](https://www.youtube.com/watch?v=SRsDMn2_uUg&t=2171) | Loss | Japanese vs Holy Roman Empire (austin) | None | N/A |  |
+| [2024-10-26 03:09](https://www.youtube.com/watch?v=SRsDMn2_uUg&t=4385) | Win | Japanese vs Holy Roman Empire (PyNate) | 788 | 54 |  |
+| [2024-10-26 03:42](https://www.youtube.com/watch?v=SRsDMn2_uUg&t=6373) | Win | Japanese vs English (timg4567) | 846 | 82 |  |
+| [2024-10-26 04:24](https://www.youtube.com/watch?v=SRsDMn2_uUg&t=8892) | Loss | Japanese vs Byzantines (Starosta) | None | N/A |  |
 | [2024-10-25 18:32](https://www.youtube.com/watch?v=AdgPfLgwHxg&t=3397) | Win | Japanese vs Order Of The Dragon (Shishaw) | 637 | 19 |  |
 | [2024-10-25 19:08](https://www.youtube.com/watch?v=AdgPfLgwHxg&t=5592) | Win | Japanese vs Holy Roman Empire (Commander Bob) | 488 | -167 |  |
 | [2024-10-25 19:39](https://www.youtube.com/watch?v=AdgPfLgwHxg&t=7451) | Win | Japanese vs Zhu Xis Legacy (Hani) | 788 | 102 |  |
@@ -92,18 +113,18 @@ Live Streams from Twitch and YouTube
 
 | Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
 |---------------|--------|---------|-----------------|----------------|
-| 2024-10-16 01:00 | Loss | Japanese vs Japanese (JAM) | 606 | -214 |
-| 2024-10-16 01:39 | Loss | Japanese vs English (JAM) | 644 | -150 |
+| 2024-10-26 19:27 | Loss | Japanese vs Order Of The Dragon (M3) | 584 | -211 |
+| 2024-10-29 07:07 | Loss | Japanese vs Ottomans (Eatmypc [BE]) | 647 | -105 |
 | 2024-10-18 06:49 | Loss | Order Of The Dragon vs Mongols (Locminotaure) | 753 | -131 |
-| 2024-10-15 04:53 | Loss | Order Of The Dragon vs Holy Roman Empire (austin) | 778 | -26 |
-| 2024-10-15 05:46 | Loss | Japanese vs English (Sir Ignazzio) | 802 | N/A |
+| 2024-10-29 05:00 | Loss | Japanese vs Mongols (Boofero) | 767 | -36 |
+| 2024-10-26 18:55 | Loss | Japanese vs French (svmlhsyn) | 772 | -40 |
 
 ### Best Wins
 
 | Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
 |---------------|--------|---------|-----------------|----------------|
 | 2024-10-22 05:02 | Win | Ayyubids vs French (DANGERTRAINPAIN) | 896 | N/A |
-| 2024-10-16 04:04 | Win | Order Of The Dragon vs Abbasid Dynasty (Raothorn) | 878 | 97 |
-| 2024-10-15 06:51 | Win | Japanese vs Japanese ({KT} Don Pimpo) | 867 | 100 |
-| 2024-10-14 05:28 | Win | Order Of The Dragon vs Abbasid Dynasty (boonips) | 843 | 18 |
-| 2024-10-17 04:12 | Win | Order Of The Dragon vs Mongols (SgtTbaggins91) | 842 | 36 |
+| 2024-10-26 02:01 | Win | Japanese vs English (Armenian Glory) | 848 | 129 |
+| 2024-10-26 03:42 | Win | Japanese vs English (timg4567) | 846 | 82 |
+| 2024-10-20 03:41 | Win | Ayyubids vs English (xup) | 807 | -3 |
+| 2024-10-26 03:09 | Win | Japanese vs Holy Roman Empire (PyNate) | 788 | 54 |
