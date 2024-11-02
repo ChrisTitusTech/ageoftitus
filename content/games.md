@@ -15,6 +15,13 @@ Live Streams from Twitch and YouTube
 
 | Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
 |---------------|--------|---------|-----------------|----------------|
+| [2024-11-02 02:44](https://www.youtube.com/watch?v=3QltjCrGKHk&t=358) | Loss | Japanese vs Holy Roman Empire (mansonTW) | None | N/A |  |
+| [2024-11-02 03:20](https://www.youtube.com/watch?v=3QltjCrGKHk&t=2549) | Loss | Japanese vs English (DowBOW) | 860 | 97 |  |
+| [2024-11-02 03:38](https://www.youtube.com/watch?v=3QltjCrGKHk&t=3589) | Win | Japanese vs Japanese (DooDooBrown) | None | N/A |  |
+| [2024-11-02 04:09](https://www.youtube.com/watch?v=3QltjCrGKHk&t=5463) | Loss | Japanese vs Jeanne Darc (yuuki) | 706 | -67 |  |
+| [2024-11-02 04:39](https://www.youtube.com/watch?v=3QltjCrGKHk&t=7285) | Win | Japanese vs English (Pitou) | None | N/A |  |
+| [2024-11-02 05:31](https://www.youtube.com/watch?v=3QltjCrGKHk&t=10368) | Loss | Japanese vs Chinese (雨镜) | 695 | -87 |  |
+| [2024-11-02 06:20](https://www.youtube.com/watch?v=3QltjCrGKHk&t=13330) | Win | Japanese vs English (sedget) | 761 | 4 |  |
 | [2024-10-31 04:58](https://www.youtube.com/watch?v=byiI4UDlEnU&t=186) | Loss | Order Of The Dragon vs English (Anasdr21) | None | N/A |  |
 | [2024-10-31 05:35](https://www.youtube.com/watch?v=byiI4UDlEnU&t=2394) | Loss | Order Of The Dragon vs Byzantines (Shot Cuzzy9394) | 779 | 32 |  |
 | [2024-10-31 06:21](https://www.youtube.com/watch?v=byiI4UDlEnU&t=5181) | Win | Japanese vs Japanese (EZ) | 642 | -88 |  |
@@ -115,9 +122,9 @@ Live Streams from Twitch and YouTube
 |---------------|--------|---------|-----------------|----------------|
 | 2024-10-26 19:27 | Loss | Japanese vs Order Of The Dragon (M3) | 584 | -211 |
 | 2024-10-29 07:07 | Loss | Japanese vs Ottomans (Eatmypc [BE]) | 647 | -105 |
-| 2024-10-18 06:49 | Loss | Order Of The Dragon vs Mongols (Locminotaure) | 753 | -131 |
+| [2024-11-02 05:31](https://www.youtube.com/watch?v=3QltjCrGKHk&t=10368) | Loss | Japanese vs Chinese (雨镜) | 695 | -87 |  |
+| [2024-11-02 04:09](https://www.youtube.com/watch?v=3QltjCrGKHk&t=5463) | Loss | Japanese vs Jeanne Darc (yuuki) | 706 | -67 |  |
 | 2024-10-29 05:00 | Loss | Japanese vs Mongols (Boofero) | 767 | -36 |
-| 2024-10-26 18:55 | Loss | Japanese vs French (svmlhsyn) | 772 | -40 |
 
 ### Best Wins
 
