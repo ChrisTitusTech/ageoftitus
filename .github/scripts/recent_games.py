@@ -82,10 +82,6 @@ def main():
         recent_games.append((game_time, result, matchup))
         print(f"Added game: {game_time} {result} {matchup}")
 
-        if len(recent_games) >= 5:
-            print("Reached 5 games, stopping processing")
-            break
-
     print(f"Found {len(recent_games)} recent games")
 
     try:
@@ -98,9 +94,9 @@ def main():
         final_games = []
         for (game_time, result, matchup), twitch_link in zip(recent_games, twitch_links):
             formatted_timestamp = format_timestamp(twitch_link)
-            final_games.append((game_time, f"{formatted_timestamp} {result} {matchup}"))
+            final_games.append((formatted_timestamp, f"{formatted_timestamp} {result} {matchup}"))
 
-        # Sort the final_games list by game_time in ascending order
+        # Sort by timestamp instead of game_time
         final_games.sort(key=lambda x: x[0])
 
         with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
