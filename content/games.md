@@ -122,8 +122,8 @@ Live Streams from Twitch and YouTube
 |---------------|--------|---------|-----------------|----------------|
 | 2024-10-26 19:27 | Loss | Japanese vs Order Of The Dragon (M3) | 584 | -211 |
 | 2024-10-29 07:07 | Loss | Japanese vs Ottomans (Eatmypc [BE]) | 647 | -105 |
-| [2024-11-02 05:31](https://www.youtube.com/watch?v=3QltjCrGKHk&t=10368) | Loss | Japanese vs Chinese (雨镜) | 695 | -87 |  |
-| [2024-11-02 04:09](https://www.youtube.com/watch?v=3QltjCrGKHk&t=5463) | Loss | Japanese vs Jeanne Darc (yuuki) | 706 | -67 |  |
+| 2024-11-02 05:31 | Loss | Japanese vs Chinese (雨镜) | 695 | -87 |
+| 2024-11-02 04:09 | Loss | Japanese vs Jeanne Darc (yuuki) | 706 | -67 |
 | 2024-10-29 05:00 | Loss | Japanese vs Mongols (Boofero) | 767 | -36 |
 
 ### Best Wins
