@@ -15,6 +15,16 @@ Live Streams from Twitch and YouTube
 
 | Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
 |---------------|--------|---------|-----------------|----------------|
+| [2024-11-04 00:14](https://www.youtube.com/watch?v=cPXeTesLwGQ&t=182) | Win | Japanese vs Chinese (IXxPAPAxXI) | 639 | -144 |  |
+| [2024-11-04 00:35](https://www.youtube.com/watch?v=cPXeTesLwGQ&t=1433) | Win | Japanese vs Holy Roman Empire (clarkes_abu) | 647 | -160 |  |
+| [2024-11-04 00:58](https://www.youtube.com/watch?v=cPXeTesLwGQ&t=2819) | Win | Japanese vs English (Jugger_Not) | None | N/A |  |
+| [2024-11-04 01:31](https://www.youtube.com/watch?v=cPXeTesLwGQ&t=4809) | Win | Japanese vs French (Qwerty) | 746 | -107 |  |
+| [2024-11-04 03:32](https://www.youtube.com/watch?v=Ps_MbSOvSn0&t=239) | Win | Japanese vs English (chrispy surfer) | 781 | -93 |  |
+| [2024-11-04 03:57](https://www.youtube.com/watch?v=Ps_MbSOvSn0&t=1733) | Win | Japanese vs Mongols (1151312599) | None | N/A |  |
+| [2024-11-04 04:45](https://www.youtube.com/watch?v=Ps_MbSOvSn0&t=4581) | Loss | Japanese vs Abbasid Dynasty (SomeDonkus) | None | N/A |  |
+| [2024-11-04 05:13](https://www.youtube.com/watch?v=Ps_MbSOvSn0&t=6286) | Win | Japanese vs Japanese (Im Rusty ASF) | None | N/A |  |
+| [2024-11-04 05:38](https://www.youtube.com/watch?v=Ps_MbSOvSn0&t=7745) | Loss | Japanese vs Order Of The Dragon (Him) | 823 | -96 |  |
+| [2024-11-04 06:35](https://www.youtube.com/watch?v=Ps_MbSOvSn0&t=11212) | Win | Japanese vs English (piano4mesh) | 884 | -12 |  |
 | [2024-11-02 02:44](https://www.youtube.com/watch?v=3QltjCrGKHk&t=358) | Loss | Japanese vs Holy Roman Empire (mansonTW) | None | N/A |  |
 | [2024-11-02 03:20](https://www.youtube.com/watch?v=3QltjCrGKHk&t=2549) | Loss | Japanese vs English (DowBOW) | 860 | 97 |  |
 | [2024-11-02 03:38](https://www.youtube.com/watch?v=3QltjCrGKHk&t=3589) | Win | Japanese vs Japanese (DooDooBrown) | None | N/A |  |
@@ -131,7 +141,7 @@ Live Streams from Twitch and YouTube
 | Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
 |---------------|--------|---------|-----------------|----------------|
 | 2024-10-22 05:02 | Win | Ayyubids vs French (DANGERTRAINPAIN) | 896 | N/A |
+| [2024-11-04 06:35](https://www.youtube.com/watch?v=Ps_MbSOvSn0&t=11212) | Win | Japanese vs English (piano4mesh) | 884 | -12 |  |
 | 2024-10-26 02:01 | Win | Japanese vs English (Armenian Glory) | 848 | 129 |
 | 2024-10-26 03:42 | Win | Japanese vs English (timg4567) | 846 | 82 |
-| 2024-10-20 03:41 | Win | Ayyubids vs English (xup) | 807 | -3 |
 | 2024-10-26 03:09 | Win | Japanese vs Holy Roman Empire (PyNate) | 788 | 54 |
