@@ -15,6 +15,12 @@ Live Streams from Twitch and YouTube
 
 | Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
 |---------------|--------|---------|-----------------|----------------|
+| [2024-11-05 04:57](https://www.youtube.com/watch?v=Q1S03JPdwkY&t=259) | Loss | Japanese vs Jeanne Darc (MRS Ginger West) | 872 | -49 |  |
+| [2024-11-05 05:21](https://www.youtube.com/watch?v=Q1S03JPdwkY&t=1684) | Win | Japanese vs French (TeKiJa) | 828 | -68 |  |
+| [2024-11-05 05:48](https://www.youtube.com/watch?v=Q1S03JPdwkY&t=3340) | Win | Japanese vs French (WolfeMan) | 794 | -124 |  |
+| [2024-11-05 06:14](https://www.youtube.com/watch?v=Q1S03JPdwkY&t=4857) | Win | Japanese vs Delhi Sultanate (CannedNoodle) | 812 | -124 |  |
+| [2024-11-05 06:43](https://www.youtube.com/watch?v=Q1S03JPdwkY&t=6585) | Win | Japanese vs Holy Roman Empire (Camulas) | 836 | -119 |  |
+| [2024-11-05 07:02](https://www.youtube.com/watch?v=Q1S03JPdwkY&t=7741) | Loss | Japanese vs Order Of The Dragon (Random) | 986 | 7 |  |
 | [2024-11-04 00:14](https://www.youtube.com/watch?v=cPXeTesLwGQ&t=182) | Win | Japanese vs Chinese (IXxPAPAxXI) | 639 | -144 |  |
 | [2024-11-04 00:35](https://www.youtube.com/watch?v=cPXeTesLwGQ&t=1433) | Win | Japanese vs Holy Roman Empire (clarkes_abu) | 647 | -160 |  |
 | [2024-11-04 00:58](https://www.youtube.com/watch?v=cPXeTesLwGQ&t=2819) | Win | Japanese vs English (Jugger_Not) | None | N/A |  |
@@ -140,8 +146,8 @@ Live Streams from Twitch and YouTube
 
 | Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
 |---------------|--------|---------|-----------------|----------------|
-| 2024-10-22 05:02 | Win | Ayyubids vs French (DANGERTRAINPAIN) | 896 | N/A |
-| [2024-11-04 06:35](https://www.youtube.com/watch?v=Ps_MbSOvSn0&t=11212) | Win | Japanese vs English (piano4mesh) | 884 | -12 |  |
+| 2024-11-04 06:35 | Win | Japanese vs English (piano4mesh) | 884 | -12 |
 | 2024-10-26 02:01 | Win | Japanese vs English (Armenian Glory) | 848 | 129 |
 | 2024-10-26 03:42 | Win | Japanese vs English (timg4567) | 846 | 82 |
-| 2024-10-26 03:09 | Win | Japanese vs Holy Roman Empire (PyNate) | 788 | 54 |
+| [2024-11-05 06:43](https://www.youtube.com/watch?v=Q1S03JPdwkY&t=6585) | Win | Japanese vs Holy Roman Empire (Camulas) | 836 | -119 |  |
+| [2024-11-05 05:21](https://www.youtube.com/watch?v=Q1S03JPdwkY&t=1684) | Win | Japanese vs French (TeKiJa) | 828 | -68 |  |
