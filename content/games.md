@@ -149,5 +149,5 @@ Live Streams from Twitch and YouTube
 | 2024-11-04 06:35 | Win | Japanese vs English (piano4mesh) | 884 | -12 |
 | 2024-10-26 02:01 | Win | Japanese vs English (Armenian Glory) | 848 | 129 |
 | 2024-10-26 03:42 | Win | Japanese vs English (timg4567) | 846 | 82 |
-| [2024-11-05 06:43](https://www.youtube.com/watch?v=Q1S03JPdwkY&t=6585) | Win | Japanese vs Holy Roman Empire (Camulas) | 836 | -119 |  |
-| [2024-11-05 05:21](https://www.youtube.com/watch?v=Q1S03JPdwkY&t=1684) | Win | Japanese vs French (TeKiJa) | 828 | -68 |  |
+| 2024-11-05 06:43 | Win | Japanese vs Holy Roman Empire (Camulas) | 836 | -119 |
+| 2024-11-05 05:21 | Win | Japanese vs French (TeKiJa) | 828 | -68 |
