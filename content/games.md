@@ -15,6 +15,11 @@ Live Streams from Twitch and YouTube
 
 | Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
 |---------------|--------|---------|-----------------|----------------|
+| [2024-11-08 03:44](https://www.youtube.com/watch?v=qzIirHPvALA&t=210) | Loss | Japanese vs Rus (turdferguson) | 859 | -97 |  |
+| [2024-11-08 04:09](https://www.youtube.com/watch?v=qzIirHPvALA&t=1724) | Win | Japanese vs French (Nickel0144) | 917 | -15 |  |
+| [2024-11-08 04:46](https://www.youtube.com/watch?v=qzIirHPvALA&t=3974) | Win | Japanese vs French (ジン) | 1003 | 48 |  |
+| [2024-11-08 05:38](https://www.youtube.com/watch?v=qzIirHPvALA&t=7098) | Win | Japanese vs Ottomans (Stevenjcsu88) | 947 | -33 |  |
+| [2024-11-08 06:05](https://www.youtube.com/watch?v=qzIirHPvALA&t=8675) | Win | Japanese vs Japanese (gunnerwulf) | None | N/A |  |
 | [2024-11-05 04:57](https://www.youtube.com/watch?v=Q1S03JPdwkY&t=259) | Loss | Japanese vs Jeanne Darc (MRS Ginger West) | 872 | -49 |  |
 | [2024-11-05 05:21](https://www.youtube.com/watch?v=Q1S03JPdwkY&t=1684) | Win | Japanese vs French (TeKiJa) | 828 | -68 |  |
 | [2024-11-05 05:48](https://www.youtube.com/watch?v=Q1S03JPdwkY&t=3340) | Win | Japanese vs French (WolfeMan) | 794 | -124 |  |
@@ -146,8 +151,8 @@ Live Streams from Twitch and YouTube
 
 | Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
 |---------------|--------|---------|-----------------|----------------|
+| [2024-11-08 04:46](https://www.youtube.com/watch?v=qzIirHPvALA&t=3974) | Win | Japanese vs French (ジン) | 1003 | 48 |  |
+| [2024-11-08 05:38](https://www.youtube.com/watch?v=qzIirHPvALA&t=7098) | Win | Japanese vs Ottomans (Stevenjcsu88) | 947 | -33 |  |
+| [2024-11-08 04:09](https://www.youtube.com/watch?v=qzIirHPvALA&t=1724) | Win | Japanese vs French (Nickel0144) | 917 | -15 |  |
 | 2024-11-04 06:35 | Win | Japanese vs English (piano4mesh) | 884 | -12 |
 | 2024-10-26 02:01 | Win | Japanese vs English (Armenian Glory) | 848 | 129 |
-| 2024-10-26 03:42 | Win | Japanese vs English (timg4567) | 846 | 82 |
-| 2024-11-05 06:43 | Win | Japanese vs Holy Roman Empire (Camulas) | 836 | -119 |
-| 2024-11-05 05:21 | Win | Japanese vs French (TeKiJa) | 828 | -68 |
