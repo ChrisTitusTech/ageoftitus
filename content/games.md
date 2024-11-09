@@ -15,6 +15,11 @@ Live Streams from Twitch and YouTube
 
 | Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
 |---------------|--------|---------|-----------------|----------------|
+| [2024-11-09 04:21](https://www.youtube.com/watch?v=wBxD7FVHAbw&t=182) | Win | Japanese vs Delhi Sultanate (PO3) | 1007 | -14 |  |
+| [2024-11-09 04:43](https://www.youtube.com/watch?v=wBxD7FVHAbw&t=1491) | Win | Japanese vs Order Of The Dragon (AP_GO_WILD) | 959 | -88 |  |
+| [2024-11-09 05:13](https://www.youtube.com/watch?v=wBxD7FVHAbw&t=3296) | Loss | Japanese vs Delhi Sultanate (timwilkinsonline) | 873 | -197 |  |
+| [2024-11-09 05:58](https://www.youtube.com/watch?v=wBxD7FVHAbw&t=5989) | Win | Japanese vs Chinese (Labouite) | 879 | -167 |  |
+| [2024-11-09 06:53](https://www.youtube.com/watch?v=wBxD7FVHAbw&t=9306) | Win | Japanese vs Mongols (前夫哥) | None | N/A |  |
 | [2024-11-08 03:44](https://www.youtube.com/watch?v=qzIirHPvALA&t=210) | Loss | Japanese vs Rus (turdferguson) | 859 | -97 |  |
 | [2024-11-08 04:09](https://www.youtube.com/watch?v=qzIirHPvALA&t=1724) | Win | Japanese vs French (Nickel0144) | 917 | -15 |  |
 | [2024-11-08 04:46](https://www.youtube.com/watch?v=qzIirHPvALA&t=3974) | Win | Japanese vs French (ジン) | 1003 | 48 |  |
@@ -151,8 +156,8 @@ Live Streams from Twitch and YouTube
 
 | Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
 |---------------|--------|---------|-----------------|----------------|
-| [2024-11-08 04:46](https://www.youtube.com/watch?v=qzIirHPvALA&t=3974) | Win | Japanese vs French (ジン) | 1003 | 48 |  |
-| [2024-11-08 05:38](https://www.youtube.com/watch?v=qzIirHPvALA&t=7098) | Win | Japanese vs Ottomans (Stevenjcsu88) | 947 | -33 |  |
-| [2024-11-08 04:09](https://www.youtube.com/watch?v=qzIirHPvALA&t=1724) | Win | Japanese vs French (Nickel0144) | 917 | -15 |  |
-| 2024-11-04 06:35 | Win | Japanese vs English (piano4mesh) | 884 | -12 |
-| 2024-10-26 02:01 | Win | Japanese vs English (Armenian Glory) | 848 | 129 |
+| [2024-11-09 04:21](https://www.youtube.com/watch?v=wBxD7FVHAbw&t=182) | Win | Japanese vs Delhi Sultanate (PO3) | 1007 | -14 |  |
+| 2024-11-08 04:46 | Win | Japanese vs French (ジン) | 1003 | 48 |
+| [2024-11-09 04:43](https://www.youtube.com/watch?v=wBxD7FVHAbw&t=1491) | Win | Japanese vs Order Of The Dragon (AP_GO_WILD) | 959 | -88 |  |
+| 2024-11-08 05:38 | Win | Japanese vs Ottomans (Stevenjcsu88) | 947 | -33 |
+| 2024-11-08 04:09 | Win | Japanese vs French (Nickel0144) | 917 | -15 |
