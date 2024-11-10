@@ -15,6 +15,18 @@ Live Streams from Twitch and YouTube
 
 | Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
 |---------------|--------|---------|-----------------|----------------|
+| [2024-11-09 20:46](https://www.youtube.com/watch?v=DwamIqDsQHs&t=279) | Loss | Japanese vs Delhi Sultanate (Underline_) | 973 | -117 |  |
+| [2024-11-09 21:18](https://www.youtube.com/watch?v=DwamIqDsQHs&t=2199) | Win | Japanese vs English (cranecrusher) | 1061 | -4 |  |
+| [2024-11-09 21:51](https://www.youtube.com/watch?v=DwamIqDsQHs&t=4216) | Loss | Japanese vs Abbasid Dynasty (lekkerlekker) | None | N/A |  |
+| [2024-11-09 22:21](https://www.youtube.com/watch?v=DwamIqDsQHs&t=6005) | Loss | Japanese vs English (JackinAround) | 1001 | -63 |  |
+| [2024-11-10 05:23](https://www.youtube.com/watch?v=dp_mQIZl8dw&t=311) | Loss | Order Of The Dragon vs English (SirGillies) | 959 | -82 |  |
+| [2024-11-10 05:40](https://www.youtube.com/watch?v=dp_mQIZl8dw&t=1315) | Win | Order Of The Dragon vs Holy Roman Empire (nazao) | None | N/A |  |
+| [2024-11-10 06:09](https://www.youtube.com/watch?v=dp_mQIZl8dw&t=3070) | Loss | Order Of The Dragon vs Ayyubids (Larry the Cucumber) | 948 | -90 |  |
+| [2024-11-10 06:31](https://www.youtube.com/watch?v=dp_mQIZl8dw&t=4356) | Loss | Order Of The Dragon vs English (Ondr8904) | 994 | -20 |  |
+| [2024-11-10 07:13](https://www.youtube.com/watch?v=dp_mQIZl8dw&t=6888) | Loss | Order Of The Dragon vs Malians (Topatata) | 845 | -148 |  |
+| [2024-11-10 07:34](https://www.youtube.com/watch?v=dp_mQIZl8dw&t=8179) | Win | Japanese vs Mongols (WambaX) | None | N/A |  |
+| [2024-11-10 07:52](https://www.youtube.com/watch?v=dp_mQIZl8dw&t=9237) | Loss | Japanese vs French (kkshe87) | 795 | -201 |  |
+| [2024-11-10 08:26](https://www.youtube.com/watch?v=dp_mQIZl8dw&t=11299) | Win | Japanese vs Holy Roman Empire (SirLichtenstein) | 953 | -21 |  |
 | [2024-11-09 04:21](https://www.youtube.com/watch?v=wBxD7FVHAbw&t=182) | Win | Japanese vs Delhi Sultanate (PO3) | 1007 | -14 |  |
 | [2024-11-09 04:43](https://www.youtube.com/watch?v=wBxD7FVHAbw&t=1491) | Win | Japanese vs Order Of The Dragon (AP_GO_WILD) | 959 | -88 |  |
 | [2024-11-09 05:13](https://www.youtube.com/watch?v=wBxD7FVHAbw&t=3296) | Loss | Japanese vs Delhi Sultanate (timwilkinsonline) | 873 | -197 |  |
@@ -146,18 +158,18 @@ Live Streams from Twitch and YouTube
 
 | Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
 |---------------|--------|---------|-----------------|----------------|
-| 2024-10-26 19:27 | Loss | Japanese vs Order Of The Dragon (M3) | 584 | -211 |
-| 2024-10-29 07:07 | Loss | Japanese vs Ottomans (Eatmypc [BE]) | 647 | -105 |
 | 2024-11-02 05:31 | Loss | Japanese vs Chinese (雨镜) | 695 | -87 |
 | 2024-11-02 04:09 | Loss | Japanese vs Jeanne Darc (yuuki) | 706 | -67 |
-| 2024-10-29 05:00 | Loss | Japanese vs Mongols (Boofero) | 767 | -36 |
+| 2024-10-31 05:35 | Loss | Order Of The Dragon vs Byzantines (Shot Cuzzy9394) | 779 | 32 |
+| [2024-11-10 07:52](https://www.youtube.com/watch?v=dp_mQIZl8dw&t=9237) | Loss | Japanese vs French (kkshe87) | 795 | -201 |  |
+| 2024-11-04 05:38 | Loss | Japanese vs Order Of The Dragon (Him) | 823 | -96 |
 
 ### Best Wins
 
 | Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
 |---------------|--------|---------|-----------------|----------------|
-| [2024-11-09 04:21](https://www.youtube.com/watch?v=wBxD7FVHAbw&t=182) | Win | Japanese vs Delhi Sultanate (PO3) | 1007 | -14 |  |
+| [2024-11-09 21:18](https://www.youtube.com/watch?v=DwamIqDsQHs&t=2199) | Win | Japanese vs English (cranecrusher) | 1061 | -4 |  |
+| 2024-11-09 04:21 | Win | Japanese vs Delhi Sultanate (PO3) | 1007 | -14 |
 | 2024-11-08 04:46 | Win | Japanese vs French (ジン) | 1003 | 48 |
-| [2024-11-09 04:43](https://www.youtube.com/watch?v=wBxD7FVHAbw&t=1491) | Win | Japanese vs Order Of The Dragon (AP_GO_WILD) | 959 | -88 |  |
-| 2024-11-08 05:38 | Win | Japanese vs Ottomans (Stevenjcsu88) | 947 | -33 |
-| 2024-11-08 04:09 | Win | Japanese vs French (Nickel0144) | 917 | -15 |
+| 2024-11-09 04:43 | Win | Japanese vs Order Of The Dragon (AP_GO_WILD) | 959 | -88 |
+| [2024-11-10 08:26](https://www.youtube.com/watch?v=dp_mQIZl8dw&t=11299) | Win | Japanese vs Holy Roman Empire (SirLichtenstein) | 953 | -21 |  |
