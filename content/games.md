@@ -161,15 +161,15 @@ Live Streams from Twitch and YouTube
 | 2024-11-02 05:31 | Loss | Japanese vs Chinese (雨镜) | 695 | -87 |
 | 2024-11-02 04:09 | Loss | Japanese vs Jeanne Darc (yuuki) | 706 | -67 |
 | 2024-10-31 05:35 | Loss | Order Of The Dragon vs Byzantines (Shot Cuzzy9394) | 779 | 32 |
-| [2024-11-10 07:52](https://www.youtube.com/watch?v=dp_mQIZl8dw&t=9237) | Loss | Japanese vs French (kkshe87) | 795 | -201 |  |
+| 2024-11-10 07:52 | Loss | Japanese vs French (kkshe87) | 795 | -201 |
 | 2024-11-04 05:38 | Loss | Japanese vs Order Of The Dragon (Him) | 823 | -96 |
 
 ### Best Wins
 
 | Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
 |---------------|--------|---------|-----------------|----------------|
-| [2024-11-09 21:18](https://www.youtube.com/watch?v=DwamIqDsQHs&t=2199) | Win | Japanese vs English (cranecrusher) | 1061 | -4 |  |
+| 2024-11-09 21:18 | Win | Japanese vs English (cranecrusher) | 1061 | -4 |
 | 2024-11-09 04:21 | Win | Japanese vs Delhi Sultanate (PO3) | 1007 | -14 |
 | 2024-11-08 04:46 | Win | Japanese vs French (ジン) | 1003 | 48 |
 | 2024-11-09 04:43 | Win | Japanese vs Order Of The Dragon (AP_GO_WILD) | 959 | -88 |
-| [2024-11-10 08:26](https://www.youtube.com/watch?v=dp_mQIZl8dw&t=11299) | Win | Japanese vs Holy Roman Empire (SirLichtenstein) | 953 | -21 |  |
+| 2024-11-10 08:26 | Win | Japanese vs Holy Roman Empire (SirLichtenstein) | 953 | -21 |
