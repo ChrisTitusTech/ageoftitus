@@ -15,6 +15,12 @@ Live Streams from Twitch and YouTube
 
 | Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
 |---------------|--------|---------|-----------------|----------------|
+| [2024-11-12 02:04](https://www.youtube.com/watch?v=z-lBl59OYSc&t=364) | Win | Japanese vs Zhu Xis Legacy ({幕后煮屎}) | 913 | -85 |  |
+| [2024-11-12 02:45](https://www.youtube.com/watch?v=z-lBl59OYSc&t=2821) | Win | Japanese vs French (NOtoRioUs MiC) | 817 | -207 |  |
+| [2024-11-12 03:29](https://www.youtube.com/watch?v=z-lBl59OYSc&t=5496) | Loss | Japanese vs Chinese (Art The Clown) | 947 | -98 |  |
+| [2024-11-12 04:39](https://www.youtube.com/watch?v=z-lBl59OYSc&t=9640) | Loss | Japanese vs English (Cardinal Sin) | 1012 | -10 |  |
+| [2024-11-12 05:02](https://www.youtube.com/watch?v=z-lBl59OYSc&t=11046) | Win | Japanese vs Zhu Xis Legacy (Ottoman7319) | 974 | -27 |  |
+| [2024-11-12 05:40](https://www.youtube.com/watch?v=z-lBl59OYSc&t=13299) | Win | Japanese vs English (CookiEZ) | 668 | -355 |  |
 | [2024-11-09 20:46](https://www.youtube.com/watch?v=DwamIqDsQHs&t=279) | Loss | Japanese vs Delhi Sultanate (Underline_) | 973 | -117 |  |
 | [2024-11-09 21:18](https://www.youtube.com/watch?v=DwamIqDsQHs&t=2199) | Win | Japanese vs English (cranecrusher) | 1061 | -4 |  |
 | [2024-11-09 21:51](https://www.youtube.com/watch?v=DwamIqDsQHs&t=4216) | Loss | Japanese vs Abbasid Dynasty (lekkerlekker) | None | N/A |  |
@@ -160,9 +166,9 @@ Live Streams from Twitch and YouTube
 |---------------|--------|---------|-----------------|----------------|
 | 2024-11-02 05:31 | Loss | Japanese vs Chinese (雨镜) | 695 | -87 |
 | 2024-11-02 04:09 | Loss | Japanese vs Jeanne Darc (yuuki) | 706 | -67 |
-| 2024-10-31 05:35 | Loss | Order Of The Dragon vs Byzantines (Shot Cuzzy9394) | 779 | 32 |
 | 2024-11-10 07:52 | Loss | Japanese vs French (kkshe87) | 795 | -201 |
 | 2024-11-04 05:38 | Loss | Japanese vs Order Of The Dragon (Him) | 823 | -96 |
+| 2024-11-10 07:13 | Loss | Order Of The Dragon vs Malians (Topatata) | 845 | -148 |
 
 ### Best Wins
 
@@ -171,5 +177,5 @@ Live Streams from Twitch and YouTube
 | 2024-11-09 21:18 | Win | Japanese vs English (cranecrusher) | 1061 | -4 |
 | 2024-11-09 04:21 | Win | Japanese vs Delhi Sultanate (PO3) | 1007 | -14 |
 | 2024-11-08 04:46 | Win | Japanese vs French (ジン) | 1003 | 48 |
+| [2024-11-12 05:02](https://www.youtube.com/watch?v=z-lBl59OYSc&t=11046) | Win | Japanese vs Zhu Xis Legacy (Ottoman7319) | 974 | -27 |  |
 | 2024-11-09 04:43 | Win | Japanese vs Order Of The Dragon (AP_GO_WILD) | 959 | -88 |
-| 2024-11-10 08:26 | Win | Japanese vs Holy Roman Empire (SirLichtenstein) | 953 | -21 |
