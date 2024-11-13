@@ -80,7 +80,8 @@ def main():
         result = "Win" if player['player']['result'] == "win" else "Loss"
         # Format opponent names based on number of players
         if len(opponents) == 1:
-            opponent_info = f"({opponents[0]['player']['name']})"
+            opp_civ = opponents[0]['player']['civilization'].replace('_', ' ').title()
+            opponent_info = f"vs {opp_civ} ({opponents[0]['player']['name']})"
         else:
             team_size = len(game['teams'][0])  # Get size of first team
             opponent_info = f"({team_size}v{team_size} Team Game)"
