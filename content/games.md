@@ -162,22 +162,4 @@ Live Streams from Twitch and YouTube
 | [2024-10-05 01:13](https://www.youtube.com/watch?v=jUvX4_J688A&t=1976) | Loss | Ayyubids vs Order Of The Dragon (Random) | 769 | 80 |  |
 | [2024-10-05 00:47](https://www.youtube.com/watch?v=jUvX4_J688A&t=388) | Win | Ayyubids vs English (IGOR) | 813 | 160 |  |
 | [2024-10-05 00:44](https://www.youtube.com/watch?v=jUvX4_J688A&t=231) | Loss | Ayyubids vs Chinese (aguicjm) | 946 | 287 |  |
-### Worst Losses
 
-| Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
-|---------------|--------|---------|-----------------|----------------|
-| 2024-11-02 05:31 | Loss | Japanese vs Chinese (雨镜) | 695 | -87 |
-| 2024-11-10 07:52 | Loss | Japanese vs French (kkshe87) | 795 | -201 |
-| 2024-11-04 05:38 | Loss | Japanese vs Order Of The Dragon (Him) | 823 | -96 |
-| 2024-11-10 07:13 | Loss | Order Of The Dragon vs Malians (Topatata) | 845 | -148 |
-| 2024-11-08 03:44 | Loss | Japanese vs Rus (turdferguson) | 859 | -97 |
-
-### Best Wins
-
-| Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
-|---------------|--------|---------|-----------------|----------------|
-| 2024-11-09 21:18 | Win | Japanese vs English (cranecrusher) | 1061 | -4 |
-| 2024-11-09 04:21 | Win | Japanese vs Delhi Sultanate (PO3) | 1007 | -14 |
-| 2024-11-08 04:46 | Win | Japanese vs French (ジン) | 1003 | 48 |
-| 2024-11-12 05:02 | Win | Japanese vs Zhu Xis Legacy (Ottoman7319) | 974 | -27 |
-| 2024-11-09 04:43 | Win | Japanese vs Order Of The Dragon (AP_GO_WILD) | 959 | -88 |
