@@ -24,15 +24,16 @@ def get_existing_games():
     table_match = re.search(r'\|.*?\|(.*?)\n\|[-\s|]+\n(.*)', content_without_links, re.DOTALL)
     if table_match:
         games = {}
-        soup = BeautifulSoup(table_match.group(2), 'html.parser')
-        for row in soup.find_all('tr'):
-            cells = row.find_all('td')
-            if len(cells) >= 5:
-                date = cells[0].get_text(strip=True)
-                matchup = cells[2].get_text(strip=True)
-                opponent_name = matchup.split('(')[-1].strip(')')  # Extract opponent name from matchup
-                key = f"{date}_{opponent_name}"
-                games[key] = '|' + '|'.join(cell.get_text(strip=True) for cell in cells) + '|'
+        rows = table_match.group(2).strip().split('\n')
+        for row in rows:
+            if row.strip():
+                cells = [cell.strip() for cell in row.split('|')[1:-1]]  # Split and remove empty edges
+                if len(cells) >= 5:
+                    date = cells[0]
+                    matchup = cells[2]
+                    opponent_name = matchup.split('(')[-1].strip(')')
+                    key = f"{date}_{opponent_name}"
+                    games[key] = '|' + '|'.join(cells) + '|'
         return games
     return {}
 
@@ -204,13 +205,9 @@ def main():
         with open(GAMES_FILE, 'a', encoding='utf-8') as f:
             f.write('\n')
 
-        # Update best wins and worst losses in the markdown file
-        all_games = {**existing_games, **new_games}
-        update_best_wins_and_worst_losses(all_games)
-    else:
-        print("No new games to add.")
-        # Even if no new games, update best wins and worst losses
-        update_best_wins_and_worst_losses(existing_games)
+    # Always read fresh data from games.md for hall of fame
+    all_games = get_existing_games()
+    update_best_wins_and_worst_losses(all_games)
 
 if __name__ == "__main__":
     main()

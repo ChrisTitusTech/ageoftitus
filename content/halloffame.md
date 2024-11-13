@@ -25,8 +25,8 @@ draft: false
 
 | Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
 |---------------|--------|---------|-----------------|----------------|
+| [2024-10-26 19:27](https://www.youtube.com/watch?v=LaqPNN4Xnyo&t=4123) | Loss | Japanese vs Order Of The Dragon (M3) | 584 | -211 |
+| [2024-10-16 01:00](https://www.youtube.com/watch?v=64I0fgmeCLE&t=2087) | Loss | Japanese vs Japanese (JAM) | 606 | -214 |
+| [2024-10-16 01:39](https://www.youtube.com/watch?v=64I0fgmeCLE&t=4453) | Loss | Japanese vs English (JAM) | 644 | -150 |
+| [2024-10-29 07:07](https://www.youtube.com/watch?v=LnyE5EOOOFc&t=8034) | Loss | Japanese vs Ottomans (Eatmypc [BE]) | 647 | -105 |
 | [2024-11-02 05:31](https://www.youtube.com/watch?v=3QltjCrGKHk&t=10368) | Loss | Japanese vs Chinese (雨镜) | 695 | -87 |
-| [2024-11-10 07:52](https://www.youtube.com/watch?v=dp_mQIZl8dw&t=9237) | Loss | Japanese vs French (kkshe87) | 795 | -201 |
-| [2024-11-04 05:38](https://www.youtube.com/watch?v=Ps_MbSOvSn0&t=7745) | Loss | Japanese vs Order Of The Dragon (Him) | 823 | -96 |
-| [2024-11-10 07:13](https://www.youtube.com/watch?v=dp_mQIZl8dw&t=6888) | Loss | Order Of The Dragon vs Malians (Topatata) | 845 | -148 |
-| [2024-11-08 03:44](https://www.youtube.com/watch?v=qzIirHPvALA&t=210) | Loss | Japanese vs Rus (turdferguson) | 859 | -97 |
