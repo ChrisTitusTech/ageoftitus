@@ -1,3 +1,14 @@
+---
+title: "Hall of Fame"
+url: /halloffame/
+description: ""
+tags: [streams, twitch, youtube]
+featured_image: "/images/halloffame.webp"
+categories: Streams
+comment: true
+draft: false
+---
+
 # Hall of Fame
 
 ### Best Wins

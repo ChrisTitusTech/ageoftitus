@@ -1,6 +1,5 @@
 ---
 title: "Games"
-date: 2024-10-16
 url: /games/
 description: ""
 tags: [streams, twitch, youtube]

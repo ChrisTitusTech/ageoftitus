@@ -130,6 +130,18 @@ def update_best_wins_and_worst_losses(games):
     best_wins = sorted(best_wins, key=lambda x: (x[0], x[1]), reverse=True)[:5]
     worst_losses = sorted(worst_losses, key=lambda x: (x[0], x[1]))[:5]
 
+    # Read existing frontmatter if file exists
+    frontmatter = """---
+title: "Hall of Fame"
+url: /halloffame/
+description: ""
+tags: [streams, twitch, youtube]
+featured_image: "/images/halloffame.webp"
+categories: Streams
+comment: true
+draft: false
+---\n\n"""
+
     best_wins_content = (f"# Hall of Fame\n\n"
                         f"### Best Wins\n\n"
                         "| Date and Time | Result | Matchup | Opponent Rating | MMR Difference |\n"
@@ -142,7 +154,7 @@ def update_best_wins_and_worst_losses(games):
                             "\n".join(game for _, _, game in worst_losses))
 
     with open(HALL_OF_FAME_FILE, 'w', encoding='utf-8') as f:
-        f.write(best_wins_content + worst_losses_content)
+        f.write(frontmatter + best_wins_content + worst_losses_content)
 
 def main():
     response = requests.get(API_URL)
