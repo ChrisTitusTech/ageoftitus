@@ -10,6 +10,10 @@ OUTPUT_FILE = "recent_games.txt"
 TITUS_PROFILE_ID = 17272020
 AOE4_WORLD_URL = "https://aoe4world.com/players/17272020-TitusMaximus/games"
 
+# Add new constant for session gap
+SESSION_GAP_HOURS = 2
+LOOKBACK_HOURS = 24  # Changed from 12 to 24 hours
+
 def get_twitch_links(page_source, num_games):
     print("Extracting Twitch links...")
     twitch_pattern = r'href="(https://www\.twitch\.tv/videos/\d+\?t=\d+s)"'
@@ -55,34 +59,52 @@ def main():
     print(f"Found {len(api_games)} games in API response")
 
     current_time = datetime.now(pytz.UTC)
-    twelve_hours_ago = current_time - timedelta(hours=12)
-    print(f"Current time: {current_time}, Twelve hours ago: {twelve_hours_ago}")
+    twenty_four_hours_ago = current_time - timedelta(hours=LOOKBACK_HOURS)
+    print(f"Current time: {current_time}, Twenty four hours ago: {twenty_four_hours_ago}")
 
-    recent_games = []
+    # Modified game processing to include team games
+    all_games = []
     print("Processing games...")
     for game in api_games:
         game_time = datetime.fromisoformat(game['updated_at'].replace('Z', '+00:00'))
-        print(f"Game time: {game_time}")
         
-        if game_time < twelve_hours_ago:
-            print("Game is older than 12 hours, stopping processing")
+        if game_time < twenty_four_hours_ago:
+            print("Game is older than 24 hours, stopping processing")
             break
 
-        if sum(len(team) for team in game['teams']) != 2:
-            print("Skipping game: not a 1v1 match")
-            continue
-
+        # Remove the 1v1 check to include team games
         player = next(p for team in game['teams'] for p in team if p['player']['profile_id'] == TITUS_PROFILE_ID)
-        opponent = next(p for team in game['teams'] for p in team if p['player']['profile_id'] != TITUS_PROFILE_ID)
-
+        # Find all opponents
+        opponents = [p for team in game['teams'] for p in team if p['player']['profile_id'] != TITUS_PROFILE_ID]
+        
         result = "Win" if player['player']['result'] == "win" else "Loss"
-        opponent_name = opponent['player']['name']
-        matchup = f"{player['player']['civilization'].replace('_', ' ').title()} vs {opponent['player']['civilization'].replace('_', ' ').title()} ({opponent_name})"
+        # Format opponent names based on number of players
+        if len(opponents) == 1:
+            opponent_info = f"({opponents[0]['player']['name']})"
+        else:
+            team_size = len(game['teams'][0])  # Get size of first team
+            opponent_info = f"({team_size}v{team_size} Team Game)"
 
-        recent_games.append((game_time, result, matchup))
+        matchup = f"{player['player']['civilization'].replace('_', ' ').title()} {opponent_info}"
+        
+        all_games.append((game_time, result, matchup))
         print(f"Added game: {game_time} {result} {matchup}")
 
-    print(f"Found {len(recent_games)} recent games")
+    # Find the last session of games
+    recent_games = []
+    if all_games:
+        last_game_time = all_games[0][0]
+        recent_games = [(all_games[0])]
+        
+        for game in all_games[1:]:
+            time_diff = last_game_time - game[0]
+            if time_diff.total_seconds() / 3600 <= SESSION_GAP_HOURS:
+                recent_games.append(game)
+                last_game_time = game[0]
+            else:
+                break
+
+    print(f"Found {len(recent_games)} games in the last session")
 
     try:
         aoe4world_page = get_aoe4world_page()
