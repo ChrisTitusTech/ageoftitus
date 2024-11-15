@@ -14,6 +14,11 @@ Live Streams from Twitch and YouTube
 
 | Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
 |---------------|--------|---------|-----------------|----------------|
+| [2024-11-14 20:14](https://www.youtube.com/watch?v=Epvu-dKNH9o&t=226) | Win | Japanese vs Japanese (Archtrain8) | 962 | -130 |  |
+| [2024-11-14 20:40](https://www.youtube.com/watch?v=Epvu-dKNH9o&t=1835) | Loss | Japanese vs Order Of The Dragon (Izmo) | 1001 | -111 |  |
+| [2024-11-14 21:02](https://www.youtube.com/watch?v=Epvu-dKNH9o&t=3152) | Loss | Japanese vs Ayyubids (Giorgos) | None | N/A |  |
+| [2024-11-14 22:25](https://www.youtube.com/watch?v=Epvu-dKNH9o&t=8084) | Loss | Japanese vs Rus (]NsR[ Rasta Jedi) | 1062 | -5 |  |
+| [2024-11-14 22:50](https://www.youtube.com/watch?v=Epvu-dKNH9o&t=9611) | Loss | Japanese vs Holy Roman Empire (bcooop) | 855 | -191 |  |
 | [2024-11-12 20:44](https://www.youtube.com/watch?v=rRkX4yjepNM&t=512) | Win | Japanese vs English (Skillionaire) | 946 | -102 |  |
 | [2024-11-12 21:11](https://www.youtube.com/watch?v=rRkX4yjepNM&t=2108) | Win | Japanese vs Chinese (Art The Clown) | 956 | -113 |  |
 | [2024-11-12 02:04](https://www.youtube.com/watch?v=z-lBl59OYSc&t=364) | Win | Japanese vs Zhu Xis Legacy ({幕后煮屎}) | 913 | -85 |  |
