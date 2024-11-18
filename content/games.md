@@ -14,6 +14,14 @@ Live Streams from Twitch and YouTube
 
 | Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
 |---------------|--------|---------|-----------------|----------------|
+| 2024-11-18 03:17 | Loss | Mongols vs Japanese (Risky_Boii) | 990 | -32 |
+| 2024-11-18 03:47 | Loss | Mongols vs English (xRobinLongstride) | 837 | -161 |
+| 2024-11-18 04:40 | Win | Mongols vs Mongols (IAndoresu) | None | N/A |
+| 2024-11-18 05:00 | Win | Mongols vs Abbasid Dynasty (Full_Feudal) | None | N/A |
+| 2024-11-18 05:09 | Win | Mongols vs Holy Roman Empire (fbplaya00565) | None | N/A |
+| 2024-11-18 05:45 | Loss | Mongols vs Order Of The Dragon (H20Zen) | 952 | -86 |
+| 2024-11-18 06:22 | Loss | Mongols vs Rus (skullkid158) | 962 | -52 |
+| 2024-11-18 06:57 | Loss | Mongols vs Holy Roman Empire (Howmanybitchesharderthanalotofu) | 834 | -157 |
 | [2024-11-14 20:14](https://www.youtube.com/watch?v=Epvu-dKNH9o&t=226) | Win | Japanese vs Japanese (Archtrain8) | 962 | -130 |  |
 | [2024-11-14 20:40](https://www.youtube.com/watch?v=Epvu-dKNH9o&t=1835) | Loss | Japanese vs Order Of The Dragon (Izmo) | 1001 | -111 |  |
 | [2024-11-14 21:02](https://www.youtube.com/watch?v=Epvu-dKNH9o&t=3152) | Loss | Japanese vs Ayyubids (Giorgos) | None | N/A |  |
