@@ -14,6 +14,12 @@ Live Streams from Twitch and YouTube
 
 | Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
 |---------------|--------|---------|-----------------|----------------|
+| [2024-11-19 05:01](https://www.youtube.com/watch?v=4_lJfUk6APw&t=209) | Loss | Mongols vs Abbasid Dynasty (badguy) | 922 | -42 |  |
+| [2024-11-19 05:22](https://www.youtube.com/watch?v=4_lJfUk6APw&t=1454) | Loss | Mongols vs Ottomans (EXTREMELY MANLY) | 803 | -137 |  |
+| [2024-11-19 05:58](https://www.youtube.com/watch?v=4_lJfUk6APw&t=3605) | Loss | Mongols vs Zhu Xis Legacy (MaxedStoned) | 853 | -62 |  |
+| [2024-11-19 06:46](https://www.youtube.com/watch?v=4_lJfUk6APw&t=6518) | Win | Japanese vs Order Of The Dragon (BigPablo) | 885 | -5 |  |
+| [2024-11-19 07:22](https://www.youtube.com/watch?v=4_lJfUk6APw&t=8658) | Loss | Japanese vs French (Surrendead) | 637 | -277 |  |
+| [2024-11-19 07:54](https://www.youtube.com/watch?v=4_lJfUk6APw&t=10588) | Win | Japanese vs Malians (Net Zero) | 872 | -20 |  |
 | 2024-11-18 03:17 | Loss | Mongols vs Japanese (Risky_Boii) | 990 | -32 |
 | 2024-11-18 03:47 | Loss | Mongols vs English (xRobinLongstride) | 837 | -161 |
 | 2024-11-18 04:40 | Win | Mongols vs Mongols (IAndoresu) | None | N/A |
