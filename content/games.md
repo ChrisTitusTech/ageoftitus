@@ -14,25 +14,26 @@ Live Streams from Twitch and YouTube
 
 | Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
 |---------------|--------|---------|-----------------|----------------|
-| 2024-11-19 07:54 | Win | Japanese vs Malians (Net Zero) | 872 | -20 |
-| 2024-11-19 07:22 | Loss | Japanese vs French (Surrendead) | 637 | -277 |
-| 2024-11-19 06:46 | Win | Japanese vs Order Of The Dragon (BigPablo) | 885 | -5 |
-| 2024-11-19 05:58 | Loss | Mongols vs Zhu Xis Legacy (MaxedStoned) | 853 | -62 |
-| 2024-11-19 05:22 | Loss | Mongols vs Ottomans (EXTREMELY MANLY) | 803 | -137 |
-| 2024-11-19 05:01 | Loss | Mongols vs Abbasid Dynasty (badguy) | 922 | -42 |
-| 2024-11-18 06:57 | Loss | Mongols vs Holy Roman Empire (Howmanybitchesharderthanalotofu) | 834 | -157 |
-| 2024-11-18 06:22 | Loss | Mongols vs Rus (skullkid158) | 962 | -52 |
-| 2024-11-18 05:45 | Loss | Mongols vs Order Of The Dragon (H20Zen) | 952 | -86 |
-| 2024-11-18 05:09 | Win | Mongols vs Holy Roman Empire (fbplaya00565) | None | N/A |
-| 2024-11-18 05:00 | Win | Mongols vs Abbasid Dynasty (Full_Feudal) | None | N/A |
-| 2024-11-18 04:40 | Win | Mongols vs Mongols (IAndoresu) | None | N/A |
-| 2024-11-18 03:47 | Loss | Mongols vs English (xRobinLongstride) | 837 | -161 |
+| [2024-11-19 05:01](https://www.youtube.com/watch?v=4_lJfUk6APw&t=209) | Loss | Mongols vs Abbasid Dynasty (badguy) | 922 | -42 |  |
+| [2024-11-19 05:22](https://www.youtube.com/watch?v=4_lJfUk6APw&t=1454) | Loss | Mongols vs Ottomans (EXTREMELY MANLY) | 803 | -137 |  |
+| [2024-11-19 05:58](https://www.youtube.com/watch?v=4_lJfUk6APw&t=3605) | Loss | Mongols vs Zhu Xis Legacy (MaxedStoned) | 853 | -62 |  |
+| [2024-11-19 06:46](https://www.youtube.com/watch?v=4_lJfUk6APw&t=6518) | Win | Japanese vs Order Of The Dragon (BigPablo) | 885 | -5 |  |
+| [2024-11-19 07:22](https://www.youtube.com/watch?v=4_lJfUk6APw&t=8658) | Loss | Japanese vs French (Surrendead) | 637 | -277 |  |
+| [2024-11-19 07:54](https://www.youtube.com/watch?v=4_lJfUk6APw&t=10588) | Win | Japanese vs Malians (Net Zero) | 872 | -20 |  |
 | 2024-11-18 03:17 | Loss | Mongols vs Japanese (Risky_Boii) | 990 | -32 |
-| 2024-11-14 22:50 | Loss | Japanese vs Holy Roman Empire (bcooop) | 855 | -191 |
-| 2024-11-14 22:25 | Loss | Japanese vs Rus (]NsR[ Rasta Jedi) | 1062 | -5 |
-| 2024-11-14 21:02 | Loss | Japanese vs Ayyubids (Giorgos) | None | N/A |
-| 2024-11-14 20:40 | Loss | Japanese vs Order Of The Dragon (Izmo) | 1001 | -111 |
-| 2024-11-14 20:14 | Win | Japanese vs Japanese (Archtrain8) | 962 | -130 |
+| 2024-11-18 03:47 | Loss | Mongols vs English (xRobinLongstride) | 837 | -161 |
+| 2024-11-18 04:40 | Win | Mongols vs Mongols (IAndoresu) | None | N/A |
+| 2024-11-18 05:00 | Win | Mongols vs Abbasid Dynasty (Full_Feudal) | None | N/A |
+| 2024-11-18 05:09 | Win | Mongols vs Holy Roman Empire (fbplaya00565) | None | N/A |
+| 2024-11-18 05:45 | Loss | Mongols vs Order Of The Dragon (H20Zen) | 952 | -86 |
+| 2024-11-18 06:22 | Loss | Mongols vs Rus (skullkid158) | 962 | -52 |
+| 2024-11-18 06:57 | Loss | Mongols vs Holy Roman Empire (Howmanybitchesharderthanalotofu) | 834 | -157 |
+| [2024-11-14 20:14](https://www.youtube.com/watch?v=Epvu-dKNH9o&t=226) | Win | Japanese vs Japanese (Archtrain8) | 962 | -130 |  |
+| [2024-11-14 20:40](https://www.youtube.com/watch?v=Epvu-dKNH9o&t=1835) | Loss | Japanese vs Order Of The Dragon (Izmo) | 1001 | -111 |  |
+| [2024-11-14 21:02](https://www.youtube.com/watch?v=Epvu-dKNH9o&t=3152) | Loss | Japanese vs Ayyubids (Giorgos) | None | N/A |  |
+| [2024-11-14 22:25](https://www.youtube.com/watch?v=Epvu-dKNH9o&t=8084) | Loss | Japanese vs Rus (]NsR[ Rasta Jedi) | 1062 | -5 |  |
+| [2024-11-14 22:50](https://www.youtube.com/watch?v=Epvu-dKNH9o&t=9611) | Loss | Japanese vs Holy Roman Empire (bcooop) | 855 | -191 |  |
+| [2024-11-12 20:44](https://www.youtube.com/watch?v=rRkX4yjepNM&t=512) | Win | Japanese vs English (Skillionaire) | 946 | -102 |  |
 | [2024-11-12 21:11](https://www.youtube.com/watch?v=rRkX4yjepNM&t=2108) | Win | Japanese vs Chinese (Art The Clown) | 956 | -113 |  |
 | [2024-11-12 20:44](https://www.youtube.com/watch?v=rRkX4yjepNM&t=512) | Win | Japanese vs English (Skillionaire) | 946 | -102 |  |
 | [2024-11-12 05:40](https://www.youtube.com/watch?v=z-lBl59OYSc&t=13299) | Win | Japanese vs English (CookiEZ) | 668 | -355 |  |
