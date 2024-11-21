@@ -47,25 +47,46 @@ def update_games_file(new_games):
     # Extract existing games
     existing_games = [line.strip() for line in content[table_start+2:table_end] if line.strip()]
     
-    # Create a set of existing game dates to check for duplicates
-    existing_game_dates = set()
+    # Create a set to track unique games
+    seen_games = set()
+    unique_games = []
+
+    # Helper function to extract key info from a game entry
+    def get_game_key(game):
+        fields = [f.strip() for f in game.split('|')]
+        if len(fields) >= 4:
+            date = fields[1].strip()
+            if date.startswith('['):
+                date = date.split(']')[0][1:]
+            matchup = fields[3].strip()
+            return (date, matchup)
+        return None
+
+    # Process existing games first
     for game in existing_games:
-        date = game.split('|')[1].strip()
-        # Handle both linked and unlinked dates
-        if date.startswith('['):
-            date = date.split(']')[0][1:]  # Extract date from [date](link)
-        existing_game_dates.add(date)
-    
-    # Add new games to the beginning of the list, avoiding duplicates
-    all_games = existing_games.copy()  # Start with existing games
+        key = get_game_key(game)
+        if key and key not in seen_games:
+            seen_games.add(key)
+            unique_games.append(game)
+
+    # Add new games if they're not duplicates
     for game in new_games.values():
-        date = game.split('|')[1].strip()
-        if date not in existing_game_dates:
-            all_games.insert(0, game)  # Insert new games at the beginning
-            existing_game_dates.add(date)
+        key = get_game_key(game)
+        if key and key not in seen_games:
+            seen_games.add(key)
+            unique_games.append(game)
+
+    # Sort games by date in descending order
+    def get_game_date(game):
+        date_str = game.split('|')[1].strip()
+        if date_str.startswith('['):
+            date_str = date_str.split(']')[0][1:]
+        return datetime.strptime(date_str, "%Y-%m-%d %H:%M")
+    
+    unique_games = sorted(unique_games, key=get_game_date, reverse=True)
     
     # Update the file content
-    new_table = content[:table_start + 2] + [f"{game}\n" for game in all_games] + content[table_end:]
+    new_table = content[:table_start + 2] + [f"{game}\n" for game in unique_games] + content[table_end:]
 
     with open(GAMES_FILE, 'w', encoding='utf-8') as f:
         f.writelines(new_table)
@@ -99,32 +120,40 @@ def update_best_wins_and_worst_losses(games):
     for game in games.values():
         fields = game.split('|')
         if len(fields) >= 5:
+            # Strip whitespace from fields to ensure clean comparisons
             date = fields[1].strip()
             result = fields[2].strip()
             matchup = fields[3].strip()
             opponent_rating = fields[4].strip()
+            
+            # Debug print to check values
+            print(f"Debug: Processing game - Date: {date}, Result: {result}, Rating: {opponent_rating}")
+            
             game_key = (date, matchup)
             if opponent_rating != 'N/A' and game_key not in seen_games:
                 try:
                     rating = int(opponent_rating)
-                    # Find the full line with links from games.md
+                    # Find the full line with links from games.md using more precise pattern matching
                     date_pattern = re.escape(date)
                     matchup_pattern = re.escape(matchup)
                     full_line_pattern = f"\\|[^|]*{date_pattern}[^|]*\\|[^|]*{result}[^|]*\\|[^|]*{matchup_pattern}[^|]*\\|[^|]*{opponent_rating}[^|]*\\|[^|]*\\|"
                     full_line_match = re.search(full_line_pattern, games_content)
                     
                     if full_line_match:
-                        linked_game = full_line_match.group(0)
+                        linked_game = full_line_match.group(0).strip()
+                        print(f"Debug: Found linked game: {linked_game}")
                     else:
                         linked_game = game
-                        
+                        print(f"Debug: No linked game found, using original: {game}")
+                    
                     if "Win" in result:
                         best_wins.append((rating, parse_date(date), linked_game))
                     elif "Loss" in result:
                         worst_losses.append((rating, parse_date(date), linked_game))
                     seen_games.add(game_key)
-                except ValueError:
+                except ValueError as e:
                     print(f"Debug: ValueError for game - {game}")
+                    print(f"Debug: Error details - {str(e)}")
                     continue
 
     # Sort and get top 5 unique wins and bottom 5 unique losses

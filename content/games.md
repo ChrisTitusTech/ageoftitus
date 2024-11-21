@@ -14,83 +14,103 @@ Live Streams from Twitch and YouTube
 
 | Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
 |---------------|--------|---------|-----------------|----------------|
-| [2024-11-12 20:44](https://www.youtube.com/watch?v=rRkX4yjepNM&t=512) | Win | Japanese vs English (Skillionaire) | 946 | -102 |  |
+| 2024-11-19 07:54 | Win | Japanese vs Malians (Net Zero) | 872 | -20 |
+| 2024-11-19 07:22 | Loss | Japanese vs French (Surrendead) | 637 | -277 |
+| 2024-11-19 06:46 | Win | Japanese vs Order Of The Dragon (BigPablo) | 885 | -5 |
+| 2024-11-19 05:58 | Loss | Mongols vs Zhu Xis Legacy (MaxedStoned) | 853 | -62 |
+| 2024-11-19 05:22 | Loss | Mongols vs Ottomans (EXTREMELY MANLY) | 803 | -137 |
+| 2024-11-19 05:01 | Loss | Mongols vs Abbasid Dynasty (badguy) | 922 | -42 |
+| 2024-11-18 06:57 | Loss | Mongols vs Holy Roman Empire (Howmanybitchesharderthanalotofu) | 834 | -157 |
+| 2024-11-18 06:22 | Loss | Mongols vs Rus (skullkid158) | 962 | -52 |
+| 2024-11-18 05:45 | Loss | Mongols vs Order Of The Dragon (H20Zen) | 952 | -86 |
+| 2024-11-18 05:09 | Win | Mongols vs Holy Roman Empire (fbplaya00565) | None | N/A |
+| 2024-11-18 05:00 | Win | Mongols vs Abbasid Dynasty (Full_Feudal) | None | N/A |
+| 2024-11-18 04:40 | Win | Mongols vs Mongols (IAndoresu) | None | N/A |
+| 2024-11-18 03:47 | Loss | Mongols vs English (xRobinLongstride) | 837 | -161 |
+| 2024-11-18 03:17 | Loss | Mongols vs Japanese (Risky_Boii) | 990 | -32 |
+| 2024-11-14 22:50 | Loss | Japanese vs Holy Roman Empire (bcooop) | 855 | -191 |
+| 2024-11-14 22:25 | Loss | Japanese vs Rus (]NsR[ Rasta Jedi) | 1062 | -5 |
+| 2024-11-14 21:02 | Loss | Japanese vs Ayyubids (Giorgos) | None | N/A |
+| 2024-11-14 20:40 | Loss | Japanese vs Order Of The Dragon (Izmo) | 1001 | -111 |
+| 2024-11-14 20:14 | Win | Japanese vs Japanese (Archtrain8) | 962 | -130 |
 | [2024-11-12 21:11](https://www.youtube.com/watch?v=rRkX4yjepNM&t=2108) | Win | Japanese vs Chinese (Art The Clown) | 956 | -113 |  |
-| [2024-11-12 02:04](https://www.youtube.com/watch?v=z-lBl59OYSc&t=364) | Win | Japanese vs Zhu Xis Legacy ({幕后煮屎}) | 913 | -85 |  |
-| [2024-11-12 02:45](https://www.youtube.com/watch?v=z-lBl59OYSc&t=2821) | Win | Japanese vs French (NOtoRioUs MiC) | 817 | -207 |  |
-| [2024-11-12 03:29](https://www.youtube.com/watch?v=z-lBl59OYSc&t=5496) | Loss | Japanese vs Chinese (Art The Clown) | 947 | -98 |  |
-| [2024-11-12 04:39](https://www.youtube.com/watch?v=z-lBl59OYSc&t=9640) | Loss | Japanese vs English (Cardinal Sin) | 1012 | -10 |  |
-| [2024-11-12 05:02](https://www.youtube.com/watch?v=z-lBl59OYSc&t=11046) | Win | Japanese vs Zhu Xis Legacy (Ottoman7319) | 974 | -27 |  |
+| [2024-11-12 20:44](https://www.youtube.com/watch?v=rRkX4yjepNM&t=512) | Win | Japanese vs English (Skillionaire) | 946 | -102 |  |
 | [2024-11-12 05:40](https://www.youtube.com/watch?v=z-lBl59OYSc&t=13299) | Win | Japanese vs English (CookiEZ) | 668 | -355 |  |
-| [2024-11-09 20:46](https://www.youtube.com/watch?v=DwamIqDsQHs&t=279) | Loss | Japanese vs Delhi Sultanate (Underline_) | 973 | -117 |  |
-| [2024-11-09 21:18](https://www.youtube.com/watch?v=DwamIqDsQHs&t=2199) | Win | Japanese vs English (cranecrusher) | 1061 | -4 |  |
-| [2024-11-09 21:51](https://www.youtube.com/watch?v=DwamIqDsQHs&t=4216) | Loss | Japanese vs Abbasid Dynasty (lekkerlekker) | None | N/A |  |
-| [2024-11-09 22:21](https://www.youtube.com/watch?v=DwamIqDsQHs&t=6005) | Loss | Japanese vs English (JackinAround) | 1001 | -63 |  |
-| [2024-11-10 05:23](https://www.youtube.com/watch?v=dp_mQIZl8dw&t=311) | Loss | Order Of The Dragon vs English (SirGillies) | 959 | -82 |  |
-| [2024-11-10 05:40](https://www.youtube.com/watch?v=dp_mQIZl8dw&t=1315) | Win | Order Of The Dragon vs Holy Roman Empire (nazao) | None | N/A |  |
-| [2024-11-10 06:09](https://www.youtube.com/watch?v=dp_mQIZl8dw&t=3070) | Loss | Order Of The Dragon vs Ayyubids (Larry the Cucumber) | 948 | -90 |  |
-| [2024-11-10 06:31](https://www.youtube.com/watch?v=dp_mQIZl8dw&t=4356) | Loss | Order Of The Dragon vs English (Ondr8904) | 994 | -20 |  |
-| [2024-11-10 07:13](https://www.youtube.com/watch?v=dp_mQIZl8dw&t=6888) | Loss | Order Of The Dragon vs Malians (Topatata) | 845 | -148 |  |
-| [2024-11-10 07:34](https://www.youtube.com/watch?v=dp_mQIZl8dw&t=8179) | Win | Japanese vs Mongols (WambaX) | None | N/A |  |
-| [2024-11-10 07:52](https://www.youtube.com/watch?v=dp_mQIZl8dw&t=9237) | Loss | Japanese vs French (kkshe87) | 795 | -201 |  |
+| [2024-11-12 05:02](https://www.youtube.com/watch?v=z-lBl59OYSc&t=11046) | Win | Japanese vs Zhu Xis Legacy (Ottoman7319) | 974 | -27 |  |
+| [2024-11-12 04:39](https://www.youtube.com/watch?v=z-lBl59OYSc&t=9640) | Loss | Japanese vs English (Cardinal Sin) | 1012 | -10 |  |
+| [2024-11-12 03:29](https://www.youtube.com/watch?v=z-lBl59OYSc&t=5496) | Loss | Japanese vs Chinese (Art The Clown) | 947 | -98 |  |
+| [2024-11-12 02:45](https://www.youtube.com/watch?v=z-lBl59OYSc&t=2821) | Win | Japanese vs French (NOtoRioUs MiC) | 817 | -207 |  |
+| [2024-11-12 02:04](https://www.youtube.com/watch?v=z-lBl59OYSc&t=364) | Win | Japanese vs Zhu Xis Legacy ({幕后煮屎}) | 913 | -85 |  |
 | [2024-11-10 08:26](https://www.youtube.com/watch?v=dp_mQIZl8dw&t=11299) | Win | Japanese vs Holy Roman Empire (SirLichtenstein) | 953 | -21 |  |
-| [2024-11-09 04:21](https://www.youtube.com/watch?v=wBxD7FVHAbw&t=182) | Win | Japanese vs Delhi Sultanate (PO3) | 1007 | -14 |  |
-| [2024-11-09 04:43](https://www.youtube.com/watch?v=wBxD7FVHAbw&t=1491) | Win | Japanese vs Order Of The Dragon (AP_GO_WILD) | 959 | -88 |  |
-| [2024-11-09 05:13](https://www.youtube.com/watch?v=wBxD7FVHAbw&t=3296) | Loss | Japanese vs Delhi Sultanate (timwilkinsonline) | 873 | -197 |  |
-| [2024-11-09 05:58](https://www.youtube.com/watch?v=wBxD7FVHAbw&t=5989) | Win | Japanese vs Chinese (Labouite) | 879 | -167 |  |
+| [2024-11-10 07:52](https://www.youtube.com/watch?v=dp_mQIZl8dw&t=9237) | Loss | Japanese vs French (kkshe87) | 795 | -201 |  |
+| [2024-11-10 07:34](https://www.youtube.com/watch?v=dp_mQIZl8dw&t=8179) | Win | Japanese vs Mongols (WambaX) | None | N/A |  |
+| [2024-11-10 07:13](https://www.youtube.com/watch?v=dp_mQIZl8dw&t=6888) | Loss | Order Of The Dragon vs Malians (Topatata) | 845 | -148 |  |
+| [2024-11-10 06:31](https://www.youtube.com/watch?v=dp_mQIZl8dw&t=4356) | Loss | Order Of The Dragon vs English (Ondr8904) | 994 | -20 |  |
+| [2024-11-10 06:09](https://www.youtube.com/watch?v=dp_mQIZl8dw&t=3070) | Loss | Order Of The Dragon vs Ayyubids (Larry the Cucumber) | 948 | -90 |  |
+| [2024-11-10 05:40](https://www.youtube.com/watch?v=dp_mQIZl8dw&t=1315) | Win | Order Of The Dragon vs Holy Roman Empire (nazao) | None | N/A |  |
+| [2024-11-10 05:23](https://www.youtube.com/watch?v=dp_mQIZl8dw&t=311) | Loss | Order Of The Dragon vs English (SirGillies) | 959 | -82 |  |
+| [2024-11-09 22:21](https://www.youtube.com/watch?v=DwamIqDsQHs&t=6005) | Loss | Japanese vs English (JackinAround) | 1001 | -63 |  |
+| [2024-11-09 21:51](https://www.youtube.com/watch?v=DwamIqDsQHs&t=4216) | Loss | Japanese vs Abbasid Dynasty (lekkerlekker) | None | N/A |  |
+| [2024-11-09 21:18](https://www.youtube.com/watch?v=DwamIqDsQHs&t=2199) | Win | Japanese vs English (cranecrusher) | 1061 | -4 |  |
+| [2024-11-09 20:46](https://www.youtube.com/watch?v=DwamIqDsQHs&t=279) | Loss | Japanese vs Delhi Sultanate (Underline_) | 973 | -117 |  |
 | [2024-11-09 06:53](https://www.youtube.com/watch?v=wBxD7FVHAbw&t=9306) | Win | Japanese vs Mongols (前夫哥) | None | N/A |  |
-| [2024-11-08 03:44](https://www.youtube.com/watch?v=qzIirHPvALA&t=210) | Loss | Japanese vs Rus (turdferguson) | 859 | -97 |  |
-| [2024-11-08 04:09](https://www.youtube.com/watch?v=qzIirHPvALA&t=1724) | Win | Japanese vs French (Nickel0144) | 917 | -15 |  |
-| [2024-11-08 04:46](https://www.youtube.com/watch?v=qzIirHPvALA&t=3974) | Win | Japanese vs French (ジン) | 1003 | 48 |  |
-| [2024-11-08 05:38](https://www.youtube.com/watch?v=qzIirHPvALA&t=7098) | Win | Japanese vs Ottomans (Stevenjcsu88) | 947 | -33 |  |
+| [2024-11-09 05:58](https://www.youtube.com/watch?v=wBxD7FVHAbw&t=5989) | Win | Japanese vs Chinese (Labouite) | 879 | -167 |  |
+| [2024-11-09 05:13](https://www.youtube.com/watch?v=wBxD7FVHAbw&t=3296) | Loss | Japanese vs Delhi Sultanate (timwilkinsonline) | 873 | -197 |  |
+| [2024-11-09 04:43](https://www.youtube.com/watch?v=wBxD7FVHAbw&t=1491) | Win | Japanese vs Order Of The Dragon (AP_GO_WILD) | 959 | -88 |  |
+| [2024-11-09 04:21](https://www.youtube.com/watch?v=wBxD7FVHAbw&t=182) | Win | Japanese vs Delhi Sultanate (PO3) | 1007 | -14 |  |
+| 2024-11-09 04:21 | Win | Japanese vs Delhi Sultanate (InLost) | 1007 | -14 |
 | [2024-11-08 06:05](https://www.youtube.com/watch?v=qzIirHPvALA&t=8675) | Win | Japanese vs Japanese (gunnerwulf) | None | N/A |  |
-| [2024-11-05 04:57](https://www.youtube.com/watch?v=Q1S03JPdwkY&t=259) | Loss | Japanese vs Jeanne Darc (MRS Ginger West) | 872 | -49 |  |
-| [2024-11-05 05:21](https://www.youtube.com/watch?v=Q1S03JPdwkY&t=1684) | Win | Japanese vs French (TeKiJa) | 828 | -68 |  |
-| [2024-11-05 05:48](https://www.youtube.com/watch?v=Q1S03JPdwkY&t=3340) | Win | Japanese vs French (WolfeMan) | 794 | -124 |  |
-| [2024-11-05 06:14](https://www.youtube.com/watch?v=Q1S03JPdwkY&t=4857) | Win | Japanese vs Delhi Sultanate (CannedNoodle) | 812 | -124 |  |
-| [2024-11-05 06:43](https://www.youtube.com/watch?v=Q1S03JPdwkY&t=6585) | Win | Japanese vs Holy Roman Empire (Camulas) | 836 | -119 |  |
+| [2024-11-08 05:38](https://www.youtube.com/watch?v=qzIirHPvALA&t=7098) | Win | Japanese vs Ottomans (Stevenjcsu88) | 947 | -33 |  |
+| [2024-11-08 04:46](https://www.youtube.com/watch?v=qzIirHPvALA&t=3974) | Win | Japanese vs French (ジン) | 1003 | 48 |  |
+| [2024-11-08 04:09](https://www.youtube.com/watch?v=qzIirHPvALA&t=1724) | Win | Japanese vs French (Nickel0144) | 917 | -15 |  |
+| [2024-11-08 03:44](https://www.youtube.com/watch?v=qzIirHPvALA&t=210) | Loss | Japanese vs Rus (turdferguson) | 859 | -97 |  |
 | [2024-11-05 07:02](https://www.youtube.com/watch?v=Q1S03JPdwkY&t=7741) | Loss | Japanese vs Order Of The Dragon (Random) | 986 | 7 |  |
-| [2024-11-04 00:14](https://www.youtube.com/watch?v=cPXeTesLwGQ&t=182) | Win | Japanese vs Chinese (IXxPAPAxXI) | 639 | -144 |  |
-| [2024-11-04 00:35](https://www.youtube.com/watch?v=cPXeTesLwGQ&t=1433) | Win | Japanese vs Holy Roman Empire (clarkes_abu) | 647 | -160 |  |
-| [2024-11-04 00:58](https://www.youtube.com/watch?v=cPXeTesLwGQ&t=2819) | Win | Japanese vs English (Jugger_Not) | None | N/A |  |
-| [2024-11-04 01:31](https://www.youtube.com/watch?v=cPXeTesLwGQ&t=4809) | Win | Japanese vs French (Qwerty) | 746 | -107 |  |
-| [2024-11-04 03:32](https://www.youtube.com/watch?v=Ps_MbSOvSn0&t=239) | Win | Japanese vs English (chrispy surfer) | 781 | -93 |  |
-| [2024-11-04 03:57](https://www.youtube.com/watch?v=Ps_MbSOvSn0&t=1733) | Win | Japanese vs Mongols (1151312599) | None | N/A |  |
-| [2024-11-04 04:45](https://www.youtube.com/watch?v=Ps_MbSOvSn0&t=4581) | Loss | Japanese vs Abbasid Dynasty (SomeDonkus) | None | N/A |  |
-| [2024-11-04 05:13](https://www.youtube.com/watch?v=Ps_MbSOvSn0&t=6286) | Win | Japanese vs Japanese (Im Rusty ASF) | None | N/A |  |
-| [2024-11-04 05:38](https://www.youtube.com/watch?v=Ps_MbSOvSn0&t=7745) | Loss | Japanese vs Order Of The Dragon (Him) | 823 | -96 |  |
+| [2024-11-05 06:43](https://www.youtube.com/watch?v=Q1S03JPdwkY&t=6585) | Win | Japanese vs Holy Roman Empire (Camulas) | 836 | -119 |  |
+| [2024-11-05 06:14](https://www.youtube.com/watch?v=Q1S03JPdwkY&t=4857) | Win | Japanese vs Delhi Sultanate (CannedNoodle) | 812 | -124 |  |
+| [2024-11-05 05:48](https://www.youtube.com/watch?v=Q1S03JPdwkY&t=3340) | Win | Japanese vs French (WolfeMan) | 794 | -124 |  |
+| [2024-11-05 05:21](https://www.youtube.com/watch?v=Q1S03JPdwkY&t=1684) | Win | Japanese vs French (TeKiJa) | 828 | -68 |  |
+| [2024-11-05 04:57](https://www.youtube.com/watch?v=Q1S03JPdwkY&t=259) | Loss | Japanese vs Jeanne Darc (MRS Ginger West) | 872 | -49 |  |
 | [2024-11-04 06:35](https://www.youtube.com/watch?v=Ps_MbSOvSn0&t=11212) | Win | Japanese vs English (piano4mesh) | 884 | -12 |  |
-| [2024-11-02 02:44](https://www.youtube.com/watch?v=3QltjCrGKHk&t=358) | Loss | Japanese vs Holy Roman Empire (mansonTW) | None | N/A |  |
-| [2024-11-02 03:20](https://www.youtube.com/watch?v=3QltjCrGKHk&t=2549) | Loss | Japanese vs English (DowBOW) | 860 | 97 |  |
-| [2024-11-02 03:38](https://www.youtube.com/watch?v=3QltjCrGKHk&t=3589) | Win | Japanese vs Japanese (DooDooBrown) | None | N/A |  |
-| [2024-11-02 04:09](https://www.youtube.com/watch?v=3QltjCrGKHk&t=5463) | Loss | Japanese vs Jeanne Darc (yuuki) | 706 | -67 |  |
-| [2024-11-02 04:39](https://www.youtube.com/watch?v=3QltjCrGKHk&t=7285) | Win | Japanese vs English (Pitou) | None | N/A |  |
-| [2024-11-02 05:31](https://www.youtube.com/watch?v=3QltjCrGKHk&t=10368) | Loss | Japanese vs Chinese (雨镜) | 695 | -87 |  |
+| [2024-11-04 05:38](https://www.youtube.com/watch?v=Ps_MbSOvSn0&t=7745) | Loss | Japanese vs Order Of The Dragon (Him) | 823 | -96 |  |
+| [2024-11-04 05:13](https://www.youtube.com/watch?v=Ps_MbSOvSn0&t=6286) | Win | Japanese vs Japanese (Im Rusty ASF) | None | N/A |  |
+| [2024-11-04 04:45](https://www.youtube.com/watch?v=Ps_MbSOvSn0&t=4581) | Loss | Japanese vs Abbasid Dynasty (SomeDonkus) | None | N/A |  |
+| [2024-11-04 03:57](https://www.youtube.com/watch?v=Ps_MbSOvSn0&t=1733) | Win | Japanese vs Mongols (1151312599) | None | N/A |  |
+| [2024-11-04 03:32](https://www.youtube.com/watch?v=Ps_MbSOvSn0&t=239) | Win | Japanese vs English (chrispy surfer) | 781 | -93 |  |
+| [2024-11-04 01:31](https://www.youtube.com/watch?v=cPXeTesLwGQ&t=4809) | Win | Japanese vs French (Qwerty) | 746 | -107 |  |
+| [2024-11-04 00:58](https://www.youtube.com/watch?v=cPXeTesLwGQ&t=2819) | Win | Japanese vs English (Jugger_Not) | None | N/A |  |
+| [2024-11-04 00:35](https://www.youtube.com/watch?v=cPXeTesLwGQ&t=1433) | Win | Japanese vs Holy Roman Empire (clarkes_abu) | 647 | -160 |  |
+| [2024-11-04 00:14](https://www.youtube.com/watch?v=cPXeTesLwGQ&t=182) | Win | Japanese vs Chinese (IXxPAPAxXI) | 639 | -144 |  |
 | [2024-11-02 06:20](https://www.youtube.com/watch?v=3QltjCrGKHk&t=13330) | Win | Japanese vs English (sedget) | 761 | 4 |  |
-| [2024-10-31 04:58](https://www.youtube.com/watch?v=byiI4UDlEnU&t=186) | Loss | Order Of The Dragon vs English (Anasdr21) | None | N/A |  |
-| [2024-10-31 05:35](https://www.youtube.com/watch?v=byiI4UDlEnU&t=2394) | Loss | Order Of The Dragon vs Byzantines (Shot Cuzzy9394) | 779 | 32 |  |
-| [2024-10-31 06:21](https://www.youtube.com/watch?v=byiI4UDlEnU&t=5181) | Win | Japanese vs Japanese (EZ) | 642 | -88 |  |
+| [2024-11-02 05:31](https://www.youtube.com/watch?v=3QltjCrGKHk&t=10368) | Loss | Japanese vs Chinese (雨镜) | 695 | -87 |  |
+| [2024-11-02 04:39](https://www.youtube.com/watch?v=3QltjCrGKHk&t=7285) | Win | Japanese vs English (Pitou) | None | N/A |  |
+| [2024-11-02 04:09](https://www.youtube.com/watch?v=3QltjCrGKHk&t=5463) | Loss | Japanese vs Jeanne Darc (yuuki) | 706 | -67 |  |
+| [2024-11-02 03:38](https://www.youtube.com/watch?v=3QltjCrGKHk&t=3589) | Win | Japanese vs Japanese (DooDooBrown) | None | N/A |  |
+| [2024-11-02 03:20](https://www.youtube.com/watch?v=3QltjCrGKHk&t=2549) | Loss | Japanese vs English (DowBOW) | 860 | 97 |  |
+| [2024-11-02 02:44](https://www.youtube.com/watch?v=3QltjCrGKHk&t=358) | Loss | Japanese vs Holy Roman Empire (mansonTW) | None | N/A |  |
 | [2024-10-31 06:45](https://www.youtube.com/watch?v=byiI4UDlEnU&t=6640) | Win | Japanese vs Byzantines (K-11) | 749 | -6 |  |
-| [2024-10-29 05:00](https://www.youtube.com/watch?v=LnyE5EOOOFc&t=3752) | Loss | Japanese vs Mongols (Boofero) | 767 | -36 |  |
-| [2024-10-29 05:55](https://www.youtube.com/watch?v=LnyE5EOOOFc&t=4726) | Loss | Japanese vs English (Feelish) | None | N/A |  |
-| [2024-10-29 06:12](https://www.youtube.com/watch?v=LnyE5EOOOFc&t=6375) | Loss | Japanese vs Ottomans (LATE 30S) | 848 | 79 |  |
-| [2024-10-29 07:07](https://www.youtube.com/watch?v=LnyE5EOOOFc&t=8034) | Loss | Japanese vs Ottomans (Eatmypc [BE]) | 647 | -105 |  |
+| [2024-10-31 06:21](https://www.youtube.com/watch?v=byiI4UDlEnU&t=5181) | Win | Japanese vs Japanese (EZ) | 642 | -88 |  |
+| [2024-10-31 05:35](https://www.youtube.com/watch?v=byiI4UDlEnU&t=2394) | Loss | Order Of The Dragon vs Byzantines (Shot Cuzzy9394) | 779 | 32 |  |
+| [2024-10-31 04:58](https://www.youtube.com/watch?v=byiI4UDlEnU&t=186) | Loss | Order Of The Dragon vs English (Anasdr21) | None | N/A |  |
 | [2024-10-29 07:28](https://www.youtube.com/watch?v=LnyE5EOOOFc&t=9328) | Win | Japanese vs English (AlHei201947898) | 563 | -170 |  |
-| 2024-10-26 18:23 | Loss | Japanese vs Mongols (neverbeat7572) | None | N/A |
-| [2024-10-26 18:55](https://www.youtube.com/watch?v=Uxw5mzoUEbs&t=2201) | Loss | Japanese vs French (svmlhsyn) | 772 | -40 |  |
-| [2024-10-26 19:27](https://www.youtube.com/watch?v=LaqPNN4Xnyo&t=4123) | Loss | Japanese vs Order Of The Dragon (M3) | 584 | -211 |  |
-| [2024-10-27 02:38](https://www.youtube.com/watch?v=LaqPNN4Xnyo&t=189) | Win | Japanese vs Abbasid Dynasty (Rvperto) | None | N/A |  |
-| [2024-10-27 05:04](https://www.youtube.com/watch?v=LaqPNN4Xnyo&t=8978) | Loss | Japanese vs French (Night terror949) | 838 | 29 |  |
-| [2024-10-27 05:39](https://www.youtube.com/watch?v=LaqPNN4Xnyo&t=11085) | Loss | Japanese vs Abbasid Dynasty (KUMQUAT) | None | N/A |  |
+| [2024-10-29 07:07](https://www.youtube.com/watch?v=LnyE5EOOOFc&t=8034) | Loss | Japanese vs Ottomans (Eatmypc [BE]) | 647 | -105 |  |
+| [2024-10-29 06:12](https://www.youtube.com/watch?v=LnyE5EOOOFc&t=6375) | Loss | Japanese vs Ottomans (LATE 30S) | 848 | 79 |  |
+| [2024-10-29 05:55](https://www.youtube.com/watch?v=LnyE5EOOOFc&t=4726) | Loss | Japanese vs English (Feelish) | None | N/A |  |
+| [2024-10-29 05:00](https://www.youtube.com/watch?v=LnyE5EOOOFc&t=3752) | Loss | Japanese vs Mongols (Boofero) | 767 | -36 |  |
 | [2024-10-27 06:10](https://www.youtube.com/watch?v=LaqPNN4Xnyo&t=12930) | Win | Order Of The Dragon vs Chinese (danielvaida17) | None | N/A |  |
-| [2024-10-26 02:01](https://www.youtube.com/watch?v=SRsDMn2_uUg&t=283) | Win | Japanese vs English (Armenian Glory) | 848 | 129 |  |
-| [2024-10-26 02:32](https://www.youtube.com/watch?v=SRsDMn2_uUg&t=2171) | Loss | Japanese vs Holy Roman Empire (austin) | None | N/A |  |
-| [2024-10-26 03:09](https://www.youtube.com/watch?v=SRsDMn2_uUg&t=4385) | Win | Japanese vs Holy Roman Empire (PyNate) | 788 | 54 |  |
-| [2024-10-26 03:42](https://www.youtube.com/watch?v=SRsDMn2_uUg&t=6373) | Win | Japanese vs English (timg4567) | 846 | 82 |  |
+| [2024-10-27 05:39](https://www.youtube.com/watch?v=LaqPNN4Xnyo&t=11085) | Loss | Japanese vs Abbasid Dynasty (KUMQUAT) | None | N/A |  |
+| [2024-10-27 05:04](https://www.youtube.com/watch?v=LaqPNN4Xnyo&t=8978) | Loss | Japanese vs French (Night terror949) | 838 | 29 |  |
+| [2024-10-27 02:38](https://www.youtube.com/watch?v=LaqPNN4Xnyo&t=189) | Win | Japanese vs Abbasid Dynasty (Rvperto) | None | N/A |  |
+| [2024-10-26 19:27](https://www.youtube.com/watch?v=LaqPNN4Xnyo&t=4123) | Loss | Japanese vs Order Of The Dragon (M3) | 584 | -211 |  |
+| [2024-10-26 18:55](https://www.youtube.com/watch?v=Uxw5mzoUEbs&t=2201) | Loss | Japanese vs French (svmlhsyn) | 772 | -40 |  |
+| 2024-10-26 18:23 | Loss | Japanese vs Mongols (neverbeat7572) | None | N/A |
 | [2024-10-26 04:24](https://www.youtube.com/watch?v=SRsDMn2_uUg&t=8892) | Loss | Japanese vs Byzantines (Starosta) | None | N/A |  |
-| [2024-10-25 18:32](https://www.youtube.com/watch?v=AdgPfLgwHxg&t=3397) | Win | Japanese vs Order Of The Dragon (Shishaw) | 637 | 19 |  |
-| [2024-10-25 19:08](https://www.youtube.com/watch?v=AdgPfLgwHxg&t=5592) | Win | Japanese vs Holy Roman Empire (Commander Bob) | 488 | -167 |  |
+| [2024-10-26 03:42](https://www.youtube.com/watch?v=SRsDMn2_uUg&t=6373) | Win | Japanese vs English (timg4567) | 846 | 82 |  |
+| [2024-10-26 03:09](https://www.youtube.com/watch?v=SRsDMn2_uUg&t=4385) | Win | Japanese vs Holy Roman Empire (PyNate) | 788 | 54 |  |
+| [2024-10-26 02:32](https://www.youtube.com/watch?v=SRsDMn2_uUg&t=2171) | Loss | Japanese vs Holy Roman Empire (austin) | None | N/A |  |
+| [2024-10-26 02:01](https://www.youtube.com/watch?v=SRsDMn2_uUg&t=283) | Win | Japanese vs English (Armenian Glory) | 848 | 129 |  |
 | [2024-10-25 19:39](https://www.youtube.com/watch?v=AdgPfLgwHxg&t=7451) | Win | Japanese vs Zhu Xis Legacy (Hani) | 788 | 102 |  |
+| [2024-10-25 19:08](https://www.youtube.com/watch?v=AdgPfLgwHxg&t=5592) | Win | Japanese vs Holy Roman Empire (Commander Bob) | 488 | -167 |  |
+| [2024-10-25 18:32](https://www.youtube.com/watch?v=AdgPfLgwHxg&t=3397) | Win | Japanese vs Order Of The Dragon (Shishaw) | 637 | 19 |  |
 | [2024-10-25 18:03](https://www.youtube.com/watch?v=AdgPfLgwHxg&t=1657) | Win | Japanese vs Holy Roman Empire (franck.touze) | 787 | N/A |
 | [2024-10-25 17:40](https://www.youtube.com/watch?v=AdgPfLgwHxg&t=265) | Win | Japanese vs English (crazypsycho) | None | N/A |  |
 | [2024-10-23 04:29](https://www.youtube.com/watch?v=DDxfHH8JF9M&t=4068) | Loss | Ayyubids vs Order Of The Dragon (xxxMUSSOLINIxxx) | None | N/A |  |
