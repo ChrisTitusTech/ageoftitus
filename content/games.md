@@ -14,6 +14,11 @@ Live Streams from Twitch and YouTube
 
 | Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
 |---------------|--------|---------|-----------------|----------------|
+| [2024-11-21 08:30](https://www.youtube.com/watch?v=JeGJRPwTnYw&t=7992) | Loss | Japanese vs Delhi Sultanate (ugur) | None | N/A |  |
+| [2024-11-21 07:13](https://www.youtube.com/watch?v=JeGJRPwTnYw&t=3351) | Loss | Japanese vs Holy Roman Empire (FlashNBurn) | 887 | 3 |  |
+| [2024-11-21 06:24](https://www.youtube.com/watch?v=JeGJRPwTnYw&t=433) | Win | Japanese vs Byzantines (信天翁) | 841 | -21 |  |
+| [2024-11-21 05:58](https://www.youtube.com/watch?v=WSgMhJ2sjhU&t=2897) | Loss | Japanese vs English (czkiab) | 804 | -89 |  |
+| [2024-11-21 05:17](https://www.youtube.com/watch?v=WSgMhJ2sjhU&t=411) | Loss | Japanese vs English (markit0) | 849 | -66 |  |
 | [2024-11-19 07:54](https://www.youtube.com/watch?v=4_lJfUk6APw&t=10588) | Win | Japanese vs Malians (Net Zero) | 872 | -20 |  |
 | [2024-11-19 07:22](https://www.youtube.com/watch?v=4_lJfUk6APw&t=8658) | Loss | Japanese vs French (Surrendead) | 637 | -277 |  |
 | [2024-11-19 06:46](https://www.youtube.com/watch?v=4_lJfUk6APw&t=6518) | Win | Japanese vs Order Of The Dragon (BigPablo) | 885 | -5 |  |
