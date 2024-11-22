@@ -14,6 +14,8 @@ Live Streams from Twitch and YouTube
 
 | Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
 |---------------|--------|---------|-----------------|----------------|
+| 2024-11-21 22:50 | Win | Abbasid Dynasty vs French (erarcito666) | None | N/A |
+| 2024-11-21 22:47 | Win | Abbasid Dynasty vs Abbasid Dynasty (accuratebuzzard1516) | None | N/A |
 | [2024-11-21 08:30](https://www.youtube.com/watch?v=JeGJRPwTnYw&t=7992) | Loss | Japanese vs Delhi Sultanate (ugur) | None | N/A |  |
 | [2024-11-21 07:13](https://www.youtube.com/watch?v=JeGJRPwTnYw&t=3351) | Loss | Japanese vs Holy Roman Empire (FlashNBurn) | 887 | 3 |  |
 | [2024-11-21 06:24](https://www.youtube.com/watch?v=JeGJRPwTnYw&t=433) | Win | Japanese vs Byzantines (信天翁) | 841 | -21 |  |
@@ -46,6 +48,7 @@ Live Streams from Twitch and YouTube
 | [2024-11-12 03:29](https://www.youtube.com/watch?v=z-lBl59OYSc&t=5496) | Loss | Japanese vs Chinese (Art The Clown) | 947 | -98 |  |
 | [2024-11-12 02:45](https://www.youtube.com/watch?v=z-lBl59OYSc&t=2821) | Win | Japanese vs French (NOtoRioUs MiC) | 817 | -207 |  |
 | [2024-11-12 02:04](https://www.youtube.com/watch?v=z-lBl59OYSc&t=364) | Win | Japanese vs Zhu Xis Legacy ({幕后煮屎}) | 913 | -85 |  |
+| 2024-11-12 02:04 | Win | Japanese vs Zhu Xis Legacy (他说他是千岛爱音的狗) | 913 | -85 |
 | [2024-11-10 08:26](https://www.youtube.com/watch?v=dp_mQIZl8dw&t=11299) | Win | Japanese vs Holy Roman Empire (SirLichtenstein) | 953 | -21 |  |
 | [2024-11-10 07:52](https://www.youtube.com/watch?v=dp_mQIZl8dw&t=9237) | Loss | Japanese vs French (kkshe87) | 795 | -201 |  |
 | [2024-11-10 07:34](https://www.youtube.com/watch?v=dp_mQIZl8dw&t=8179) | Win | Japanese vs Mongols (WambaX) | None | N/A |  |
