@@ -14,6 +14,13 @@ Live Streams from Twitch and YouTube
 
 | Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
 |---------------|--------|---------|-----------------|----------------|
+| 2024-11-24 08:46 | Win | Japanese vs English (s2k.knightsavage) | 831 | 39 |
+| 2024-11-24 07:52 | Loss | Mongols vs Order Of The Dragon (QqCSaTANK) | 877 | 65 |
+| 2024-11-24 07:24 | Loss | Mongols vs Abbasid Dynasty (joetorch70) | 920 | 87 |
+| 2024-11-24 07:09 | Win | Mongols vs Order Of The Dragon (Friendllly) | None | N/A |
+| [2024-11-24 05:58](https://www.youtube.com/watch?v=G4sjH1hbK6I&t=15031) | Loss | Mongols vs Chinese (ULTMATEpunisher) | 846 | 16 |  |
+| [2024-11-24 02:20](https://www.youtube.com/watch?v=G4sjH1hbK6I&t=1918) | Loss | Mongols vs Order Of The Dragon (BigTasty734691) | 817 | -40 |  |
+| [2024-11-24 01:57](https://www.youtube.com/watch?v=G4sjH1hbK6I&t=514) | Win | Mongols vs English (Paul) | None | N/A |  |
 | 2024-11-21 22:50 | Win | Abbasid Dynasty vs French (erarcito666) | None | N/A |
 | 2024-11-21 22:47 | Win | Abbasid Dynasty vs Abbasid Dynasty (accuratebuzzard1516) | None | N/A |
 | [2024-11-21 08:30](https://www.youtube.com/watch?v=JeGJRPwTnYw&t=7992) | Loss | Japanese vs Delhi Sultanate (ugur) | None | N/A |  |
