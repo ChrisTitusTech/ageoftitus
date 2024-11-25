@@ -14,6 +14,10 @@ Live Streams from Twitch and YouTube
 
 | Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
 |---------------|--------|---------|-----------------|----------------|
+| [2024-11-25 05:57](https://www.youtube.com/watch?v=B5CPJZSFd2I&t=5424) | Win | Ayyubids vs Holy Roman Empire (Cry Havoc) | 832 | -13 |  |
+| [2024-11-25 05:27](https://www.youtube.com/watch?v=B5CPJZSFd2I&t=3600) | Win | Ayyubids vs Chinese (Nybs) | 836 | N/A |  |
+| [2024-11-25 05:01](https://www.youtube.com/watch?v=B5CPJZSFd2I&t=2056) | Loss | Ayyubids vs Chinese (AppleCider7137) | 830 | N/A |  |
+| [2024-11-25 04:31](https://www.youtube.com/watch?v=B5CPJZSFd2I&t=268) | Win | Ayyubids vs French (ronald.katiuska) | 849 | 27 |  |
 | 2024-11-24 08:46 | Win | Japanese vs English (s2k.knightsavage) | 831 | 39 |
 | 2024-11-24 07:52 | Loss | Mongols vs Order Of The Dragon (QqCSaTANK) | 877 | 65 |
 | 2024-11-24 07:24 | Loss | Mongols vs Abbasid Dynasty (joetorch70) | 920 | 87 |
