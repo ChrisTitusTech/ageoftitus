@@ -14,6 +14,12 @@ Live Streams from Twitch and YouTube
 
 | Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
 |---------------|--------|---------|-----------------|----------------|
+| 2024-11-26 05:33 | Loss | Holy Roman Empire vs English (PepKingPrawn) | 697 | -170 |
+| 2024-11-26 03:44 | Loss | Ayyubids vs Ayyubids (Minatauro2580) | 878 | -13 |
+| 2024-11-26 03:10 | Loss | Ayyubids vs English (Jangles75) | 916 | 2 |
+| 2024-11-25 22:14 | Win | Ayyubids vs Delhi Sultanate (#|0001) | 1026 | 135 |
+| [2024-11-25 21:56](https://www.youtube.com/watch?v=6ppHBKbeUdY&t=316) | Win | Ayyubids vs English (Robin Hood) | 898 | 30 |  |
+| 2024-11-25 18:23 | Loss | Ayyubids vs Rus (💋🏆  𝓪ŇĞ𝓡у ϻᗝ) | None | N/A |
 | [2024-11-25 05:57](https://www.youtube.com/watch?v=B5CPJZSFd2I&t=5424) | Win | Ayyubids vs Holy Roman Empire (Cry Havoc) | 832 | -13 |  |
 | [2024-11-25 05:27](https://www.youtube.com/watch?v=B5CPJZSFd2I&t=3600) | Win | Ayyubids vs Chinese (Nybs) | 836 | N/A |  |
 | [2024-11-25 05:01](https://www.youtube.com/watch?v=B5CPJZSFd2I&t=2056) | Loss | Ayyubids vs Chinese (AppleCider7137) | 830 | N/A |  |
@@ -31,6 +37,7 @@ Live Streams from Twitch and YouTube
 | [2024-11-21 07:13](https://www.youtube.com/watch?v=JeGJRPwTnYw&t=3351) | Loss | Japanese vs Holy Roman Empire (FlashNBurn) | 887 | 3 |  |
 | [2024-11-21 06:24](https://www.youtube.com/watch?v=JeGJRPwTnYw&t=433) | Win | Japanese vs Byzantines (信天翁) | 841 | -21 |  |
 | [2024-11-21 05:58](https://www.youtube.com/watch?v=WSgMhJ2sjhU&t=2897) | Loss | Japanese vs English (czkiab) | 804 | -89 |  |
+| 2024-11-21 05:58 | Loss | Japanese vs English (LebanonCedars) | 804 | -89 |
 | [2024-11-21 05:17](https://www.youtube.com/watch?v=WSgMhJ2sjhU&t=411) | Loss | Japanese vs English (markit0) | 849 | -66 |  |
 | [2024-11-19 07:54](https://www.youtube.com/watch?v=4_lJfUk6APw&t=10588) | Win | Japanese vs Malians (Net Zero) | 872 | -20 |  |
 | [2024-11-19 07:22](https://www.youtube.com/watch?v=4_lJfUk6APw&t=8658) | Loss | Japanese vs French (Surrendead) | 637 | -277 |  |
