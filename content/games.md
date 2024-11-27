@@ -14,9 +14,9 @@ Live Streams from Twitch and YouTube
 
 | Date and Time | Result | Matchup | Opponent Rating | MMR Difference |
 |---------------|--------|---------|-----------------|----------------|
-| 2024-11-26 05:33 | Loss | Holy Roman Empire vs English (PepKingPrawn) | 697 | -170 |
-| 2024-11-26 03:44 | Loss | Ayyubids vs Ayyubids (Minatauro2580) | 878 | -13 |
-| 2024-11-26 03:10 | Loss | Ayyubids vs English (Jangles75) | 916 | 2 |
+| [2024-11-26 05:33](https://www.youtube.com/watch?v=w_qi--NAF4Y&t=8734) | Loss | Holy Roman Empire vs English (PepKingPrawn) | 697 | -170 |  |
+| [2024-11-26 03:44](https://www.youtube.com/watch?v=w_qi--NAF4Y&t=2186) | Loss | Ayyubids vs Ayyubids (Minatauro2580) | 878 | -13 |  |
+| [2024-11-26 03:10](https://www.youtube.com/watch?v=w_qi--NAF4Y&t=189) | Loss | Ayyubids vs English (Jangles75) | 916 | 2 |  |
 | 2024-11-25 22:14 | Win | Ayyubids vs Delhi Sultanate (#|0001) | 1026 | 135 |
 | [2024-11-25 21:56](https://www.youtube.com/watch?v=6ppHBKbeUdY&t=316) | Win | Ayyubids vs English (Robin Hood) | 898 | 30 |  |
 | 2024-11-25 18:23 | Loss | Ayyubids vs Rus (💋🏆  𝓪ŇĞ𝓡у ϻᗝ) | None | N/A |
